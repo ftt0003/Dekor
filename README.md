@@ -11,7 +11,8 @@ Tipo de colores pagina: Paleta de colores pastel. Conjuntamente con tonos oscuro
 
 Implementar: Adaptacion de precio FLAMINGUEO -- Referencia
 
-Header: BARRA SUPERIOR ICONO CONTACTO DEVOLUCIONEES PUNTO DE RECOGIDA.
+#header
+BARRA SUPERIOR ICONO CONTACTO DEVOLUCIONEES PUNTO DE RECOGIDA.
 		Tambien necesitamos un despleganle horizontal.
 Objeto:
 Lateral izquierdo redes sociales EN LINEA LATERAL FIJA mediante iconos.
