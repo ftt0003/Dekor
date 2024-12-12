@@ -11,8 +11,8 @@
  	-Navegacion con menu horizontal desplegable.<br><br><br>
   
 <h2>Sección en el lateral izquierdo</h2>
-	-Lateral izquierdo redes sociales, esta debe estar en una linea estrecha que permanezca todo el rato en la pantalla, las redes sociales deben aparecer en forma de iconos.
--------------------------------------------------------------------------------------
+	-Lateral izquierdo redes sociales, esta debe estar en una linea estrecha que permanezca todo el rato en la pantalla, las redes sociales deben aparecer en forma de iconos.<br><br><br>
+
 FOTO GRANDE ESTILO BANNER - en un apartatado que trasmita el concepto de la empresa.
 FOOTER NOMBRE MARCA BOTON SABER MAS
 Icono superior --> inicio nav
