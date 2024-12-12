@@ -1,4 +1,4 @@
-# Dekor
+#tittle: Dekor
 Apuntes Para INFORME PROYECTO CONJUNTO 
 ----------------------------------------------------------
 Tematica: Negocio de decoracion. Shoping online.
