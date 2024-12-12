@@ -1,15 +1,10 @@
 <h2>DEKOR STORE</h2>
-Nombre negocio: DEKOR
-
-Tematica: Negocio de decoracion. Shoping online.
-
-Valores de la empresa: Amigable con el medio ambiente, papel reciclado y arcilla.
-
-Slogan: Dar vida al hogar, siendo amigables con el medio ambiente.
-
-Tipo de colores pagina: Paleta de colores pastel. Conjuntamente con tonos oscuros.
-
-Implementar: Adaptacion de precio FLAMINGUEO -- Referencia
+	-Nombre negocio: DEKOR
+	-Tematica: Negocio de decoracion. Shoping online. <br><br>
+	-Valores de la empresa: Amigable con el medio ambiente, papel reciclado y arcilla.<br><br>
+	-Slogan: Dar vida al hogar, siendo amigables con el medio ambiente.<br><br>
+	-Tipo de colores pagina: Paleta de colores pastel. Conjuntamente con tonos oscuros.<br><br>
+	-Implementar: Adaptacion de precio FLAMINGUEO -- Referencia<br><br>
 
 #header
 BARRA SUPERIOR ICONO CONTACTO DEVOLUCIONEES PUNTO DE RECOGIDA.
