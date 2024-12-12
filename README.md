@@ -1,5 +1,5 @@
-#tittle: Dekor
-Apuntes Para INFORME PROYECTO CONJUNTO 
+<h2>tittle</h2>
+Nombre negocio: DEKOR
 ----------------------------------------------------------
 Tematica: Negocio de decoracion. Shoping online.
 
