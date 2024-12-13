@@ -40,5 +40,5 @@
 	-WEBS para usar como referencia:  <br><br>
 	-Flamingueo CTA y header. <br><br>
 	-Glow Recipe y Flamingueu: Imagenes, recordar tarjetas para productos. Tambien tener encuenta el footer.<br><br>
- 	<i>//Dificil Implementación sin dadatos que relacionen los productos</i> <br>
+ 	<i>      //Dificil Implementación sin dadatos que relacionen los productos</i> <br>
 	-Apartado de consejos.(Cuando selecciones un producto que te proponga otros que puedan quedar bien).
