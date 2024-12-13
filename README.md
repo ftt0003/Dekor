@@ -19,15 +19,15 @@
 	-En el footer debe aparecer el nombre de la marca en forma de logo o de texto con una tipografia adecuada. Debe actual como boton saber mas. <br><br>
 <h2>Sección de preguntas frecuentes y Formulario.</h2>
 	-Esta sección estara dedicada a las disrintas consultas pueden presentar los clientes y un pequeño formulario en caso de que tengan otras dudas. <br><br>
- 	<p>
+ 	<ul>
 		<h3>Contenido principal Formulario</h3>
-		-Campo email contacto.
-		-Apartado de nombre. 
-		-Selector de motivo de consulta.
-		-Si selecciona otro --> Mostrar campo para el asunto. 
-		-Campo para explicar los motivos de su consulta.
-		-Boton de enviar y boton de resetear.
-	</p>
+		<li>Campo email contacto.</li>
+		<li>Apartado de nombre.</li>
+		<li>Selector de motivo de consulta.</li>
+		<li>Si selecciona otro --> Mostrar campo para el asunto.</li>
+		<li>Campo para explicar los motivos de su consulta.</li> 
+		<li>Boton de enviar y boton de resetear.</li>
+	</ul>
 <h2>Implementaciones adicionales</h2>
 	-Despleagable con menu de personalizar (este se pretende que se depliegue en una linea inferior horizontal).  <br><br>
 	-Bordes imagenes productos redondeados. <br><br>
