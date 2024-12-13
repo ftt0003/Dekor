@@ -44,4 +44,11 @@
 	-Apartado de consejos.(Cuando selecciones un producto que te proponga otros que puedan quedar bien).
 
  <h2>Colores a utilizar</h2>
-<
+ 	<ul>
+		<li>#FFFFFF</li>
+		<li>#F2D7D7</li>
+		<li>#FFA175</li>
+		<li>#FFF6AD</li>
+		<li>#D7D98A</li>
+		<li>#BFB6AB</li>
+	</ul>
