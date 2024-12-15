@@ -1,10 +1,10 @@
 # DEKOR STORE #
- Nombre negocio: *DEKOR*  
-	- Tematica: Negocio de decoracion. Shoping online. <br><br>
-	- Valores de la empresa: Amigable con el medio ambiente, papel reciclado y arcilla.<br><br>
-	- Eslogan: Dar vida al hogar, siendo amigables con el medio ambiente.<br><br>
-	- Tipo de colores pagina: Paleta de colores pastel.<br><br>
-	- Implementar: Adaptacion de precio FLAMINGUEO (Web referencia)<br><br><br>
+ - Nombre negocio: *DEKOR*  
+ - Tematica: Negocio de decoracion. Shoping online. 
+ - Valores de la empresa: Amigable con el medio ambiente, papel reciclado y arcilla.  
+ - Eslogan: Dar vida al hogar, siendo amigables con el medio ambiente.<br><br>  
+ - Tipo de colores pagina: Paleta de colores pastel.  
+ - Implementar: Adaptacion de precio FLAMINGUEO (Web referencia)  
 
 <h2> Información cabecera </h2>
 	-Icono superior --> redirige a la pagina principal (Posicionar donde mas se adecue para darle elegancia a la pagina).<br>
