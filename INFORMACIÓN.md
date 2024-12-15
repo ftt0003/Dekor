@@ -2,7 +2,7 @@
  - Nombre negocio: *DEKOR*  
  - Tematica: Negocio de decoracion. Shoping online. 
  - Valores de la empresa: Amigable con el medio ambiente, papel reciclado y arcilla.  
- - Eslogan: Dar vida al hogar, siendo amigables con el medio ambiente.<br><br>  
+ - Eslogan: Dar vida al hogar, siendo amigables con el medio ambiente.  
  - Tipo de colores pagina: Paleta de colores pastel.  
  - Implementar: Adaptacion de precio FLAMINGUEO (Web referencia)  
 
