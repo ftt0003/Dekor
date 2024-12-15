@@ -6,10 +6,10 @@
  - Tipo de colores pagina: Paleta de colores pastel.  
  - Implementar: Adaptacion de precio FLAMINGUEO (Web referencia)  
 
-<h2> Información cabecera </h2>
-	-Icono superior --> redirige a la pagina principal (Posicionar donde mas se adecue para darle elegancia a la pagina).<br>
- 	- Barra superior con menu de navegacion basado en iconos (contraco, devoluciones, punto de recogida,...).<br><br>
- 	- Navegacion con menu horizontal desplegable.<br><br><br>
+## Información cabecera ##  
+- Icono superior --> redirige a la pagina principal (Posicionar donde mas se adecue para darle elegancia a la pagina).  
+- Barra superior con menu de navegacion basado en iconos (contraco, devoluciones, punto de recogida,...).  
+- Navegacion con menu horizontal desplegable.    
   
 <h2> Sección en el lateral izquierdo </h2>
 	- Lateral izquierdo redes sociales, esta debe estar en una linea estrecha que permanezca todo el rato en la pantalla, las redes sociales deben aparecer en forma de iconos.<br><br><br>
