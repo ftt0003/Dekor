@@ -11,23 +11,26 @@
 - Barra superior con menu de navegacion basado en iconos (contraco, devoluciones, punto de recogida,...).  
 - Navegacion con menu horizontal desplegable.    
   
-<h2> Sección en el lateral izquierdo </h2>
-	- Lateral izquierdo redes sociales, esta debe estar en una linea estrecha que permanezca todo el rato en la pantalla, las redes sociales deben aparecer en forma de iconos.<br><br><br>
-<h2>Pagina/Seccion Valores de la empresa y quienes son:</h2>
-	- Foto grande estilo cartel, en un apartatado acompañado la presentacion de la empresa y que tratan de transmitir.<br><br>
-<h2>Footer</h2>
-	-En el footer debe aparecer el nombre de la marca en forma de logo o de texto con una tipografia adecuada. Debe actual como boton saber mas. <br><br>
-<h2>Sección de preguntas frecuentes y Formulario.</h2>
-	-Esta sección estara dedicada a las disrintas consultas pueden presentar los clientes y un pequeño formulario en caso de que tengan otras dudas. <br><br>
- 	<ul>
-		<h3>Contenido principal Formulario</h3>
-		<li>Campo email contacto.</li>
-		<li>Apartado de nombre.</li>
-		<li>Selector de motivo de consulta.</li>
-		<li>Si selecciona otro --> Mostrar campo para el asunto.</li>
-		<li>Campo para explicar los motivos de su consulta.</li> 
-		<li>Boton de enviar y boton de resetear.</li>
-	</ul>
+## Sección en el lateral izquierdo ##
+- Lateral izquierdo redes sociales, esta debe estar en una linea estrecha que permanezca todo el rato en la pantalla, las redes sociales deben aparecer en forma de iconos.
+  
+## Pagina/Seccion Valores de la empresa y quienes son: ##
+- Foto grande estilo cartel, en un apartatado acompañado la presentacion de la empresa y que tratan de transmitir.  
+
+## Footer ## 
+-En el footer debe aparecer el nombre de la marca en forma de logo o de texto con una tipografia adecuada. Debe actual como boton saber mas.  
+
+## Sección de preguntas frecuentes y Formulario. ##
+-Esta sección estara dedicada a las disrintas consultas pueden presentar los clientes y un pequeño formulario en caso de que tengan otras dudas. <br><br>
+ 	
+###Contenido principal Formulario ###
+		- Campo email contacto.  
+		- Apartado de nombre.  
+		- Selector de motivo de consulta.  
+		- Si selecciona otro --> Mostrar campo para el asunto.  
+		- Campo para explicar los motivos de su consulta.   
+		- Boton de enviar y boton de resetear.  
+	
 <h2>Implementaciones adicionales</h2>
 	-Despleagable con menu de personalizar (este se pretende que se depliegue en una linea inferior horizontal).  <br><br>
 	-Bordes imagenes productos redondeados. <br><br>
