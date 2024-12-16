@@ -18,7 +18,7 @@
 - Foto grande estilo cartel, en un apartatado acompañado la presentacion de la empresa y que tratan de transmitir.  
 
 ## Footer ## 
--En el footer debe aparecer el nombre de la marca en forma de logo o de texto con una tipografia adecuada. Debe actual como boton saber mas.  
+- En el footer debe aparecer el nombre de la marca en forma de logo o de texto con una tipografia adecuada. Debe actual como boton saber mas.  
 
 ## Sección de preguntas frecuentes y Formulario. ##
 - Esta sección estara dedicada a las disrintas consultas pueden presentar los clientes y un pequeño formulario en caso de que tengan otras dudas. <br><br>
