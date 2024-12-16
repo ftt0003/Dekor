@@ -1,8 +1,12 @@
 # DEKOR STORE #
  - Nombre negocio: *DEKOR*  
- - Tematica: Negocio de decoracion. Shoping online. 
+ - Tematica:
+     -  Negocio de decoracion.  
+     -  Shoping online.
+     -  Productos artesanales.
+
  - Valores de la empresa: Amigable con el medio ambiente, papel reciclado y arcilla.  
- - Eslogan: Dar vida al hogar, siendo amigables con el medio ambiente.  
+ - Idea Principal: Dar vida al hogar, siendo amigables con el medio ambiente y con gran elegancia.  
  - Tipo de colores pagina: Paleta de colores pastel.  
  - Implementar: Adaptacion de precio FLAMINGUEO (Web referencia)  
 
