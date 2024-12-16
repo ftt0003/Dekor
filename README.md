@@ -51,7 +51,10 @@
  
  ### Enlace a las Web ### 
  - [Flamingueo](https://flamingueostore.com/)  
- - [Glow Recipe](https://www.glowrecipe.com/)  
+ - [Glow Recipe](https://www.glowrecipe.com/)
+ - [Freepick](https://www.freepik.es/iconos/web)
+ - > Se pueden usar otras alternatrivas, recordar ajusta los fondos.
+
  
  ## Colores a utilizar ##
  - #FFFFFF
@@ -62,5 +65,3 @@
  - #BFB6AB
 
 ## Iconos Principales de la web ##
-- [Freepick](https://www.freepik.es/iconos/web)
-> Se pueden usar otras alternatrivas, recordar ajusta los fondos.
