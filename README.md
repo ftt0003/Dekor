@@ -10,7 +10,7 @@
  - Tipo de colores pagina: Paleta de colores pastel.  
  - Implementar: Adaptacion de precio FLAMINGUEO (Web referencia)  
 
-## Índice:
+## Índice
 - [ DEKOR STORE ](#dekor-store)
 - [ Índice ](#índice)
 - [ Información cabecera ](#información-cabecera)
