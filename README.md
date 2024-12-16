@@ -89,13 +89,10 @@ La compañia desea que la web trasmita tanto la elegancia de los productos. Dand
  
 <p> #FFFFFF <img src="FFFFFF.png" alt="color-FFFFFF" width="12px" height="12px"></p>
 <p> #F2D7D7 <img src="F2D7D7.png" alt="color-F2D7D7"></p>
-
-color: #FFFFFF 
-color: #F2D7D7
-color: #FFA175  
-color: #FFF6AD  
-color: #D7D98A  
-color: #BFB6AB 
+<p>#FFA175 <img src=""></p>
+<p>#FFF6AD <img src=""></p>
+<p>#D7D98A <img src=""></p>  
+<p>#BFB6AB <img src=""></p>
 
 ## Lista de implementaciones 
 - [ ] Dar una estructura basica a la pagina principal.
