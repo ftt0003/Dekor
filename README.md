@@ -55,13 +55,13 @@
  > Para una primera implementacion de ejemplo se podria hacer, en caso de disponer de tiempo suficiente, seria un sistema que recomiende productos fijos
  > esto proporcionaria un aproximado de la idea original. 
  
- ### Enlace a las Web  
+ ### Enlace a las Web :link:
  > [!IMPORTANT]
  > - [Flamingueo](https://flamingueostore.com/)  
  > - [Glow Recipe](https://www.glowrecipe.com/)
  > - [Freepick](https://www.freepik.es/iconos/web)
- > [!NOTE]
- >  Se pueden usar otras alternatrivas para todos los icononos necesarios para la web.
+ > > [!NOTE]
+ > > Se pueden usar otras alternatrivas para todos los icononos necesarios para la web.
 
  
  ## Colores a utilizar  
