@@ -89,7 +89,7 @@ La compañia desea que la web trasmita tanto la elegancia de los productos. Dand
  
 
 
-bg.Color: #FFFFFF 
+color-bg-default(#FFFFFF) 
  ```
 
 color: #FFFFFF; 
