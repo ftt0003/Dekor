@@ -64,11 +64,12 @@
 
  
  ## Colores a utilizar ##
- `CSS`
-`#FFFFFF` 
-`#F2D7D7`  
-`#FFA175`  
-`#FFF6AD`  
-`#D7D98A`  
-`#BFB6AB`  
+ ```css
+color: #FFFFFF 
+color: #F2D7D7
+#FFA175  
+#FFF6AD  
+#D7D98A  
+#BFB6AB  
 
+```
