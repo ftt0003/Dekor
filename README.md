@@ -52,7 +52,8 @@
  ### Enlace a las Web ### 
  - [Flamingueo](https://flamingueostore.com/)  
  - [Glow Recipe](https://www.glowrecipe.com/)
- - [Freepick](https://www.freepik.es/iconos/web)    ' >  Se pueden usar otras alternatrivas, recordar ajusta los fondos.'
+ - [Freepick](https://www.freepik.es/iconos/web)
+ - >  Se pueden usar otras alternatrivas, recordar ajusta los fondos.
 
  
  ## Colores a utilizar ##
