@@ -69,7 +69,7 @@
  > Para una primera implementacion de ejemplo se podria hacer, en caso de disponer de tiempo suficiente, seria un sistema que recomiende productos fijos
  > esto proporcionaria un aproximado de la idea original. 
  
- ### Enlaces a las Webs     :link:
+ ### Enlaces a las Webs ### :link:
  > [!IMPORTANT]
  > - [Flamingueo](https://flamingueostore.com/)  
  > - [Glow Recipe](https://www.glowrecipe.com/)
