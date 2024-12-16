@@ -88,18 +88,16 @@ La compañia desea que la web trasmita tanto la elegancia de los productos. Dand
  ## Colores a utilizar 
  
 <img src="53F5A9.jpg" alt="color-53F5A9">
-`#FFFFFF` <img src="FFFFFF.png" alt="color-FFFFFF">
-color-bg-default(#FFFFFF) 
- ```
+` #FFFFFF ` <img src="FFFFFF.png" alt="color-FFFFFF">
 
-color: #FFFFFF; 
-color: #F2D7D7;
-color: #FFA175;  
-color: #FFF6AD;  
-color: #D7D98A;  
-color: #BFB6AB;  
 
-```
+color: #FFFFFF 
+color: #F2D7D7
+color: #FFA175  
+color: #FFF6AD  
+color: #D7D98A  
+color: #BFB6AB 
+
 ## Lista de implementaciones 
 - [ ] Dar una estructura basica a la pagina principal.
 - [ ] Crear header segun los criterios establecidos (Utilizando iconos para el menu de navegacion, desplegables,etc).
