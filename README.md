@@ -76,4 +76,8 @@ color: #BFB6AB;
 
 ```
 ## Lista de implementaciones 
-- [ ] \Dar una estructura basica a la pagina principal.
+- [ ]() Dar una estructura basica a la pagina principal.
+- [ ]() Crear header segun los criterios establecidos (Utilizando iconos para el menu de navegacion, desplegables,etc).
+- [ ]() Crear footer, este debe ser suficientemente espacioso.
+- [ ]() Crear pagina Sobre Nosotros. La cual debe mostrar la imagen que desea representar la marca sus ideas entre otros.
+- [ ]() Formulario de contacto en conjunto, con la parte de preguntas frecuentes. 
