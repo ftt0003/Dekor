@@ -57,10 +57,10 @@
 
  
  ## Colores a utilizar ##
- - #FFFFFF
- - #F2D7D7
- - #FFA175
- - #FFF6AD
- - #D7D98A
- - #BFB6AB
+ - `#FFFFFF`
+ - `#F2D7D7`
+ - `#FFA175`
+ - `#FFF6AD`
+ - `#D7D98A`
+ - `#BFB6AB`
 
