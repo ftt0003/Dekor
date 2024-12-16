@@ -21,7 +21,7 @@
 	- [ Contenido principal Formulario ](#contenido-principal-formulario)
 - [ Implementaciones adicionales ](#implementaciones-adicionales)
 - [ Referencias a tener en cuenta ](#referencias-a-tener-en-cuenta)
-- [Enlace a las Web :link:](#enlace-a-las-web)
+- [Enlace a las Web](#enlace-a-las-web)
 ## Información cabecera   
 - Icono superior que debe redirige a la pagina principal (Posicionar donde mas se adecue para darle elegancia a la pagina).  
 - Barra superior con menu de navegacion basado en iconos (contraco, devoluciones, punto de recogida,...).  
@@ -67,7 +67,7 @@
  > Para una primera implementacion de ejemplo se podria hacer, en caso de disponer de tiempo suficiente, seria un sistema que recomiende productos fijos
  > esto proporcionaria un aproximado de la idea original. 
  
- ### Enlaces a las Web        #### :link:
+ ### Enlaces a las Web
  > [!IMPORTANT]
  > - [Flamingueo](https://flamingueostore.com/)  
  > - [Glow Recipe](https://www.glowrecipe.com/)
