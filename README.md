@@ -76,4 +76,4 @@ color: #BFB6AB;
 
 ```
 ## Lista de implementaciones 
-- [] \Dar una estructura basica a la pagina principal.
+- [ ] \Dar una estructura basica a la pagina principal.
