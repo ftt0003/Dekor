@@ -11,9 +11,17 @@
  - Implementar: Adaptacion de precio FLAMINGUEO (Web referencia)  
 
 ## Índice:
-- [ DEKOR STORE ](/#DEKOR-STORE)
-- [ Índice ](/#Índice)
-- [ Información cabecera ](/#Información-cabecera)
+- [ DEKOR STORE ](#dekor-store)
+- [ Índice ](#índice)
+- [ Información cabecera ](#información-cabecera)
+- [ Sección en el lateral izquierdo](#sección-en-el-lateral-izquierod)
+- [Pagina/Seccion Valores de la empresa y quienes son](#pagina-o-sección-valores-de-la-empresa-y-quienes-són)
+- [ Footer ](#footer)
+- [Sección de preguntas frecuentes y Formulario. ](#sección-de-preguntas-frecuentes-y-formularios)
+	- [ Contenido principal Formulario ](#contenido-principal-formulario)
+- [ Implementaciones adicionales ](#implementaciones-adicionales)
+- [ Referencias a tener en cuenta ](#referencias-a-tener-en-cuenta)
+- [Enlace a las Web :link:](#enlace-a-las-web-:link:)
 ## Información cabecera   
 - Icono superior que debe redirige a la pagina principal (Posicionar donde mas se adecue para darle elegancia a la pagina).  
 - Barra superior con menu de navegacion basado en iconos (contraco, devoluciones, punto de recogida,...).  
@@ -22,7 +30,7 @@
 ## Sección en el lateral izquierdo 
 - Lateral izquierdo redes sociales, esta debe estar en una linea estrecha que permanezca todo el rato en la pantalla, las redes sociales deben aparecer en forma de iconos.
   
-## Pagina/Seccion Valores de la empresa y quienes son: 
+## Pagina o Seccion Valores de la empresa y quienes son 
 - Foto grande estilo cartel, en un apartatado acompañado la presentacion de la empresa y que tratan de transmitir.  
 
 ## Footer  
