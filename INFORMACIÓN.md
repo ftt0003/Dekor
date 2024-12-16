@@ -44,9 +44,11 @@
  - Flamingueo CTA y header.     
  - Glow Recipe y Flamingueu: Imagenes, recordar tarjetas para productos. Tambien tener encuenta el footer.
  - Apartado de consejos.(Cuando selecciones un producto que te proponga otros que puedan quedar bien). > Dificil Implementación sin dadatos que relacionen los productos.
-
- Flamingueo: [https://flamingueostore.com/]
- Glow Recipe: [https://www.glowrecipe.com/]
+ 
+ ### Enlace a las Web ### 
+ -[Flamingueo](https://flamingueostore.com/)  
+ -[Glow Recipe](https://www.glowrecipe.com/)  
+ 
  ## Colores a utilizar ##
  - #FFFFFF
  - #F2D7D7
