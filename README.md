@@ -54,7 +54,7 @@
  - [Glow Recipe](https://www.glowrecipe.com/)
  - [Freepick](https://www.freepik.es/iconos/web)
  > [!NOTE]
- >  Se pueden usar otras alternatrivas, recordar ajusta los fondos.
+ >  Se pueden usar otras alternatrivas para todos los icononos necesarios para la web.
 
  
  ## Colores a utilizar ##
