@@ -61,3 +61,5 @@
  - #D7D98A
  - #BFB6AB
 
+## Iconos Principales de la web ##
+- [Freepick](https://www.freepik.es/iconos/web) > Se pueden usar otras alternatrivas, recordar ajusta los fondos.
