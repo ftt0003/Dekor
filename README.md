@@ -21,7 +21,7 @@
 	- [ Contenido principal Formulario ](#contenido-principal-formulario)
 - [ Implementaciones adicionales ](#implementaciones-adicionales)
 - [ Referencias a tener en cuenta ](#referencias-a-tener-en-cuenta)
-- [Enlaces a las Webs](#enlaces-a-las-webs)
+- [Enlaces a las Webs](#enlaces-a-las-webs-:link:)
 - [ Colores a utilizar ](#colores-a-utilizar)
 - [Lista de implementaciones ](#lista-de-implementaciones)
 ## Información cabecera   
@@ -69,7 +69,7 @@
  > Para una primera implementacion de ejemplo se podria hacer, en caso de disponer de tiempo suficiente, seria un sistema que recomiende productos fijos
  > esto proporcionaria un aproximado de la idea original. 
  
- ### Enlaces a las Webs \ :link:
+ ### Enlaces a las Webs :link:
  > [!IMPORTANT]
  > - [Flamingueo](https://flamingueostore.com/)  
  > - [Glow Recipe](https://www.glowrecipe.com/)
