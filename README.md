@@ -43,9 +43,8 @@
  - **Scroll dinamico Apartado Sobre nosotro. En lugar de desplegables.(Implementacion opcional, revisar contenedores estilo galeria.)**    
 
 
-## Referencias a tener en cuenta ##
- - WEBS para usar como referencia:    
- - Flamingueo CTA y header.     
+## Referencias a tener en cuenta ##  
+ - Flamingueo: CTA y header.     
  - Glow Recipe y Flamingueu: Imagenes, recordar tarjetas para productos. Tambien tener encuenta el footer.
  - Apartado de consejos.(Cuando selecciones un producto que te proponga otros que puedan quedar bien). > Dificil Implementación sin dadatos que relacionen los productos.
  
