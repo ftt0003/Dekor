@@ -27,8 +27,8 @@
 - [Lista de implementaciones ](#lista-de-implementaciones)
 
 ## Introducción
-Se desea desarrollar una web para un negocio online de venta de elementos decorativos artesanales y elegantes.
-La compañia desea que la web trasmita tanto la elegancia de los productos. Dando apoyo a los productos artesanales y siendo amigables con el medio ambiente.  
+Se desea desarrollar una web para un negocio online de venta de elementos decorativos artesanales y elegantes.  
+La compañia desea que la web trasmita tanto la elegancia de los productos. Dando apoyo a los productos artesanales y siendo amigables con el medio ambiente.    
 
 ## Información cabecera   
 - Icono superior que debe redirige a la pagina principal (Posicionar donde mas se adecue para darle elegancia a la pagina).  
