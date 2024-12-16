@@ -64,8 +64,8 @@
 
  
  ## Colores a utilizar ##
-`#FFFFFF`  
-`#F2D7D7`  
+`#FFFFFF` `#ffffff`  
+`#F2D7D7` `#f2d7d7`    
 `#FFA175`  
 `#FFF6AD`  
 `#D7D98A`  
