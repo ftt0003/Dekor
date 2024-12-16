@@ -56,20 +56,21 @@
  > esto proporcionaria un aproximado de la idea original. 
  
  ### Enlace a las Web  
- - [Flamingueo](https://flamingueostore.com/)  
- - [Glow Recipe](https://www.glowrecipe.com/)
- - [Freepick](https://www.freepik.es/iconos/web)
+ > [!IMPORTANT]
+ > - [Flamingueo](https://flamingueostore.com/)  
+ > - [Glow Recipe](https://www.glowrecipe.com/)
+ > - [Freepick](https://www.freepik.es/iconos/web)
  > [!NOTE]
  >  Se pueden usar otras alternatrivas para todos los icononos necesarios para la web.
 
  
  ## Colores a utilizar  
  ```css
-color: #FFFFFF 
-color: #F2D7D7
-#FFA175  
-#FFF6AD  
-#D7D98A  
-#BFB6AB  
+color: #FFFFFF; 
+color: #F2D7D7;
+color: #FFA175;  
+color: #FFF6AD;  
+color: #D7D98A;  
+color: #BFB6AB;  
 
 ```
