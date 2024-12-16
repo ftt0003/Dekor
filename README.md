@@ -64,8 +64,9 @@
 
  
  ## Colores a utilizar ##
-`#FFFFFF` `rgb(255, 255, 255)` `#ffffff`
-`#F2D7D7` `#f2d7d7`    
+ `CSS`
+`#FFFFFF` 
+`#F2D7D7`  
 `#FFA175`  
 `#FFF6AD`  
 `#D7D98A`  
