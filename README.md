@@ -48,7 +48,12 @@
  - Glow Recipe y Flamingueu: Imagenes, recordar tarjetas para productos. Tambien tener encuenta el footer.
  - Apartado de consejos.(Cuando selecciones un producto que te proponga otros que puedan quedar bien).
  > [!IMPORTANT] 
- > Dificil Implementación sin dadatos que relacionen los productos.
+ > Dificil Implementación sin dadatos que relacionen los productos mediante etiquetas.
+ > Para un funcionamiento mas o menos real seria necesario un Base de datos con los productos y scrips para consultarla.
+
+ > [!NOTE]
+ > Para una primera implementacion de ejemplo se podria hacer, en caso de disponer de tiempo suficiente, seria un sistema que recomiende productos fijos
+ > esto proporcionaria un aproximado de la idea original. 
  
  ### Enlace a las Web ### 
  - [Flamingueo](https://flamingueostore.com/)  
