@@ -87,6 +87,10 @@ La compañia desea que la web trasmita tanto la elegancia de los productos. Dand
  
  ## Colores a utilizar 
  
+
+
+ ```html
+
  <code>#aa4400
   <span
     class="ml-1 d-inline-block border circle color-border-subtle"
@@ -94,7 +98,6 @@ La compañia desea que la web trasmita tanto la elegancia de los productos. Dand
   ></span>
 </code>
 
- ```css
 color: #FFFFFF; 
 color: #F2D7D7;
 color: #FFA175;  
