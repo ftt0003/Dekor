@@ -60,7 +60,8 @@
  > - [Flamingueo](https://flamingueostore.com/)  
  > - [Glow Recipe](https://www.glowrecipe.com/)
  > - [Freepick](https://www.freepik.es/iconos/web)
- > > [!NOTE]
+   
+ > [!NOTE]
  > > Se pueden usar otras alternatrivas para todos los icononos necesarios para la web.
 
  
