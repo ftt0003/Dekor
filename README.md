@@ -64,7 +64,7 @@
 
  
  ## Colores a utilizar ##
-`#FFFFFF` `#ffffff`
+`#FFFFFF` `rgb(255, 255, 255)` `#ffffff`
 `#F2D7D7` `#f2d7d7`    
 `#FFA175`  
 `#FFF6AD`  
