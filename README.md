@@ -14,7 +14,7 @@
 - [ DEKOR STORE ](#dekor-store)
 - [ Índice ](#índice)
 - [ Información cabecera ](#información-cabecera)
-- [ Sección en el lateral izquierdo](#sección-en-el-lateral-izquierod)
+- [ Sección en el lateral izquierdo](#sección-en-el-lateral-izquierdo)
 - [Pagina/Seccion Valores de la empresa y quienes son](#pagina-o-sección-valores-de-la-empresa-y-quienes-són)
 - [ Footer ](#footer)
 - [Sección de preguntas frecuentes y Formulario. ](#sección-de-preguntas-frecuentes-y-formularios)
