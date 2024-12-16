@@ -47,6 +47,7 @@
  - Flamingueo: CTA y header.     
  - Glow Recipe y Flamingueu: Imagenes, recordar tarjetas para productos. Tambien tener encuenta el footer.
  - Apartado de consejos.(Cuando selecciones un producto que te proponga otros que puedan quedar bien).
+ > [!IMPORTANT] 
  > Dificil Implementación sin dadatos que relacionen los productos.
  
  ### Enlace a las Web ### 
