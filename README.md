@@ -62,4 +62,5 @@
  - #BFB6AB
 
 ## Iconos Principales de la web ##
-- [Freepick](https://www.freepik.es/iconos/web)  > Se pueden usar otras alternatrivas, recordar ajusta los fondos.
+- [Freepick](https://www.freepik.es/iconos/web)
+  > Se pueden usar otras alternatrivas, recordar ajusta los fondos.
