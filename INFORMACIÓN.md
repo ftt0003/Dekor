@@ -46,8 +46,8 @@
  - Apartado de consejos.(Cuando selecciones un producto que te proponga otros que puedan quedar bien). > Dificil Implementación sin dadatos que relacionen los productos.
  
  ### Enlace a las Web ### 
- -[Flamingueo](https://flamingueostore.com/)  
- -[Glow Recipe](https://www.glowrecipe.com/)  
+ - [Flamingueo](https://flamingueostore.com/)  
+ - [Glow Recipe](https://www.glowrecipe.com/)  
  
  ## Colores a utilizar ##
  - #FFFFFF
