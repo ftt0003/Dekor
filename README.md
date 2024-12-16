@@ -86,11 +86,12 @@ La compañia desea que la web trasmita tanto la elegancia de los productos. Dand
 
  
  ## Colores a utilizar 
+ 
  <code>#aa4400
-  <svg role="img" aria-labelledby="_Z5jdHi6">
-    <title id="_Z5jdHi6">Color: “firebrick”</title>
-    …
-  </svg>
+  <span
+    class="ml-1 d-inline-block border circle color-border-subtle"
+    style="background-color: #aa4400; height: 8px; width: 8px;"
+  ></span>
 </code>
 
  ```css
