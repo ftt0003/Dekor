@@ -21,7 +21,7 @@
 	- [ Contenido principal Formulario ](#contenido-principal-formulario)
 - [ Implementaciones adicionales ](#implementaciones-adicionales)
 - [ Referencias a tener en cuenta ](#referencias-a-tener-en-cuenta)
-- [Enlace a las Web :link:](#enlace-a-las-web-:link:)
+- [Enlace a las Web :link:](#enlace-a-las-web)
 ## Información cabecera   
 - Icono superior que debe redirige a la pagina principal (Posicionar donde mas se adecue para darle elegancia a la pagina).  
 - Barra superior con menu de navegacion basado en iconos (contraco, devoluciones, punto de recogida,...).  
