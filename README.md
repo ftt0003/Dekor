@@ -89,14 +89,8 @@ La compañia desea que la web trasmita tanto la elegancia de los productos. Dand
  
 
 
- ```html
-
- <code>#aa4400
-  <span
-    class="ml-1 d-inline-block border circle color-border-subtle"
-    style="background-color: #aa4400; height: 8px; width: 8px;"
-  ></span>
-</code>
+bg.Color: #FFFFFF 
+ ```
 
 color: #FFFFFF; 
 color: #F2D7D7;
