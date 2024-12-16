@@ -32,7 +32,7 @@
 ## Sección en el lateral izquierdo 
 - Lateral izquierdo redes sociales, esta debe estar en una linea estrecha que permanezca todo el rato en la pantalla, las redes sociales deben aparecer en forma de iconos.
   
-## Pagina o Seccion Valores de la empresa y quienes son 
+## Pagina o Sección Valores de la empresa y quienes són 
 - Foto grande estilo cartel, en un apartatado acompañado la presentacion de la empresa y que tratan de transmitir.  
 
 ## Footer  
