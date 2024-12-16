@@ -88,7 +88,7 @@ La compañia desea que la web trasmita tanto la elegancia de los productos. Dand
  ## Colores a utilizar 
  
 <img src="53F5A9.jpg" alt="color-53F5A9">
-<img src="FFFFFF.png" alt="color-FFFFFF">#FFFFFF
+<p>#FFFFFF<img src="FFFFFF.png" alt="color-FFFFFF"></p>
 
 
 color: #FFFFFF 
