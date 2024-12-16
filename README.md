@@ -53,14 +53,15 @@
  - [Flamingueo](https://flamingueostore.com/)  
  - [Glow Recipe](https://www.glowrecipe.com/)
  - [Freepick](https://www.freepik.es/iconos/web)
+ > [!NOTE]
  >  Se pueden usar otras alternatrivas, recordar ajusta los fondos.
 
  
  ## Colores a utilizar ##
-`#FFFFFF`
-`#F2D7D7`
-`#FFA175`
-`#FFF6AD`
-`#D7D98A`
-`#BFB6AB`
+`#FFFFFF`  
+`#F2D7D7`  
+`#FFA175`  
+`#FFF6AD`  
+`#D7D98A`  
+`#BFB6AB`  
 
