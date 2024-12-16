@@ -85,7 +85,14 @@ La compañia desea que la web trasmita tanto la elegancia de los productos. Dand
  > > Se pueden usar otras alternatrivas para todos los icononos necesarios para la web.
 
  
- ## Colores a utilizar  
+ ## Colores a utilizar 
+ <code>#aa4400
+  <svg role="img" aria-labelledby="_Z5jdHi6">
+    <title id="_Z5jdHi6">Color: “firebrick”</title>
+    …
+  </svg>
+</code>
+
  ```css
 color: #FFFFFF; 
 color: #F2D7D7;
