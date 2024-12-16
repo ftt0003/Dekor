@@ -13,6 +13,7 @@
 ## Índice
 - [ DEKOR STORE ](#dekor-store)
 - [ Índice ](#índice)
+- [ Introducción](#introducción)
 - [ Información cabecera ](#información-cabecera)
 - [ Sección en el lateral izquierdo](#sección-en-el-lateral-izquierdo)
 - [Pagina/Seccion Valores de la empresa y quienes son](#pagina-o-sección-valores-de-la-empresa-y-quienes-són)
@@ -24,6 +25,11 @@
 - [Enlaces a las Webs](#enlaces-a-las-webs)
 - [ Colores a utilizar ](#colores-a-utilizar)
 - [Lista de implementaciones ](#lista-de-implementaciones)
+
+## Introducción
+Se desea desarrollar una web para un negocio online de venta de elementos decorativos artesanales y elegantes.
+La compañia desea que la web trasmita tanto la elegancia de los productos. Dando apoyo a los productos artesanales y siendo amigables con el medio ambiente.  
+
 ## Información cabecera   
 - Icono superior que debe redirige a la pagina principal (Posicionar donde mas se adecue para darle elegancia a la pagina).  
 - Barra superior con menu de navegacion basado en iconos (contraco, devoluciones, punto de recogida,...).  
