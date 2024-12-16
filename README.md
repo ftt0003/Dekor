@@ -87,7 +87,7 @@ La compañia desea que la web trasmita tanto la elegancia de los productos. Dand
  
  ## Colores a utilizar 
  
-<img src="53F5A9" alt="color-53F5A9">
+<img src="53F5A9.png" alt="color-53F5A9">
 
 color-bg-default(#FFFFFF) 
  ```
