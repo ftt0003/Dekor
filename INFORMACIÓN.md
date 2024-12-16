@@ -7,7 +7,7 @@
  - Implementar: Adaptacion de precio FLAMINGUEO (Web referencia)  
 
 ## Información cabecera ##  
-- Icono superior --> redirige a la pagina principal (Posicionar donde mas se adecue para darle elegancia a la pagina).  
+- Icono superior que debe redirige a la pagina principal (Posicionar donde mas se adecue para darle elegancia a la pagina).  
 - Barra superior con menu de navegacion basado en iconos (contraco, devoluciones, punto de recogida,...).  
 - Navegacion con menu horizontal desplegable.    
   
@@ -27,25 +27,26 @@
     - Campo email contacto.
     - Apartado de nombre.  
     - Selector de motivo de consulta.  
-    - Si selecciona otro --> Mostrar campo para el asunto.  
+    - Si selecciona otro se debe mostrar campo para el asunto.  
     - Campo para explicar los motivos de su consulta.   
     - Boton de enviar y boton de resetear.  
 	
 ## Implementaciones adicionales ##
- - Despleagable con menu de personalizar (este se pretende que se depliegue en una linea inferior horizontal).  <br><br>
- - Bordes imagenes productos redondeados. <br><br>
- - Seccion con foto fondo estilo tarjeta. <br><br>
- - Buscar tipografias para productos, precios. Color acorde a la pagina. <br><br>
+ - Despleagable con menu de personalizar (este se pretende que se depliegue en una linea inferior horizontal).    
+ - Bordes imagenes productos redondeados.    
+ - Seccion con foto fondo estilo tarjeta.    
+ - Buscar tipografias para productos, precios. Color acorde a la pagina.    
  - **Scroll dinamico Apartado Sobre nosotro. En lugar de desplegables.(Implementacion opcional, revisar contenedores estilo galeria.)**    
 
 
 ## Referencias a tener en cuenta ##
- - WEBS para usar como referencia:  <br><br>
- - Flamingueo CTA y header. <br><br>
+ - WEBS para usar como referencia:    
+ - Flamingueo CTA y header.     
  - Glow Recipe y Flamingueu: Imagenes, recordar tarjetas para productos. Tambien tener encuenta el footer.
- > Dificil Implementación sin dadatos que relacionen los productos.
- - Apartado de consejos.(Cuando selecciones un producto que te proponga otros que puedan quedar bien).
+ - Apartado de consejos.(Cuando selecciones un producto que te proponga otros que puedan quedar bien). > Dificil Implementación sin dadatos que relacionen los productos.
 
+ Flamingueo: [https://flamingueostore.com/]
+ Glow Recipe: [https://www.glowrecipe.com/]
  ## Colores a utilizar ##
  - #FFFFFF
  - #F2D7D7
