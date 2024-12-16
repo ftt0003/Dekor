@@ -25,7 +25,7 @@
 - En el footer debe aparecer el nombre de la marca en forma de logo o de texto con una tipografia adecuada. Debe actual como boton saber mas.  
 
 ## Sección de preguntas frecuentes y Formulario. ##
-- Esta sección estara dedicada a las disrintas consultas pueden presentar los clientes y un pequeño formulario en caso de que tengan otras dudas. <br><br>
+- Esta sección estara dedicada a las disrintas consultas pueden presentar los clientes y un pequeño formulario en caso de que tengan otras dudas.    
  	
     ### Contenido principal Formulario ###
     - Campo email contacto.
@@ -46,7 +46,8 @@
 ## Referencias a tener en cuenta ##  
  - Flamingueo: CTA y header.     
  - Glow Recipe y Flamingueu: Imagenes, recordar tarjetas para productos. Tambien tener encuenta el footer.
- - Apartado de consejos.(Cuando selecciones un producto que te proponga otros que puedan quedar bien). > Dificil Implementación sin dadatos que relacionen los productos.
+ - Apartado de consejos.(Cuando selecciones un producto que te proponga otros que puedan quedar bien).
+ - > Dificil Implementación sin dadatos que relacionen los productos.
  
  ### Enlace a las Web ### 
  - [Flamingueo](https://flamingueostore.com/)  
