@@ -31,28 +31,26 @@
     - Campo para explicar los motivos de su consulta.   
     - Boton de enviar y boton de resetear.  
 	
-<h2>Implementaciones adicionales</h2>
-	-Despleagable con menu de personalizar (este se pretende que se depliegue en una linea inferior horizontal).  <br><br>
-	-Bordes imagenes productos redondeados. <br><br>
-	-Seccion con foto fondo estilo tarjeta. <br><br>
-	-Buscar tipografias para productos, precios. Color acorde a la pagina. <br><br>
-	-<strong>Scroll dinamico Apartado Sobre nosotro. En lugar de desplegables.(Implementacion opcional, revisar contenedores estilo galeria.)</strong> <br><br>
+## Implementaciones adicionales ##
+ - Despleagable con menu de personalizar (este se pretende que se depliegue en una linea inferior horizontal).  <br><br>
+ - Bordes imagenes productos redondeados. <br><br>
+ - Seccion con foto fondo estilo tarjeta. <br><br>
+ - Buscar tipografias para productos, precios. Color acorde a la pagina. <br><br>
+ - **Scroll dinamico Apartado Sobre nosotro. En lugar de desplegables.(Implementacion opcional, revisar contenedores estilo galeria.)**    
 
 
-<h2>Referencias a tener en cuenta</h2>
-	-WEBS para usar como referencia:  <br><br>
-	-Flamingueo CTA y header. <br><br>
-	-Glow Recipe y Flamingueu: Imagenes, recordar tarjetas para productos. Tambien tener encuenta el footer.<br><br>
- 	<i>      //Dificil Implementación sin dadatos que relacionen los productos</i> <br>
-	-Apartado de consejos.(Cuando selecciones un producto que te proponga otros que puedan quedar bien).
+## Referencias a tener en cuenta ##
+ - WEBS para usar como referencia:  <br><br>
+ - Flamingueo CTA y header. <br><br>
+ - Glow Recipe y Flamingueu: Imagenes, recordar tarjetas para productos. Tambien tener encuenta el footer.
+ > Dificil Implementación sin dadatos que relacionen los productos.
+ - Apartado de consejos.(Cuando selecciones un producto que te proponga otros que puedan quedar bien).
 
- <h2>Colores a utilizar</h2>
- 	<ul>
-		<li>#FFFFFF</li>
-		<li>#F2D7D7</li>
-		<li>#FFA175</li>
-		<li>#FFF6AD</li>
-		<li>#D7D98A</li>
-		<li>#BFB6AB</li>
-	</ul>
+ ## Colores a utilizar ##
+ - #FFFFFF
+ - #F2D7D7
+ - #FFA175
+ - #FFF6AD
+ - #D7D98A
+ - #BFB6AB
 
