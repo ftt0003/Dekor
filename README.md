@@ -10,8 +10,10 @@
  - Tipo de colores pagina: Paleta de colores pastel.  
  - Implementar: Adaptacion de precio FLAMINGUEO (Web referencia)  
 
-## Indice:
+## Índice:
 - [ DEKOR STORE ](/#DEKOR-STORE)
+- [ Índice ](/#Índice)
+- [ Información cabecera ](/#Información-cabecera)
 ## Información cabecera   
 - Icono superior que debe redirige a la pagina principal (Posicionar donde mas se adecue para darle elegancia a la pagina).  
 - Barra superior con menu de navegacion basado en iconos (contraco, devoluciones, punto de recogida,...).  
