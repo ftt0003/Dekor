@@ -68,7 +68,7 @@ La compañia desea que la web trasmita tanto la elegancia de los productos. Dand
  - Glow Recipe y Flamingueo: Imagenes, recordar tarjetas para productos. Tambien tener encuenta el footer.
  - Apartado de consejos.(Cuando selecciones un producto que te proponga otros que puedan quedar bien).
  > [!IMPORTANT] 
- > Dificil Implementación sin dadatos que relacionen los productos mediante etiquetas.
+ > Dificil Implementación sin datos que relacionen los productos mediante etiquetas.
  > Para un funcionamiento mas o menos real seria necesario un Base de datos con los productos y scrips para consultarla.
 
  > [!NOTE]
