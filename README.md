@@ -98,9 +98,9 @@ La compañia desea que la web trasmita tanto la elegancia de los productos. Dand
 <p>#BFB6AB <img src="imagecolor/BFB6AB.png"></p>
 
 ## Ejemplo header
-<div style="background-color: red;">
+<div style="background-color: #FF0000;">
+    <img src="web_element/ejemplo_header.png" alt="ejemplo-header"><br>
 </div>
-<img src="web_element/ejemplo_header.png" alt="ejemplo-header"><br>
  1. Icono del menu desplegable. (Inicialmente debe ser horizontal)
  2. Selector de moneda.
  3. Logo de la marca/compañia.
