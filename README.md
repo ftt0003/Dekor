@@ -97,6 +97,14 @@ La compañia desea que la web trasmita tanto la elegancia de los productos. Dand
 <p> #D7D98A <img src="imagecolor/D7D98A.png"></p>  
 <p>#BFB6AB <img src="imagecolor/BFB6AB.png"></p>
 
+## Ejemplo header
+<img src="web_element/ejemplo_header.png" alt="ejemplo-header"><br>
+ 1. Icono del menu desplegable. (Inicialmente debe ser horizontal)
+ 2. Selector de moneda.
+ 3. Logo de la marca/compañia.
+ 4. Icono de perfil del usuario.(A futuro: loggin, con distintos subapartados para seguimiento de pedidos historial, etc).
+ 5. Carrito donde se añadiran pedidos.
+
 ## Lista de implementaciones 
 - [ ] Dar una estructura basica a la pagina principal.
 - [ ] Crear header segun los criterios establecidos (Utilizando iconos para el menu de navegacion, desplegables,etc).
