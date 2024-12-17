@@ -86,12 +86,15 @@ La compañia desea que la web trasmita tanto la elegancia de los productos. Dand
 
  
  ## Colores a utilizar 
- 
+> [!TIP]
+> Como idea inicial para el uso de los colores en la implementación de la web. Se podrian aprovechar los coloresmas intensos para los textos, mientras que los mas claros
+> para los distintos backgrounds de buscando que resalten mas los productos.
+  
 <p> #FFFFFF <img src="imagecolor/FFFFFF.png" alt="color-FFFFFF" width="12px" height="12px"></p>
 <p> #F2D7D7 <img src="imagecolor/F2D7D7.png" alt="color-F2D7D7"></p>
-<p>#FFA175 <img src="imagecolor/FFA175.png"></p>
-<p>#FFF6AD <img src="imagecolor/FFF6AD.png"></p>
-<p>#D7D98A <img src="imagecolor/D7D98A.png"></p>  
+<p> #FFA175 <img src="imagecolor/FFA175.png"></p>
+<p> #FFF6AD <img src="imagecolor/FFF6AD.png"></p>
+<p> #D7D98A <img src="imagecolor/D7D98A.png"></p>  
 <p>#BFB6AB <img src="imagecolor/BFB6AB.png"></p>
 
 ## Lista de implementaciones 
