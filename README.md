@@ -107,7 +107,7 @@ La compañia desea que la web trasmita tanto la elegancia de los productos. Dand
  5. Carrito donde se añadiran pedidos.
 
 ## Lista de implementaciones 
-- [ x ] Dar una estructura basica a la pagina principal.
+- [x] Dar una estructura basica a la pagina principal.
 - [ ] Crear header segun los criterios establecidos (Utilizando iconos para el menu de navegacion, desplegables,etc).
 - [ ] Crear footer, este debe ser suficientemente espacioso.
 - [ ] Crear pagina Sobre Nosotros. La cual debe mostrar la imagen que desea representar la marca sus ideas entre otros.
