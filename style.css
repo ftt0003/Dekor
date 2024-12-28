@@ -29,6 +29,15 @@ footer{
     display: block;
    
 }
+.copyright{
+    
+    text-align: center;
+    background-image: linear-gradient(#F2D7D7,#E6B0B0);
+    font-weight: bolder;
+    font-size: larger;
+    margin-top: 0;
+    max-height: 25px;
+}
 .footer-menu{
     display: grid;
     grid-template-columns: auto auto;
