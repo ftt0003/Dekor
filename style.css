@@ -10,12 +10,31 @@ header{
     width: 100%;
     min-height: 150px;
     position: fixed;
-   
-    
     background-image: linear-gradient(#F2D7D7,#E6B0B0);
 }
 header > ul,li{
     list-style: none;
+}
+.menu-nav-cont{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    
+}
+.nav-header{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    
+}
+.nav-header > div{
+    margin-inline: 10%;
+}
+
+#dekor-logo{
+    width: 65px;
+    height: 75px;
 }
 
 footer{
@@ -36,7 +55,7 @@ footer{
     font-weight: bolder;
     font-size: larger;
     margin-top: 0;
-    max-height: 25px;
+    max-height: 35px;
 }
 .footer-menu{
     display: grid;
