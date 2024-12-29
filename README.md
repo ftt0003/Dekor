@@ -111,6 +111,6 @@ La compañia desea que la web trasmita tanto la elegancia de los productos. Dand
 - [ ] Crear header segun los criterios establecidos (Utilizando iconos para el menu de navegacion, desplegables,etc).
     - [x] Crear una estructura basica en el header.
     - [ ] Modificar la distribución.
-- [ ] Crear footer, este debe ser suficientemente espacioso.
+- [x] Crear footer, este debe ser suficientemente espacioso.
 - [ ] Crear pagina Sobre Nosotros. La cual debe mostrar la imagen que desea representar la marca sus ideas entre otros.
 - [ ] Formulario de contacto en conjunto, con la parte de preguntas frecuentes. 

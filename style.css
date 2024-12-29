@@ -2,7 +2,10 @@
     font-family: d;
     src: url();
 }
-
+body{
+    background-image: radial-gradient(#F2D7D7,#f6c9c9);
+    
+}
 /*ZONA EDICION CARACTERISTICAS DE LA PAGINA*/
 header{
     top: 0;
@@ -36,22 +39,28 @@ header > ul,li{
     width: 65px;
     height: 75px;
 }
-
+main{
+    margin-top: 200px;
+    
+}
 footer{
     bottom: 0;
     left: 0;
     width: 100%;
     min-height: 150px;
     position:fixed;
-    background-image: linear-gradient(#F2D7D7,#E6B0B0);
+    /*background-image: linear-gradient(#F2D7D7,#E6B0B0);*/
     text-align: center;
     display: block;
+    color: white;
+    background-color: rgb(71, 70, 70);
    
 }
 .copyright{
-    
+    /*background-color: rgb(59, 57, 57);*/
     text-align: center;
-    background-image: linear-gradient(#F2D7D7,#E6B0B0);
+    /*background-image: linear-gradient(#F2D7D7,#E6B0B0);*/
+    color: white;
     font-weight: bolder;
     font-size: larger;
     margin-top: 0;
@@ -60,5 +69,10 @@ footer{
 .footer-menu{
     display: grid;
     grid-template-columns: auto auto;
+}
+.social-networks > img{
+
+    width: 40px;
+    height: 40px;
 }
 
