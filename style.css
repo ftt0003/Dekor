@@ -3,7 +3,7 @@
     src: url();
 }
 body{
-    background-image: radial-gradient(#F2D7D7,#f6c9c9);
+    background-image: radial-gradient(#fcf4f4,#ffdfdf);
     
 }
 /*ZONA EDICION CARACTERISTICAS DE LA PAGINA*/
@@ -11,9 +11,9 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-    min-height: 150px;
+    min-height: 90px;
     position: fixed;
-    background-image: linear-gradient(#F2D7D7,#E6B0B0);
+    background-image: linear-gradient(#f7eded,#ffffff);
 }
 header > ul,li{
     list-style: none;
