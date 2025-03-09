@@ -41,7 +41,13 @@ header > ul,li{
 }
 main{
     margin-top: 200px;
+    margin-bottom: 200px;
     
+}
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 30%;
+      margin: auto;
 }
 footer{
     bottom: 0;
@@ -51,7 +57,7 @@ footer{
     position:fixed;
     /*background-image: linear-gradient(#F2D7D7,#E6B0B0);*/
     text-align: center;
-    display: block;
+
     color: white;
     background-color: rgb(71, 70, 70);
    
