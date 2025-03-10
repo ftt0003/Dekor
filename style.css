@@ -12,7 +12,6 @@ header{
     left: 0;
     width: 100%;
     min-height: 90px;
-    position: fixed;
     background-image: linear-gradient(#f7eded,#ffffff);
 }
 header > ul,li{
@@ -44,6 +43,10 @@ main{
     margin-bottom: 200px;
     
 }
+.carousel-inner{
+    margin-top: 25px;
+    size: 50%;
+}
 .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
       width: 30%;
@@ -54,7 +57,6 @@ footer{
     left: 0;
     width: 100%;
     min-height: 150px;
-    position:fixed;
     /*background-image: linear-gradient(#F2D7D7,#E6B0B0);*/
     text-align: center;
 
