@@ -300,7 +300,11 @@ main .productos h1 {
     flex-wrap: wrap;
     padding: 20px;
 }
-
+.team > h2{
+    text-align: center;
+    text-shadow: #222;
+    font-size: 30pt;
+}
 .team-card {
     background: white;
     border-radius: 10px;
@@ -313,6 +317,7 @@ main .productos h1 {
 
 .team-card:hover {
     transform: translateY(-5px);
+    transition-duration: 0.5s;
 }
 .team-card > img{
     width: 200px;
