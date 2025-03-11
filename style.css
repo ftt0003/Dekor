@@ -9,7 +9,7 @@
 /* Contenedor principal para ocupar toda la pantalla */
 html, body {
     height: 100%;
-    display: flex;
+    display:flex;
     flex-direction: column;
     background-image: radial-gradient(#fcf4f4,#ffdfdf);
 }
@@ -226,20 +226,31 @@ footer {
     header {
         display: inline;
         text-align: center;
+        justify-content: space-between;
     }
+    
     .menu-lateral {
         width: 200px;
         z-index: 1;
     }
     #carouselExample {
-        margin-top: 20%;
+        margin-top: 70px;
         max-width: 95%;
     }
     .carousel-inner img {
         height: 200px;
     }
+    .carousel-control-next, .carousel-control-prev{
+        visibility: hidden;
+    }
 }
 @media screen and (max-width: 480px) {
+    header {
+        justify-content: space-between;
+        display: inline;
+        text-align: center;
+    }
+    
     .menu-lateral {
         z-index: 1;
         width: 180px;
@@ -248,10 +259,13 @@ footer {
         width: 25px;
     }
     #carouselExample {
-        margin-top: 15px;
+        margin-top: 80px;
         max-width: 90%;
     }
     .carousel-inner img {
         height: 150px;
+    }
+    .carousel-control-next, .carousel-control-prev{
+        visibility: hidden;
     }
 }
