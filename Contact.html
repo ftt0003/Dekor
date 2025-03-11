@@ -9,38 +9,27 @@
 </head>
 
 <body>
-<header>
-    <!--Zona menu de navegacion-->
-    <div class="menu-nav-cont">
-        
-        <nav class="nav-header">
-            <div>
-                <button style="border:0;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
-                </svg></button>
-            </div>
-            <div>
-                <a href="index.html"><img id="dekor-logo" src="" alt="logodekor"></a>
-            </div>
-            <div>
-                <!--<a href=""><img src="" alt="usuario"></a>-->
-                <a href="AboutUs.html"> Nosotros</a>
-                <a href="Contact.html">Contactanos</a>
-                <a href="Profile.html">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
-                        <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
-                    </svg>
-                </a>
-                <!--<a href=""><img src="" alt="otros"></a>-->
-            </div>
-            <button><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
-                <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
-              </svg>
-            </button>
-        </nav>
-    </div>
-
-</header>
+    <header>
+        <button onclick="toggleMenu()" style="width: 50px; height: 50px; font-size: 23px; color: #c2c2c2; background:none; border:none">☰</button>
+        <a href="index.html"><img src="img/logo.png" width="100px" height="50px" alt="Logo Dekor"></a>
+        <div class="user-part">
+          <a href=""><img src="img/carrito.svg" alt="carrito-compra" style="width: 50px; height: 50px;"></a>
+          <a href="Profile.html"><img src="img/man-303792.svg" alt="perfil" style="width: 50px; height: 50px;"></a>
+        </div>
+    </header>
+    
+    <nav class="menu-lateral">
+        <a href="AboutUs.html">Sobre Nosotros</a>
+        <a href="Contact.html">Contáctanos</a>
+        <div class="social-icons">
+            <img src="resources/social-icons/instagram_1400829.png" alt="Instagram">
+            <img src="resources/social-icons/twitter_5968830.png" alt="X">
+            <img src="resources/social-icons/tiktok_2504942.png" alt="TikTok">
+            <img src="resources/social-icons/social_12942327.png" alt="Facebook">
+            <img src="resources/social-icons/youtube_1384060.png" alt="YouTube">
+        </div>
+    </nav>
+    
 <!--Zona De prubas de distribución de elementos -->
 <main>
         <!--Falta añadir un formato de tarjeta y editar los textos-->
@@ -64,25 +53,7 @@
 </main>
 
 <footer>
-    <section class="copyright">
-        <p> &copy; 2024 Dekor</p><br><br>
-    </section>
-    <hr>
-    <div class="footer-menu">
-        <section>
-            <h4>Información</h4>
-        </section>
-    
-        <section class="social-networks">
-            <h4>Redes</h4>
-            <img src="resources/social-icons/instagram_1400829.png" alt="instagram">
-            <img src="resources/social-icons/twitter_5968830.png" alt="x">
-            <img src="resources/social-icons/tiktok_2504942.png" alt="tiktok">
-            <img src="resources/social-icons/social_12942327.png" alt="facebook">
-            <img src="resources/social-icons/youtube_1384060.png" alt="youtube">
-        </section>
-    </div>
-    
-</footer>    
+    <p>&copy; 2024 Dekor</p>
+</footer>
 
 </body>
