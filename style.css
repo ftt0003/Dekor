@@ -237,7 +237,43 @@ ul li {
 .team-card:hover {
     transform: translateY(-5px);
 }
+.team-card > img{
+    width: 200px;
+}
 
+/* Sección de Preguntas Frecuentes */
+.faq {
+    margin-bottom: 40px;
+}
+
+.faq h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.faq-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.faq-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+
+.faq-card h3 {
+    margin-bottom: 10px;
+}
+
+.faq-card p {
+    color: #555;
+}
 /* Formulario de Contacto */
 .formulario-contacto {
     max-width: 500px;
