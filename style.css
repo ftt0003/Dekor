@@ -200,6 +200,7 @@ footer {
 }
 
 /* Media Queries */
+
 @media screen and (max-width: 1024px) {
     .categories {
         gap: 15px;
@@ -213,39 +214,32 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-    .categories {
-        flex-direction: column;
-        align-items: center;
-    }
-    .card {
-        width: 90%;
-    }
     header {
-        padding: 10px 20px;
+        flex-direction:column;
+        text-align: center;
     }
     .menu-lateral {
         width: 200px;
     }
     #carouselExample {
-        max-width: 90%;
+        max-width: 95%;
     }
     .carousel-inner img {
         height: 200px;
     }
 }
-
 @media screen and (max-width: 480px) {
-    .card {
-        width: 100%;
-    }
     .menu-lateral {
         width: 180px;
     }
     .menu-lateral .social-icons img {
         width: 25px;
     }
-    header {
-        flex-direction: column;
-        text-align: center;
+    #carouselExample {
+        margin-top: auto;
+        max-width: 100%;
+    }
+    .carousel-inner img {
+        height: 150px;
     }
 }
