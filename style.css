@@ -322,7 +322,18 @@ main .productos h1 {
 .team-card > img{
     width: 200px;
 }
-
+.carrito-image{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carrito-image > img{
+    width: 600px;
+    height: 600px;
+    align-items: center;
+}
 /* Sección de Preguntas Frecuentes */
 .faq {
     margin-bottom: 40px;
