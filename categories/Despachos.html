@@ -23,54 +23,40 @@
     
     
     <nav class="menu-lateral">
-        <a href="AboutUs.html">Sobre Nosotros</a>
-        <a href="Contact.html">Contáctanos</a>
+        <a href="../AboutUs.html">Sobre Nosotros</a>
+        <a href="../Contact.html">Contáctanos</a>
         <div class="social-icons">
-            <img src="resources/social-icons/instagram_1400829.png" alt="Instagram">
-            <img src="resources/social-icons/twitter_5968830.png" alt="X">
-            <img src="resources/social-icons/tiktok_2504942.png" alt="TikTok">
-            <img src="resources/social-icons/social_12942327.png" alt="Facebook">
-            <img src="resources/social-icons/youtube_1384060.png" alt="YouTube">
+            <img src="../resources/social-icons/instagram_1400829.png" alt="Instagram">
+            <img src="../resources/social-icons/twitter_5968830.png" alt="X">
+            <img src="../resources/social-icons/tiktok_2504942.png" alt="TikTok">
+            <img src="../resources/social-icons/social_12942327.png" alt="Facebook">
+            <img src="../resources/social-icons/youtube_1384060.png" alt="YouTube">
         </div>
     </nav>
-    
-    <main>
-        <div class="categories">
-            <div class="card">
-                <a href="Dormitorios.html">
-                    <img src="img/dormitorio.jpg" alt="Dormitorios">
-                    <div class="card-body">
-                        <h5>Dormitorios</h5>
-                    </div>
-                </a>
+    <main class="productos">
+        <h1>Nuestros Productos</h1>
+        <div class="productos-grid">
+            <div class="producto-card">
+                <img src="../img/producto1.jpg" alt="Producto 1">
+                <h3>Silla Moderna</h3>
+                <p>$99.99</p>
+                <button onclick="agregarAlCarrito('Silla Moderna', 99.99)">Añadir al Carrito</button>
             </div>
-            <div class="card">
-                <a href="Despachos.html">
-                    <img src="img/despacho.jpg" alt="Despachos">
-                    <div class="card-body">
-                        <h5>Despachos</h5>
-                    </div>
-                </a>
+            <div class="producto-card">
+                <img src="../img/producto2.jpg" alt="Producto 2">
+                <h3>Escritorio Minimalista</h3>
+                <p>$199.99</p>
+                <button onclick="agregarAlCarrito('Escritorio Minimalista', 199.99)">Añadir al Carrito</button>
             </div>
-            <div class="card">
-                <a href="Cocina.html">
-                    <img src="img/cocina.jpg" alt="Cocinas">
-                    <div class="card-body">
-                        <h5>Cocinas</h5>
-                    </div>
-                </a>
+            <div class="producto-card">
+                <img src="../img/producto3.jpg" alt="Producto 3">
+                <h3>Lámpara de Pie</h3>
+                <p>$79.99</p>
+                <button onclick="agregarAlCarrito('Lámpara de Pie', 79.99)">Añadir al Carrito</button>
             </div>
-            <div class="card">
-                <a href="Salon.html">
-                    <img src="img/salon.jpg" alt="Salones">
-                    <div class="card-body">
-                        <h5>Salones</h5>
-                    </div>
-                </a>
-            </div>
+            <!-- Agregar más productos aquí -->
         </div>
     </main>
-    
     <footer>
         <p>&copy; 2024 Dekor</p>
     </footer>
