@@ -2,25 +2,25 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dekor</title>
+    <link rel="stylesheet" href="style.css">
     <script>
         function toggleMenu() {
             document.querySelector('.menu-lateral').classList.toggle('active');
         }
     </script>
 </head>
-
 <body>
     <header>
         <button class="toggle" onclick="toggleMenu()">☰</button>
         <a href="index.html"><img src="img/logo.png" width="100px" height="50px" alt="Logo Dekor"></a>
         <div class="user-part">
-          <a href=""><img src="img/carrito.svg" alt="carrito-compra" style="width: 50px; height: 50px;"></a>
+          <a href="Carrito.html"><img src="img/carrito.svg" alt="carrito-compra" style="width: 50px; height: 50px;"></a>
           <a href="Profile.html"><img src="img/man-303792.svg" alt="perfil" style="width: 50px; height: 50px;"></a>
         </div>
     </header>
+    
     
     <nav class="menu-lateral">
         <a href="AboutUs.html">Sobre Nosotros</a>
@@ -33,41 +33,28 @@
             <img src="resources/social-icons/youtube_1384060.png" alt="YouTube">
         </div>
     </nav>
-    
-<!--Zona De prubas de distribución de elementos -->
-<main class="about-us">
-    <section class="hero">
-        <img src="img/empresa.jpg" alt="Nuestra Empresa">
-        <div class="hero-text">
-            <h1>Sobre Dekor</h1>
-            <p>En Dekor, nos apasiona el diseño y la decoración de interiores. Creamos ambientes únicos y elegantes.</p>
-        </div>
-    </section>
-    
-    <section class="team">
-        <h2>Nuestro Equipo</h2>
-        <div class="team-container">
-            <div class="team-card">
-                <img src="img/ceo.jpg" alt="CEO">
-                <h3>Juan Pérez</h3>
-                <p>Fundador y CEO</p>
-            </div>
-            <div class="team-card">
-                <img src="img/designer.jpg" alt="Diseñador">
-                <h3>María López</h3>
-                <p>Diseñadora de interiores</p>
-            </div>
-            <div class="team-card">
-                <img src="img/marketing.jpg" alt="Marketing">
-                <h3>Carlos Ramírez</h3>
-                <p>Marketing y Ventas</p>
+    <main class="producto-detalle">
+        <div class="producto-container">
+            <img src="img/producto1.jpg" alt="Producto" class="producto-img">
+            <div class="producto-info">
+                <h1>Silla Moderna</h1>
+                <p class="precio">$99.99</p>
+                <p class="descripcion">Una silla elegante y moderna, perfecta para cualquier espacio de trabajo o comedor.</p>
+                <button onclick="agregarAlCarrito('Silla Moderna', 99.99)">Añadir al Carrito</button>
             </div>
         </div>
-    </section>
-</main>
-
-<footer>
-    <p>&copy; 2024 Dekor</p>
-</footer>  
-
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Dekor</p>
+    </footer>
+    <script>
+        function agregarAlCarrito(nombre, precio) {
+            let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
+            carrito.push({ nombre, precio });
+            localStorage.setItem("carrito", JSON.stringify(carrito));
+            alert(nombre + " añadido al carrito");
+        }
+    </script>
 </body>
+</html>

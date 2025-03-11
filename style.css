@@ -192,6 +192,97 @@ ul li {
     margin-bottom: 5px;
 }
 
+/* Sección About Us */
+/* Sección About Us */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    padding: 40px;
+}
+
+.hero img {
+    max-width: 45%;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.hero-text {
+    max-width: 50%;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.team-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    width: 250px;
+}
+
+.team-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Formulario de Contacto */
+.formulario-contacto {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.formulario-contacto h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.formulario-contacto label {
+    display: block;
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+
+.formulario-contacto input, 
+.formulario-contacto textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.formulario-contacto button {
+    width: 100%;
+    background: #222;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.formulario-contacto button:hover {
+    background: #444;
+}
+
 /* Footer */
 footer {
     background: #222;
@@ -199,13 +290,6 @@ footer {
     text-align: center;
     padding: 20px;
     margin-top: auto;
-}
-
-.footer-menu {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    padding-top: 10px;
 }
 
 /* Media Queries */
