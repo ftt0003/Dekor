@@ -242,7 +242,7 @@ footer {
     }
     #carouselExample {
         margin-top: 15px;
-        max-width: 100%;
+        max-width: 90%;
     }
     .carousel-inner img {
         height: 150px;
