@@ -43,6 +43,7 @@ header {
     background: #333;
     transition: left 0.3s;
     padding-top: 60px;
+    
 }
 
 .menu-lateral a {
@@ -215,13 +216,14 @@ footer {
 
 @media screen and (max-width: 768px) {
     header {
-        flex-direction:column;
+        display: inline;
         text-align: center;
     }
     .menu-lateral {
         width: 200px;
     }
     #carouselExample {
+        margin-top: 20%;
         max-width: 95%;
     }
     .carousel-inner img {
@@ -230,13 +232,14 @@ footer {
 }
 @media screen and (max-width: 480px) {
     .menu-lateral {
+        z-index: 1;
         width: 180px;
     }
     .menu-lateral .social-icons img {
         width: 25px;
     }
     #carouselExample {
-        margin-top: auto;
+        margin-top: 15px;
         max-width: 100%;
     }
     .carousel-inner img {
