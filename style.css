@@ -16,7 +16,8 @@ html, body {
 
 /* Header */
 header {
-    background: #222;
+/*    background: #222;*/
+    background: #ffffff;
     color: white;
     display: flex;
     justify-content: space-between;
