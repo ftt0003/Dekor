@@ -17,7 +17,7 @@ html, body {
 /* Header */
 header {
 /*    background: #222;*/
-    background: #a1a1a1;
+    background: #ffffff;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -38,7 +38,7 @@ header {
     width: 50px;
     height: 50px;
     font-size: 23px;
-    color: #c2c2c2;
+    color: #272626;
     background:none;
     border:none
 }
@@ -49,7 +49,7 @@ header {
     top: 20px;
     width: 250px;
     height: 100vh;
-    background: #333;
+    background: #f1f1f1;
     transition: left 0.3s;
     padding-top: 60px;
     z-index: 999;
@@ -57,13 +57,13 @@ header {
 
 .menu-lateral a {
     display: block;
-    color: white;
+    color: rgb(105, 105, 105);
     padding: 15px;
     text-decoration: none;
 }
 
 .menu-lateral a:hover {
-    background: #444;
+    background: #ffffff;
 }
 
 .menu-lateral .social-icons {
@@ -286,7 +286,7 @@ ul li {
 
 /* Footer */
 footer {
-    background: #222;
+    background: #ffffff;
     color: white;
     text-align: center;
     padding: 20px;
