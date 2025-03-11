@@ -222,6 +222,7 @@ footer {
     }
     .menu-lateral {
         width: 200px;
+        z-index: 1;
     }
     #carouselExample {
         margin-top: 20%;
