@@ -413,8 +413,8 @@ main .productos h1 {
     background: #444;
 }
 .WorkInProgress{
-    width:800px;
-    height:600px;
+    width: 800px;
+    height: 600px;
 }
 /* Footer */
 footer {
@@ -437,6 +437,10 @@ footer {
     }
     .menu-lateral {
         width: 220px;
+    }
+    .WorkInProgress{
+        width: 800px;
+        height: 600px;
     }
 }
 
@@ -467,6 +471,10 @@ footer {
     .carousel-control-next, .carousel-control-prev{
         visibility: hidden;
     }
+    .WorkInProgress{
+        width: 600px;
+        height: 420px;
+    }
 }
 @media screen and (max-width: 480px) {
     header {
@@ -491,5 +499,9 @@ footer {
     }
     .carousel-control-next, .carousel-control-prev{
         visibility: hidden;
+    }
+    .WorkInProgress{
+        width: 200px;
+        height:200px;
     }
 }
