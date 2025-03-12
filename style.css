@@ -472,8 +472,8 @@ footer {
         visibility: hidden;
     }
     .WorkInProgress{
-        width: 600px;
-        height: 420px;
+        width: 420px;
+
     }
 }
 @media screen and (max-width: 480px) {
