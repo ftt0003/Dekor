@@ -323,7 +323,7 @@ main .productos h1 {
     width: 200px;
 }
 .carrito-image{
-    width: 100%;
+    width: 900%;
     height: 90%;
     display: flex;
     align-items: center;
@@ -442,7 +442,7 @@ footer {
         width: 220px;
     }
     .carrito-image{
-        width: 1024px;
+        width: 800px;
     }
     .WorkInProgress{
         width: 60%;
@@ -479,7 +479,7 @@ footer {
         visibility: hidden;
     }
     .carrito-image{
-        width: 768px;
+        width: 680px;
         align-items: center;
         justify-content: center;
 
@@ -514,7 +514,7 @@ footer {
         visibility: hidden;
     }
     .carrito-image{
-        width: 480px;
+        width: 380px;
         align-items: center;
         justify-content: center;
 ;
