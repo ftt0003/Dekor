@@ -445,7 +445,7 @@ footer {
         width: 800px;
     }
     .WorkInProgress{
-        width: 60%;
+        width: 50%;
         padding: 30px;
     }
 }
@@ -479,13 +479,13 @@ footer {
         visibility: hidden;
     }
     .carrito-image{
-        width: 680px;
+        width: 580px;
         align-items: center;
         justify-content: center;
 
     }
     .WorkInProgress{
-        width: 60%;
+        width: 45%;
         padding: 30px;
     }
 }
@@ -514,13 +514,13 @@ footer {
         visibility: hidden;
     }
     .carrito-image{
-        width: 380px;
+        width: 280px;
         align-items: center;
         justify-content: center;
 ;
     }
     .WorkInProgress{
-        width: 60%;
+        width: 50%;
         padding: 30px;
     }
 }
