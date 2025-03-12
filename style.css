@@ -412,7 +412,7 @@ main .productos h1 {
 .formulario-contacto button:hover {
     background: #444;
 }
-.WorkInProgress{
+.carrito-image{
     width: 800px;
     height: 600px;
 }
@@ -438,7 +438,7 @@ footer {
     .menu-lateral {
         width: 220px;
     }
-    .WorkInProgress{
+    .carrito-image{
         width: 800px;
         height: 600px;
     }
@@ -471,7 +471,7 @@ footer {
     .carousel-control-next, .carousel-control-prev{
         visibility: hidden;
     }
-    .WorkInProgress{
+    .carrito-image{
         width: 420px;
 
     }
@@ -500,7 +500,7 @@ footer {
     .carousel-control-next, .carousel-control-prev{
         visibility: hidden;
     }
-    .WorkInProgress{
+    .carrito-image{
         width: 200px;
         height:200px;
     }
