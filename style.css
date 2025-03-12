@@ -412,7 +412,10 @@ main .productos h1 {
 .formulario-contacto button:hover {
     background: #444;
 }
-
+.WorkInProgres{
+    width:fit-content;
+    height:fit-content;
+}
 /* Footer */
 footer {
     background: #ffffff;
