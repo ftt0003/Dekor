@@ -509,7 +509,11 @@ footer {
         visibility: hidden;
     }
     .carrito-image{
-        width: 180px;
+        width: 480px;
         height:180px;
+    }
+    .WorkInProgress{
+        width: 60%;
+        padding: 30px;
     }
 }
