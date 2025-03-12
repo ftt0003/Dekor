@@ -442,10 +442,10 @@ footer {
         width: 220px;
     }
     .carrito-image{
-        width: 800px;
+        width: 700px;
     }
     .WorkInProgress{
-        width: 50%;
+        width: 400px;
         padding: 30px;
     }
 }
@@ -479,13 +479,13 @@ footer {
         visibility: hidden;
     }
     .carrito-image{
-        width: 580px;
+        width: 480px;
         align-items: center;
         justify-content: center;
 
     }
     .WorkInProgress{
-        width: 45%;
+        width: 320px;
         padding: 30px;
     }
 }
@@ -514,13 +514,13 @@ footer {
         visibility: hidden;
     }
     .carrito-image{
-        width: 280px;
+        width: 180px;
         align-items: center;
         justify-content: center;
 ;
     }
     .WorkInProgress{
-        width: 50%;
+        width: 180px;
         padding: 30px;
     }
 }
