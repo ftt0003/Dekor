@@ -322,18 +322,6 @@ main .productos h1 {
 .team-card > img{
     width: 200px;
 }
-.carrito-image{
-    width: 80%;
-    height: 90%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.carrito-image > img{
-    width: 600px;
-    height: 600px;
-    align-items: center;
-}
 /* Sección de Preguntas Frecuentes */
 .faq {
     margin-bottom: 40px;
@@ -413,7 +401,7 @@ main .productos h1 {
     background: #444;
 }
 .carrito-image{
-    width: 70%;
+    width: 900px;
 
 }
 .WorkInProgress{
@@ -485,7 +473,7 @@ footer {
 
     }
     .WorkInProgress{
-        width: 320px;
+        width: 300px;
         padding: 30px;
     }
 }
@@ -520,7 +508,7 @@ footer {
 ;
     }
     .WorkInProgress{
-        width: 180px;
+        width: 110px;
         padding: 30px;
     }
 }
