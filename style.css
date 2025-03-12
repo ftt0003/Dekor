@@ -477,6 +477,8 @@ footer {
     }
     .carrito-image{
         width: 768px;
+        align-items: center;
+        justify-content: center;
 
     }
     .WorkInProgress{
@@ -510,7 +512,9 @@ footer {
     }
     .carrito-image{
         width: 480px;
-        height:180px;
+        align-items: center;
+        justify-content: center;
+;
     }
     .WorkInProgress{
         width: 60%;
