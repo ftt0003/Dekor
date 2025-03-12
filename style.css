@@ -477,6 +477,7 @@ footer {
     }
     .WorkInProgress{
         width: auto;
+        padding: 30px;
     }
 }
 @media screen and (max-width: 480px) {
