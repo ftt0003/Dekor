@@ -413,8 +413,8 @@ main .productos h1 {
     background: #444;
 }
 .WorkInProgres{
-    width:fit-content;
-    height:fit-content;
+    width:800px;
+    height:600px;
 }
 /* Footer */
 footer {
@@ -422,7 +422,6 @@ footer {
     color: white;
     text-align: center;
     padding: 20px;
-    width: 100%;
     margin-top: auto;
     z-index: 2000;
 }
