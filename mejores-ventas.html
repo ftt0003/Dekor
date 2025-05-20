@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Francisco Teruel">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <title>DEKOR - Mejores Ventas</title>
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+   <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white nav-not-index sticky-top">
+    <div class="container-fluid">
+      <button class="toggle toggle-secundary d-lg-none" onclick="toggleMenu()">☰</button>
+
+      <a class="navbar-brand logo" href="index.html">
+        <img src="./fotos/LOGO 2.png" alt="dekor">
+      </a>
+
+      <div class="d-flex align-items-center order-lg-3 ms-auto">
+        <form class="d-flex me-3" role="search">
+          <button class="bg-transparent search-btn search-btn-place" type="submit">
+            <i class="bi bi-search text-dark"></i>
+          </button>
+          <input class="form-control me-2 border-0 border-bottom bg-transparent text-dark search-bar search-btn-place"
+            type="search" placeholder="Buscar" aria-label="Search">
+        </form>
+
+        <div class="cont-icons gap-3">
+          <ul class="navbar-nav ms-auto">
+            <li>
+              <a class="nav-link" href="registro.html">
+                <i class="bi bi-person-fill text-dark" style="font-size: 1.5rem;"></i>
+              </a>
+            </li>
+            <li>
+              <a class="nav-link" href="cart.html">
+                <i class="bi bi-bag text-dark" style="font-size: 1.5rem;"></i>
+              </a>
+            </li>
+            <li>
+              <a class="nav-link" href="favoritos.html">
+                <i class="bi bi-heart-fill text-dark" style="font-size: 1.5rem;"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./category/salon.html">Salón</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./category/cocina.html">Cocina</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./category/habitacion.html">Habitación / Despacho</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./category/bano.html">Baño</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  
+  <!-- Page Header -->
+  <div class="bg-light py-5">
+    <div class="container">
+      <h1 class="text-center mb-0">Mejores Ventas</h1>
+    </div>
+  </div>
+  
+  <!-- Breadcrumb -->
+  <div class="container py-3">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb mb-0 bg-white">
+        <li class="breadcrumb-item"><a href="index.html" class="text-decoration-none text-muted">Inicio</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Mejores Ventas</li>
+      </ol>
+    </nav>
+  </div>
+  
+  <main class="flex-grow-1 py-5">
+    <div class="container">
+      <!-- Products Grid -->
+      <div class="row g-4" id="bestSellersProducts">
+           <!-- Producto 1 -->
+            <div class="col-md-6 col-lg-4">
+              <div class="card h-100 border-0 shadow-sm">
+                <a href="../producto/marea.html" class="text-decoration-none text-dark">
+                  <div class="ratio ratio-1x1">
+                    <img src="../fotos/Jarrón Marea.jpg" class="card-img-top object-fit-cover" alt="Jarrón Marea">
+                  </div>
+                  <div class="card-body text-center">
+                    <h3 class="h5 card-title">Marea</h3>
+                    <p class="card-text text-muted">Jarrón Ondulado</p>
+                    <p class="fw-bold">19,99 €</p>
+                  </div>
+                </a>
+                <div class="card-footer bg-white border-0 p-3">
+                  <div class="d-flex gap-2">
+                    <button class="btn btn-outline-dark flex-grow-1 add-to-cart-btn" data-id="1">Añadir al carrito</button>
+                    <button class="btn btn-outline-dark">
+                      <i class="bi bi-heart"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Producto 2 -->
+            <div class="col-md-6 col-lg-4">
+              <div class="card h-100 border-0 shadow-sm">
+                <a href="../producto/oron.html" class="text-decoration-none text-dark">
+                  <div class="ratio ratio-1x1">
+                    <img src="../fotos/Posa-lámpara Orón.jpg" class="card-img-top object-fit-cover" alt="Posa-lámpara Orón">
+                  </div>
+                  <div class="card-body text-center">
+                    <h3 class="h5 card-title">Orón</h3>
+                    <p class="card-text text-muted">Posa-lámparas Circular</p>
+                    <p class="fw-bold">24,99 €</p>
+                  </div>
+                </a>
+                <div class="card-footer bg-white border-0 p-3">
+                  <div class="d-flex gap-2">
+                    <button class="btn btn-outline-dark flex-grow-1 add-to-cart-btn" data-id="2">Añadir al carrito</button>
+                    <button class="btn btn-outline-dark">
+                      <i class="bi bi-heart"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+      </div>
+    </div>
+  </main>
+  
+  <!-- Footer -->
+  <footer class="bg-light mt-5">
+    <div class="container py-5">
+      <div class="row g-4">
+        <div class="col-lg-4 mb-4 mb-lg-0">
+          <img src="fotos/LOGO 2.png" alt="DEKOR" height="40" class="mb-4">
+          <p class="text-muted">Decora tu hogar con sostenibilidad. Productos artesanales y respetuosos con el medio ambiente.</p>
+        </div>
+        
+        <div class="col-6 col-md-3 col-lg-2">
+          <h5 class="fw-bold mb-3">Sobre Nosotros</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="quienes-somos.html" class="text-decoration-none text-muted">Quiénes somos</a></li>
+            <li class="mb-2"><a href="condiciones-compra.html" class="text-decoration-none text-muted">Condiciones de compra</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-6 col-md-3 col-lg-2">
+          <h5 class="fw-bold mb-3">Información</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="aviso-legal.html" class="text-decoration-none text-muted">Aviso legal</a></li>
+            <li class="mb-2"><a href="privacidad.html" class="text-decoration-none text-muted">Privacidad</a></li>
+            <li class="mb-2"><a href="cookies.html" class="text-decoration-none text-muted">Cookies</a></li>
+            <li class="mb-2"><a href="devoluciones.html" class="text-decoration-none text-muted">Política de devolución</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-6 col-md-3 col-lg-2">
+          <h5 class="fw-bold mb-3">Enlaces</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="contacto.html" class="text-decoration-none text-muted">Contáctanos</a></li>
+            <li class="mb-2"><a href="faq.html" class="text-decoration-none text-muted">Preguntas frecuentes</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-6 col-md-3 col-lg-2">
+          <h5 class="fw-bold mb-3">Únete</h5>
+          <p class="text-muted mb-2">Suscríbete a nuestra newsletter</p>
+          <div class="input-group mb-3">
+            <input type="email" class="form-control" placeholder="Tu email">
+            <button class="btn btn-dark" type="button" id="newsletterFooterBtn">Enviar</button>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row mt-4 pt-4 border-top">
+        <div class="col-md-6 text-center text-md-start">
+          <p class="text-muted mb-0">&copy; 2025 DEKOR. Todos los derechos reservados.</p>
+        </div>
+        <div class="col-md-6 text-center text-md-end mt-3 mt-md-0">
+          <div class="d-flex justify-content-center justify-content-md-end gap-3">
+            <a href="#" class="text-muted"><i class="fab fa-instagram fs-5"></i></a>
+            <a href="#" class="text-muted"><i class="fab fa-facebook-f fs-5"></i></a>
+            <a href="#" class="text-muted"><i class="fab fa-pinterest fs-5"></i></a>
+            <a href="#" class="text-muted"><i class="fab fa-youtube fs-5"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- Login Modal -->
+  <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header border-0">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-4 p-md-5">
+          <div class="row">
+            <div class="col-md-6 border-end">
+              <h2 class="h4 mb-4">CLIENTES REGISTRADOS</h2>
+              <p class="mb-4">Te solicitaremos la información imprescindible para agilizar el proceso de compra.</p>
+              <p class="mb-4">¿No encuentras tu pedido? Tal vez hiciste tu compra sin estar registrado. Haz clic <a href="#" class="text-decoration-none">aquí</a> y te indicamos cómo encontrarlo.</p>
+              
+              <form id="loginForm">
+                <div class="mb-3">
+                  <label for="loginEmail" class="form-label">Email*</label>
+                  <input type="email" class="form-control" id="loginEmail" required>
+                </div>
+                <div class="mb-3">
+                  <label for="loginPassword" class="form-label">Contraseña*</label>
+                  <input type="password" class="form-control" id="loginPassword" required>
+                </div>
+                <div class="mb-3">
+                  <a href="#" class="text-decoration-none">¿Has olvidado tu contraseña?</a>
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="rememberMe">
+                  <label class="form-check-label" for="rememberMe">No cerrar sesión</label>
+                </div>
+                <button type="submit" class="btn btn-dark w-100">INICIAR SESIÓN</button>
+              </form>
+              
+              <div class="text-center my-4">
+                <span class="text-muted">O bien con</span>
+              </div>
+              
+              <div class="d-flex justify-content-center gap-3 mb-3">
+                <button class="btn btn-outline-primary rounded-circle" style="width: 40px; height: 40px;">
+                  <i class="fab fa-facebook-f"></i>
+                </button>
+                <button class="btn btn-outline-danger rounded-circle" style="width: 40px; height: 40px;">
+                  <i class="fab fa-google"></i>
+                </button>
+                <button class="btn btn-outline-pink rounded-circle" style="width: 40px; height: 40px;">
+                  <i class="fab fa-instagram"></i>
+                </button>
+              </div>
+              
+              <p class="text-center text-muted small mt-3">
+                Al iniciar sesión/registrarme con mi usuario de redes sociales, acepto vincular mi cuenta de acuerdo con la <a href="privacidad.html" class="text-decoration-none">Política de privacidad</a>
+              </p>
+            </div>
+            
+            <div class="col-md-6">
+              <h2 class="h4 mb-4">NUEVOS CLIENTES</h2>
+              <div class="d-grid gap-2">
+                <button class="btn btn-outline-dark" id="createAccountBtn">CREAR UNA CUENTA NUEVA</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Newsletter Modal -->
+  <div class="modal fade" id="newsletterModal" tabindex="-1" aria-labelledby="newsletterModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header border-0">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-0">
+          <div class="row g-0">
+            <div class="col-md-6 p-4 p-md-5">
+              <h2 class="h3 mb-4">Regístrate gratis y recibe actualizaciones exclusivas y ofertas VIP</h2>
+              <div class="d-grid mb-4">
+                <button class="btn btn-outline-dark" id="joinNowBtn">¡ÚNETE AHORA!</button>
+              </div>
+              <p class="text-muted small">
+                *Al unirte expresas tu consentimiento para recibir comunicaciones comerciales de DEKOR. Puedes cancelar tu suscripción en cualquier momento. Consulta nuestra <a href="privacidad.html" class="text-decoration-none">Política de Privacidad</a> para más información.
+              </p>
+            </div>
+            <div class="col-md-6">
+              <div class="ratio ratio-1x1">
+                <!-- You'll add the image here -->
+                <div class="bg-light d-flex align-items-center justify-content-center">
+                  <span class="text-muted">Imagen newsletter</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/search.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="js/newsletter.js"></script>
+  
+  <!-- Best Sellers Script -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const bestSellersContainer = document.getElementById('bestSellersProducts');
+      
+      if (bestSellersContainer) {
+        // For this example, we'll consider featured products as best sellers
+        const bestSellers = window.products.filter(product => product.featured);
+        
+        // Add more products to have a fuller page
+        const allProducts = [...bestSellers];
+        
+        // Add some non-featured products to fill the page
+        const nonFeatured = window.products.filter(product => !product.featured);
+        allProducts.push(...nonFeatured);
+        
+        if (allProducts.length > 0) {
+          bestSellersContainer.innerHTML = '';
+          
+          allProducts.forEach(product => {
+            const productCard = document.createElement('div');
+            productCard.className = 'col-md-6 col-lg-3';
+            
+            productCard.innerHTML = `
+              <div class="card h-100 border-0 shadow-sm">
+                <a href="producto/${product.name.toLowerCase()}.html" class="text-decoration-none text-dark">
+                  <div class="ratio ratio-1x1">
+                    <img src="${product.image}" alt="${product.name}" class="card-img-top object-fit-cover">
+                  </div>
+                  <div class="card-body text-center">
+                    <h3 class="h5 card-title">${product.name}</h3>
+                    <p class="card-text text-muted">${product.categoryName} - ${product.subcategory.replace('-', ' ')}</p>
+                    <p class="fw-bold">${product.price.toFixed(2).replace('.', ',')} €</p>
+                  </div>
+                </a>
+                <div class="card-footer bg-white border-0 p-3">
+                  <div class="d-flex gap-2">
+                    <button class="btn btn-outline-dark flex-grow-1 add-to-cart-btn" data-id="${product.id}">Añadir al carrito</button>
+                    <button class="btn btn-outline-dark">
+                      <i class="bi bi-heart"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            `;
+            
+            bestSellersContainer.appendChild(productCard);
+          });
+          
+          // Add event listeners to the add to cart buttons
+          const addToCartBtns = bestSellersContainer.querySelectorAll('.add-to-cart-btn');
+          addToCartBtns.forEach(btn => {
+            btn.addEventListener('click', function(e) {
+              e.preventDefault();
+              const productId = this.getAttribute('data-id');
+              
+              // Call the addToCart function from cart.js
+              if (typeof addToCart === 'function') {
+                addToCart(productId, 1);
+              }
+            });
+          });
+        } else {
+          bestSellersContainer.innerHTML = `
+            <div class="col-12 text-center py-5">
+              <h3>No hay productos disponibles en esta categoría</h3>
+              <p class="text-muted">Pronto añadiremos nuevos productos. Mientras tanto, puedes explorar otras categorías.</p>
+            </div>
+          `;
+        }
+      }
+    });
+  </script>
+</body>
+</html>

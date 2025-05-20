@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Francisco Teruel">
+  <meta name="description" content="Dekor: Tienda online de decoración eco-friendly. Encuentra productos únicos hechos con materiales sostenibles como arcilla, papel reciclado y elementos reutilizados. ¡Decora tu espacio con estilo y conciencia ambiental! Envíos a todo [país/región].">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <title>Lámpara Marea | Hecha con Papel Reciclado Artesanal – Iluminación Sostenible | DEKOR</title>
+    <link rel="stylesheet" href="../styles.css">
+  <style>
+    .thumbnail-container {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    
+    .thumbnail {
+      width: 100%;
+      aspect-ratio: 1/1;
+      object-fit: cover;
+      cursor: pointer;
+      border: 1px solid #eee;
+      transition: border-color 0.3s;
+    }
+    
+    .thumbnail.active {
+      border: 2px solid var(--primary-color);
+    }
+    
+    .main-image {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+    
+    .quantity-control {
+      display: flex;
+      align-items: center;
+      border: 1px solid var(--border-color);
+      border-radius: 0.25rem;
+      overflow: hidden;
+    }
+    
+    .quantity-btn {
+      background: var(--light-bg);
+      border: none;
+      width: 36px;
+      height: 36px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    
+    .quantity-btn:hover {
+      background-color: #e9ecef;
+    }
+    
+    .quantity-input {
+      width: 50px;
+      height: 36px;
+      text-align: center;
+      border: none;
+      border-left: 1px solid var(--border-color);
+      border-right: 1px solid var(--border-color);
+      font-weight: 500;
+    }
+    
+  </style>
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white nav-not-index sticky-top">
+    <div class="container-fluid">
+      <button class="toggle toggle-secundary d-lg-none" onclick="toggleMenu()">☰</button>
+
+      <a class="navbar-brand logo" href="../index.html">
+        <img src="../fotos/LOGO 2.png" alt="dekor">
+      </a>
+
+      <div class="d-flex align-items-center order-lg-3 ms-auto">
+        <form class="d-flex me-3" role="search">
+          <button class="bg-transparent search-btn search-btn-place" type="submit">
+            <i class="bi bi-search text-dark"></i>
+          </button>
+          <input class="form-control me-2 border-0 border-bottom bg-transparent text-dark search-bar search-btn-place"
+            type="search" placeholder="Buscar" aria-label="Search">
+        </form>
+
+        <div class="cont-icons gap-3">
+          <ul class="navbar-nav ms-auto">
+            <li>
+              <a class="nav-link" href="../registro.html">
+                <i class="bi bi-person-fill text-dark" style="font-size: 1.5rem;"></i>
+              </a>
+            </li>
+            <li>
+              <a class="nav-link" href="../cart.html">
+                <i class="bi bi-bag text-dark" style="font-size: 1.5rem;"></i>
+              </a>
+            </li>
+            <li>
+              <a class="nav-link" href="../favoritos.html">
+                <i class="bi bi-heart-fill text-dark" style="font-size: 1.5rem;"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="../category/salon.html">Salón</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../category/cocina.html">Cocina</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../category/habitacion.html">Habitación / Despacho</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="../category/bano.html">Baño</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  
+  <main class="flex-grow-1 py-5">
+    <div class="container">
+      <nav aria-label="breadcrumb" class="mb-4 bg-white">
+        <ol class="breadcrumb bg-white">
+          <li class="breadcrumb-item"><a href="../index.html" class="text-decoration-none text-muted">Inicio</a></li>
+          <li class="breadcrumb-item"><a href="../category/salon.html" class="text-decoration-none text-muted">Salón</a></li>
+          <li class="breadcrumb-item"><a href="../category/salon.html?subcategory=jarrones" class="text-decoration-none text-muted">Jarrones</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Marea</li>
+        </ol>
+      </nav>
+      
+      <div class="row g-5">
+        <div class="col-lg-7">
+          <div class="d-flex gap-4">
+            <div class="thumbnail-container w-25">
+              <img src="../fotos/Jarrón Marea 2.jpg" class="thumbnail active" data-src="../fotos/Jarrón Marea 2.jpg" alt="Jarrón Marea vista 1">
+              <img src="../fotos/Jarrón Marea 3.jpg" class="thumbnail" data-src="../fotos/Jarrón Marea 3.jpg" alt="Jarrón Marea vista 2">
+              <img src="../fotos/Jarrón Marea 4.jpg" class="thumbnail" data-src="../fotos/Jarrón Marea 4.jpg" alt="Jarrón Marea vista 3">
+              <img src="../fotos/Jarrón Marea.jpg" class="thumbnail" data-src="../fotos/Jarrón Marea.jpg" alt="Jarrón Marea vista 4">
+            </div>
+            <div class="w-75 position-relative">
+              <div class="ratio ratio-1x1 bg-light rounded">
+                <img id="mainImage" src="../fotos/Jarrón Marea 2.jpg" class="main-image" alt="Jarrón Marea">
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-5">
+          <h1 class="display-5 fw-bold mb-3">MAREA</h1>
+          <p class="fs-4 fw-bold mb-4">19,99 €</p>
+          
+          <div class="mb-4">
+            <p>Jarrón Ondulado de cerámica elaborado con arcilla natural y esmaltado en color blanco. Diseño ondulado que aporta textura y carácter a cualquier espacio.</p>
+            <p>Perfecto para decorar mesas, estanterías o cualquier rincón de tu hogar. Combina con flores secas o frescas para crear un ambiente acogedor.</p>
+          </div>
+          
+          <div class="mb-4">
+            <h3 class="h5 fw-bold mb-3">Dimensiones</h3>
+            <div class="d-flex gap-4 mb-3">
+              <div class="text-center">
+                <span class="d-block fw-bold">Alto</span>
+                <span>26 cm</span>
+              </div>
+              <div class="text-center">
+                <span class="d-block fw-bold">Ancho</span>
+                <span>16 cm</span>
+              </div>
+              <div class="text-center">
+                <span class="d-block fw-bold">Fondo</span>
+                <span>10 cm</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="mb-4">
+            <h3 class="h5 fw-bold mb-3">Color</h3>
+            <div class="d-flex gap-2 mb-3">
+              <button class="btn p-0 rounded-circle border border-primary" style="width: 30px; height: 30px; background-color: white;" data-color="white"></button>
+              <button class="btn p-0 rounded-circle border" style="width: 30px; height: 30px; background-color: #D2B48C;" data-color="beige"></button>
+              <button class="btn p-0 rounded-circle border" style="width: 30px; height: 30px; background-color: #CD5C5C;" data-color="terracotta"></button>
+            </div>
+          </div>
+          
+          <div class="mb-4">
+            <h3 class="h5 fw-bold mb-3">Tamaño</h3>
+            <div class="d-flex gap-2 mb-3">
+              <button class="btn btn-outline-dark" data-size="20cm">20cm</button>
+              <button class="btn btn-outline-dark active" data-size="30cm">30cm</button>
+              <button class="btn btn-outline-dark" data-size="40cm">40cm</button>
+            </div>
+          </div>
+          
+          <div class="mb-4">
+            <h3 class="h5 fw-bold mb-3">Cantidad</h3>
+            <div class="d-flex align-items-center gap-3">
+              <div class="quantity-control">
+                <button class="quantity-btn decrease">-</button>
+                <input type="number" class="quantity-input" value="1" min="1" max="99">
+                <button class="quantity-btn increase">+</button>
+              </div>
+              <span class="text-muted small">(Disponible: 15 unidades)</span>
+            </div>
+          </div>
+          
+          <div class="d-flex gap-2 mb-4">
+            <button class="btn btn-dark flex-grow-1 add-to-cart-btn" data-id="1">
+              <i class="bi bi-bag-plus me-2"></i>AÑADIR AL CARRITO
+            </button>
+            <button class="btn btn-outline-dark" id="addToFavorites">
+              <i class="bi bi-heart"></i>
+            </button>
+            <button class="btn btn-outline-dark" id="shareProduct">
+              <i class="bi bi-share"></i>
+            </button>
+          </div>
+          
+          <div class="mb-4">
+            <div class="d-flex align-items-center gap-3 mb-2">
+              <i class="bi bi-truck fs-5"></i>
+              <span>Envío gratuito para pedidos superiores a 50€</span>
+            </div>
+            <div class="d-flex align-items-center gap-3 mb-2">
+              <i class="bi bi-arrow-return-left fs-5"></i>
+              <span>Devoluciones gratuitas en 30 días</span>
+            </div>
+            <div class="d-flex align-items-center gap-3">
+              <i class="bi bi-shield-check fs-5"></i>
+              <span>Garantía de 2 años</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row mt-5 pt-5 border-top">
+        <div class="col-12">
+          <ul class="nav nav-tabs mb-4" id="productTabs" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="description-tab" data-bs-toggle="tab" data-bs-target="#description" type="button" role="tab">Descripción</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="details-tab" data-bs-toggle="tab" data-bs-target="#details" type="button" role="tab">Detalles</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="shipping-tab" data-bs-toggle="tab" data-bs-target="#shipping" type="button" role="tab">Envío y devoluciones</button>
+            </li>
+          </ul>
+          
+          <div class="tab-content" id="productTabsContent">
+            <div class="tab-pane fade show active" id="description" role="tabpanel">
+              <div class="row">
+                <div class="col-md-8">
+                  <h3 class="h4 fw-bold mb-3">Sobre este producto</h3>
+                  <p>El jarrón Marea está inspirado en las formas orgánicas de las olas del mar. Su diseño ondulado crea un juego de luces y sombras que cambia según la perspectiva desde la que se mire.</p>
+                  <p>Elaborado con arcilla natural y esmaltado en color blanco, este jarrón decorativo es perfecto para añadir un toque de elegancia y carácter a cualquier espacio de tu hogar.</p>
+                  <p>Su versatilidad lo hace ideal tanto para decorar con flores frescas como secas, o simplemente como pieza decorativa por sí misma.</p>
+                  
+                  <h4 class="h5 fw-bold mt-4 mb-3">Características</h4>
+                  <ul>
+                    <li>Material: Cerámica de arcilla natural</li>
+                    <li>Acabado: Esmaltado</li>
+                    <li>Colores disponibles: Blanco, Beige, Terracota</li>
+                    <li>Tamaños disponibles: 20cm, 30cm, 40cm</li>
+                    <li>Diseño: Ondulado</li>
+                    <li>Uso: Decorativo</li>
+                  </ul>
+                </div>
+                <div class="col-md-4">
+                  <div class="ratio ratio-1x1 bg-light rounded">
+                    <img src="../fotos/Jarrón Marea 3.jpg" class="object-fit-cover" alt="Jarrón Marea detalle">
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="tab-pane fade" id="details" role="tabpanel">
+              <div class="row">
+                <div class="col-md-6">
+                  <h3 class="h4 fw-bold mb-3">Especificaciones</h3>
+                  <table class="table">
+                    <tbody>
+                      <tr>
+                        <th scope="row">Material</th>
+                        <td>Cerámica</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Acabado</th>
+                        <td>Esmaltado</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Dimensiones (30cm)</th>
+                        <td>Alto: 30cm, Ancho: 18cm, Fondo: 12cm</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Peso</th>
+                        <td>0.8 kg</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Origen</th>
+                        <td>España</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Referencia</th>
+                        <td>MAR-001</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="col-md-6">
+                  <h3 class="h4 fw-bold mb-3">Cuidados</h3>
+                  <ul>
+                    <li>Limpiar con un paño suave y seco</li>
+                    <li>Evitar el contacto directo con agua</li>
+                    <li>No utilizar productos químicos agresivos</li>
+                    <li>Manipular con cuidado para evitar golpes</li>
+                    <li>No apto para lavavajillas</li>
+                    <li>Uso exclusivamente decorativo</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            
+            <div class="tab-pane fade" id="shipping" role="tabpanel">
+              <div class="row">
+                <div class="col-md-6">
+                  <h3 class="h4 fw-bold mb-3">Envío</h3>
+                  <p>Realizamos envíos a toda la península ibérica, Baleares, Canarias, Ceuta y Melilla.</p>
+                  <ul>
+                    <li>Envío estándar (3-5 días laborables): 4,95€</li>
+                    <li>Envío express (1-2 días laborables): 9,95€</li>
+                    <li>Envío gratuito para pedidos superiores a 50€</li>
+                  </ul>
+                  <p>Los plazos de entrega son orientativos y pueden variar según la disponibilidad del producto y la zona de entrega.</p>
+                </div>
+                <div class="col-md-6">
+                  <h3 class="h4 fw-bold mb-3">Devoluciones</h3>
+                  <p>Dispones de 30 días desde la recepción del pedido para realizar la devolución.</p>
+                  <p>Para iniciar una devolución, contacta con nuestro servicio de atención al cliente a través del formulario de contacto o llamando al 900 123 456.</p>
+                  <p>El producto debe estar en perfecto estado, sin usar y con su embalaje original.</p>
+                  <p>Las devoluciones son gratuitas. Te enviaremos una etiqueta de devolución para que puedas enviarnos el producto sin coste adicional.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row mt-5 pt-5">
+        <div class="col-12">
+          <h2 class="h3 fw-bold mb-4">Productos relacionados</h2>
+          <div class="row g-4">
+            <div class="col-md-6 col-lg-3">
+              <div class="card h-100 border-0 shadow-sm">
+                <a href="oron.html" class="text-decoration-none text-dark">
+                  <div class="ratio ratio-1x1">
+                    <img src="../fotos/Posa-lámpara Orón.jpg" class="card-img-top object-fit-cover" alt="Posa-lámpara Orón">
+                  </div>
+                  <div class="card-body text-center">
+                    <h3 class="h5 card-title">Orón</h3>
+                    <p class="card-text text-muted">Posa-lámparas Circular</p>
+                    <p class="fw-bold">24,99 €</p>
+                  </div>
+                </a>
+                <div class="card-footer bg-white border-0 p-3">
+                  <div class="d-flex gap-2">
+                    <button class="btn btn-outline-dark flex-grow-1 add-to-cart-btn" data-id="2">Añadir al carrito</button>
+                    <button class="btn btn-outline-dark">
+                      <i class="bi bi-heart"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-6 col-lg-3">
+              <div class="card h-100 border-0 shadow-sm">
+                <a href="nudillos.html" class="text-decoration-none text-dark">
+                  <div class="ratio ratio-1x1">
+                    <img src="../fotos/Porta velas Nudillos 2.jpg" class="card-img-top object-fit-cover" alt="Porta velas Nudillos">
+                  </div>
+                  <div class="card-body text-center">
+                    <h3 class="h5 card-title">Nudillos</h3>
+                    <p class="card-text text-muted">Porta Velas</p>
+                    <p class="fw-bold">15,99 €</p>
+                  </div>
+                </a>
+                <div class="card-footer bg-white border-0 p-3">
+                  <div class="d-flex gap-2">
+                    <button class="btn btn-outline-dark flex-grow-1 add-to-cart-btn" data-id="5">Añadir al carrito</button>
+                    <button class="btn btn-outline-dark">
+                      <i class="bi bi-heart"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  
+  <!-- Footer -->
+  <footer class="bg-light mt-5">
+    <div class="container py-5">
+      <div class="row g-4">
+        <div class="col-lg-4 mb-4 mb-lg-0">
+          <img src="../fotos/LOGO 2.png" alt="DEKOR" height="40" class="mb-4">
+          <p class="text-muted">Decora tu hogar con sostenibilidad. Productos artesanales y respetuosos con el
+            medio ambiente.</p>
+        </div>
+
+        <div class="col-6 col-md-3 col-lg-2">
+          <h5 class="fw-bold mb-3">Sobre Nosotros</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="../quienessomos.html" class="text-decoration-none text-muted">Quiénes
+                somos</a></li>
+            <li class="mb-2"><a href="../avisoslegales.html#condiciones-compra"
+                class="text-decoration-none text-muted">Condiciones de compra</a></li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-md-3 col-lg-2">
+          <h5 class="fw-bold mb-3">Información</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="../avisoslegales.html" class="text-decoration-none text-muted">Aviso
+                legal</a></li>
+            <li class="mb-2"><a href="../avisoslegales.html#politica-privacidad"
+                class="text-decoration-none text-muted">Privacidad</a></li>
+            <li class="mb-2"><a href="../avisoslegales.html#politica-cookies"
+                class="text-decoration-none text-muted">Cookies</a></li>
+            <li class="mb-2"><a href="../avisoslegales.html#politica-devolucion"
+                class="text-decoration-none text-muted">Política de
+                devolución</a></li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-md-3 col-lg-2">
+          <h5 class="fw-bold mb-3">Enlaces</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="../contacto.html" class="text-decoration-none text-muted">Contáctanos</a>
+            </li>
+            <li class="mb-2"><a href="../preguntas_frecuentes.html" class="text-decoration-none text-muted">Preguntas
+                frecuentes</a></li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-md-3 col-lg-2">
+          <h5 class="fw-bold mb-3">Únete</h5>
+          <p class="text-muted mb-2">Suscríbete a nuestra newsletter</p>
+          <div class="input-group mb-3">
+            <input type="email" class="form-control" placeholder="Tu email">
+            <button class="btn btn-dark" type="button">Enviar</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-4 pt-4 border-top">
+        <div class="col-md-6 text-center text-md-start">
+          <p class="text-muted mb-0">&copy; 2025 DEKOR. Todos los derechos reservados.</p>
+        </div>
+        <div class="col-md-6 text-center text-md-end mt-3 mt-md-0">
+          <div class="d-flex justify-content-center justify-content-md-end gap-3">
+            <a href="https://www.instagram.com/" class="text-muted"><i class="fab fa-instagram fs-5"></i></a>
+            <a href="https://www.facebook.com/?locale=es_ES" class="text-muted"><i
+                class="fab fa-facebook-f fs-5"></i></a>
+            <a href="https://es.pinterest.com/" class="text-muted"><i class="fab fa-pinterest fs-5"></i></a>
+            <a href="https://www.youtube.com/" class="text-muted"><i class="fab fa-youtube fs-5"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../js/script.js"></script>
+  <script src="../js/cart.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Galería de imágenes
+      const thumbnails = document.querySelectorAll('.thumbnail');
+      const mainImage = document.getElementById('mainImage');
+      
+      thumbnails.forEach(thumb => {
+        thumb.addEventListener('click', () => {
+          thumbnails.forEach(t => t.classList.remove('active'));
+          thumb.classList.add('active');
+          mainImage.src = thumb.dataset.src;
+        });
+      });
+      
+      // Control de cantidad
+      const quantityInput = document.querySelector('.quantity-input');
+      const decreaseBtn = document.querySelector('.decrease');
+      const increaseBtn = document.querySelector('.increase');
+      
+      decreaseBtn.addEventListener('click', () => {
+        let value = parseInt(quantityInput.value);
+        if (value > 1) {
+          quantityInput.value = value - 1;
+        }
+      });
+      
+      increaseBtn.addEventListener('click', () => {
+        let value = parseInt(quantityInput.value);
+        if (value < 99) {
+          quantityInput.value = value + 1;
+        }
+      });
+      
+      // Selección de color
+      const colorBtns = document.querySelectorAll('[data-color]');
+      colorBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          colorBtns.forEach(b => b.classList.remove('border-primary'));
+          btn.classList.add('border-primary');
+        });
+      });
+      
+      // Selección de tamaño
+      const sizeBtns = document.querySelectorAll('[data-size]');
+      sizeBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          sizeBtns.forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+        });
+      });
+      
+      // Añadir a favoritos
+      const addToFavoritesBtn = document.getElementById('addToFavorites');
+      addToFavoritesBtn.addEventListener('click', () => {
+        const icon = addToFavoritesBtn.querySelector('i');
+        if (icon.classList.contains('bi-heart')) {
+          icon.classList.remove('bi-heart');
+          icon.classList.add('bi-heart-fill');
+          icon.classList.add('text-danger');
+          showNotification('Producto añadido a favoritos');
+        } else {
+          icon.classList.remove('bi-heart-fill');
+          icon.classList.remove('text-danger');
+          icon.classList.add('bi-heart');
+          showNotification('Producto eliminado de favoritos');
+        }
+      });
+      
+      // Compartir producto
+      const shareProductBtn = document.getElementById('shareProduct');
+      shareProductBtn.addEventListener('click', () => {
+        if (navigator.share) {
+          navigator.share({
+            title: 'MAREA - Jarrón Decorativo',
+            text: 'Mira este jarrón decorativo de DEKOR',
+            url: window.location.href
+          })
+          .catch(error => console.log('Error al compartir:', error));
+        } else {
+          // Fallback para navegadores que no soportan Web Share API
+          prompt('Copia este enlace para compartir el producto:', window.location.href);
+        }
+      });
+    });
+    
+    // Función para mostrar notificaciones
+    function showNotification(message, type = 'success') {
+      // Crear notificación
+      const notification = document.createElement('div');
+      notification.className = `notification ${type}`;
+      notification.innerHTML = `
+        <div class="notification-content">
+          <i class="fas ${type === 'success' ? 'fa-check-circle' : 'fa-exclamation-circle'}"></i>
+          <span>${message}</span>
+        </div>
+      `;
+      
+      // Añadir al documento
+      document.body.appendChild(notification);
+      
+      // Mostrar notificación
+      setTimeout(() => {
+        notification.classList.add('show');
+      }, 10);
+      
+      // Ocultar y eliminar notificación después de 3 segundos
+      setTimeout(() => {
+        notification.classList.remove('show');
+        setTimeout(() => {
+          document.body.removeChild(notification);
+        }, 300);
+      }, 3000);
+    }
+  </script>
+</body>
+</html>

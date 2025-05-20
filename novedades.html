@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Francisco Teruel">
+    <meta name="description" content="Dekor: Tienda online de decoración eco-friendly. Encuentra productos únicos hechos con materiales sostenibles como arcilla, papel reciclado y elementos reutilizados. ¡Decora tu espacio con estilo y conciencia ambiental! Envíos a todo [país/región].">
+    <meta name="keywords" content="decoración eco-friendly, productos sostenibles, decoración con arcilla, papel reciclado decorativo, muebles reciclados, hogar sostenible, decoración ambiental, materiales ecológicos, artesanías recicladas, diseño consciente, decoración natural, tienda eco decoración, regalos ecológicos, productos zero waste, slow decoration">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+   <title>Novedades | Últimos Lanzamientos en Decoración Sostenible | DEKOR</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white nav-not-index sticky-top">
+    <div class="container-fluid">
+      <button class="toggle toggle-secundary d-lg-none" onclick="toggleMenu()">☰</button>
+
+      <a class="navbar-brand logo" href="index.html">
+        <img src="./fotos/LOGO 2.png" alt="dekor">
+      </a>
+
+      <div class="d-flex align-items-center order-lg-3 ms-auto">
+        <form class="d-flex me-3" role="search">
+          <button class="bg-transparent search-btn search-btn-place" type="submit">
+            <i class="bi bi-search text-dark"></i>
+          </button>
+          <input class="form-control me-2 border-0 border-bottom bg-transparent text-dark search-bar search-btn-place"
+            type="search" placeholder="Buscar" aria-label="Search">
+        </form>
+
+        <div class="cont-icons gap-3">
+          <ul class="navbar-nav ms-auto">
+            <li>
+              <a class="nav-link" href="registro.html">
+                <i class="bi bi-person-fill text-dark" style="font-size: 1.5rem;"></i>
+              </a>
+            </li>
+            <li>
+              <a class="nav-link" href="cart.html">
+                <i class="bi bi-bag text-dark" style="font-size: 1.5rem;"></i>
+              </a>
+            </li>
+            <li>
+              <a class="nav-link" href="favoritos.html">
+                <i class="bi bi-heart-fill text-dark" style="font-size: 1.5rem;"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./category/salon.html">Salón</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./category/cocina.html">Cocina</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./category/habitacion.html">Habitación / Despacho</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./category/bano.html">Baño</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+    <!-- Header del Blog -->
+    <header class="blog-header py-5 bg-light">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-10 text-center">
+                    <h1 class="display-4 fw-bold mb-3">Novedades DEKOR</h1>
+                    <p class="lead text-muted mb-0">Descubre las últimas tendencias en decoración sostenible y artesanal</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Contenido Principal -->
+    <main class="flex-grow-1 py-5">
+        <div class="container">
+            <div class="row">
+                <!-- Columna Principal (Artículos) -->
+                <div class="col-lg-8">
+                    <!-- Artículo 1 -->
+                    <article class="blog-post mb-5">
+                        <div class="card border-0 shadow-sm">
+                            <div class="ratio ratio-16x9">
+                                <img src="fotos/Imagen_de_inicio.webp" class="card-img-top object-fit-cover" alt="Decoración sostenible">
+                            </div>
+                            <div class="card-body p-4 p-lg-5">
+                                <div class="post-meta mb-3">
+                                    <span class="text-muted"><i class="bi bi-calendar3 me-2"></i>15 Mayo, 2025</span>
+                                    <span class="text-muted ms-3"><i class="bi bi-person me-2"></i>Por Anna Llop</span>
+                                    <span class="text-muted ms-3"><i class="bi bi-tag me-2"></i>Sostenibilidad</span>
+                                </div>
+                                <h2 class="card-title h1 mb-4">La revolución de la decoración sostenible: Materiales que cuidan el planeta</h2>
+                                <div class="card-text blog-content">
+                                    <p class="lead">La decoración sostenible no es solo una tendencia pasajera, sino una necesidad para nuestro planeta. Descubre cómo los materiales reciclados están transformando el mundo del diseño de interiores.</p>
+                                    
+                                    <p>En un mundo cada vez más consciente del impacto ambiental, la decoración sostenible se ha convertido en una prioridad para muchos hogares. Ya no basta con que un objeto sea bonito; ahora también queremos saber de dónde viene, cómo se ha fabricado y qué huella deja en nuestro planeta.</p>
+                                    
+                                    <h3 class="mt-4 mb-3">Materiales que están cambiando el juego</h3>
+                                    
+                                    <p>La arcilla de papel reciclado, material estrella de DEKOR, es solo uno de los muchos materiales sostenibles que están revolucionando la industria. Este material único combina resistencia y belleza, permitiendo crear piezas duraderas con un impacto ambiental mínimo.</p>
+                                    
+                                    <p>Otros materiales que están ganando protagonismo incluyen:</p>
+                                    
+                                    <ul>
+                                        <li><strong>Bambú:</strong> Crece rápidamente y no necesita pesticidas ni fertilizantes.</li>
+                                        <li><strong>Corcho:</strong> Renovable y biodegradable, perfecto para elementos decorativos.</li>
+                                        <li><strong>Algodón orgánico:</strong> Cultivado sin químicos dañinos, ideal para textiles del hogar.</li>
+                                        <li><strong>Vidrio reciclado:</strong> Reduce la necesidad de extraer nuevas materias primas.</li>
+                                    </ul>
+                                    
+                                    <blockquote class="blockquote my-4 p-4 bg-light">
+                                        <p class="mb-0">"La verdadera belleza no puede existir a costa de nuestro planeta. Cada pieza que creamos es un compromiso con un futuro más sostenible."</p>
+                                    </blockquote>
+                                    
+                                    <h3 class="mt-4 mb-3">El valor de lo artesanal</h3>
+                                    
+                                    <p>Además de utilizar materiales sostenibles, la producción artesanal juega un papel fundamental en la reducción de la huella de carbono. Los procesos manuales consumen menos energía que la producción industrial masiva y permiten un mayor control sobre los residuos generados.</p>
+                                    
+                                    <p>En DEKOR, cada pieza es elaborada a mano por artesanos locales, garantizando no solo la calidad y unicidad de cada producto, sino también apoyando la economía local y reduciendo las emisiones asociadas al transporte de larga distancia.</p>
+                                    
+                                    <div class="text-center my-4">
+                                        <a href="#" class="btn btn-outline-dark">Leer más</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-footer bg-white border-0 p-4">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="post-tags">
+                                        <a href="#" class="badge bg-light text-dark text-decoration-none me-1 p-2">#Sostenibilidad</a>
+                                        <a href="#" class="badge bg-light text-dark text-decoration-none me-1 p-2">#Artesanía</a>
+                                        <a href="#" class="badge bg-light text-dark text-decoration-none p-2">#MaterialesReciclados</a>
+                                    </div>
+                                    <div class="post-share">
+                                        <span class="me-2">Compartir:</span>
+                                        <a href="#" class="text-dark me-2"><i class="fab fa-facebook-f"></i></a>
+                                        <a href="#" class="text-dark me-2"><i class="fab fa-twitter"></i></a>
+                                        <a href="#" class="text-dark"><i class="fab fa-pinterest-p"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Artículo 2 -->
+                    <article class="blog-post mb-5">
+                        <div class="card border-0 shadow-sm">
+                            <div class="ratio ratio-16x9">
+                                <img src="fotos//Banner2.webp" class="card-img-top object-fit-cover" alt="Minimalismo en decoración">
+                            </div>
+                            <div class="card-body p-4 p-lg-5">
+                                <div class="post-meta mb-3">
+                                    <span class="text-muted"><i class="bi bi-calendar3 me-2"></i>2 Mayo, 2025</span>
+                                    <span class="text-muted ms-3"><i class="bi bi-person me-2"></i>Por Francisco Teruel</span>
+                                    <span class="text-muted ms-3"><i class="bi bi-tag me-2"></i>Tendencias</span>
+                                </div>
+                                <h2 class="card-title h1 mb-4">Minimalismo consciente: Menos es más para tu hogar y el planeta</h2>
+                                <div class="card-text blog-content">
+                                    <p class="lead">El minimalismo va más allá de la estética; es una filosofía que puede transformar nuestra relación con los objetos y el consumo. Descubre cómo aplicarlo en tu hogar de manera consciente.</p>
+                                    
+                                    <p>En un mundo saturado de estímulos visuales y exceso de posesiones, el minimalismo se presenta como un oasis de calma y claridad. Esta filosofía, que aboga por "menos es más", no solo crea espacios visualmente armoniosos, sino que también promueve un consumo más responsable y consciente.</p>
+                                    
+                                    <h3 class="mt-4 mb-3">Principios del minimalismo consciente</h3>
+                                    
+                                    <p>El minimalismo consciente va más allá de tener pocos objetos; se trata de seleccionar cuidadosamente cada elemento que entra en nuestro hogar, considerando su origen, calidad, funcionalidad y el impacto que tiene en nuestro bienestar y en el planeta.</p>
+                                    
+                                    <p>Algunos principios fundamentales incluyen:</p>
+                                    
+                                    <ul>
+                                        <li><strong>Calidad sobre cantidad:</strong> Invertir en piezas duraderas y atemporales.</li>
+                                        <li><strong>Multifuncionalidad:</strong> Elegir objetos que cumplan más de una función.</li>
+                                        <li><strong>Valor emocional:</strong> Rodearse de objetos que realmente apreciamos y nos aportan alegría.</li>
+                                        <li><strong>Sostenibilidad:</strong> Considerar el ciclo de vida completo de cada producto.</li>
+                                    </ul>
+                                    
+                                    <div class="row my-4">
+                                        <div class="col-md-6 mb-3 mb-md-0">
+                                            <img src="fotos/Banner2.webp" alt="Espacio minimalista" class="img-fluid rounded">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <img src="fotos/Cocina.jpg" alt="Decoración minimalista" class="img-fluid rounded">
+                                        </div>
+                                    </div>
+                                    
+                                    <h3 class="mt-4 mb-3">Cómo aplicarlo en tu hogar</h3>
+                                    
+                                    <p>Adoptar un enfoque minimalista no significa deshacerse de todo lo que tienes. Se trata de un proceso gradual de evaluación y selección consciente. Aquí hay algunos pasos para comenzar:</p>
+                                    
+                                    <ol>
+                                        <li><strong>Evalúa lo que ya tienes:</strong> Revisa tus posesiones y pregúntate si realmente las necesitas o te aportan valor.</li>
+                                        <li><strong>Elimina el exceso:</strong> Dona, vende o recicla aquello que ya no necesitas.</li>
+                                        <li><strong>Establece un propósito para cada espacio:</strong> Define claramente la función de cada habitación.</li>
+                                        <li><strong>Selecciona con cuidado:</strong> Antes de adquirir algo nuevo, reflexiona sobre su necesidad real y su impacto.</li>
+                                        <li><strong>Mantén el equilibrio:</strong> El minimalismo no tiene que ser frío o vacío; busca el equilibrio entre funcionalidad y calidez.</li>
+                                    </ol>
+                                    
+                                    <p>En DEKOR, nuestras piezas están diseñadas siguiendo estos principios: objetos únicos, funcionales y sostenibles que aportan carácter a tu hogar sin saturarlo.</p>
+                                    
+                                    <div class="text-center my-4">
+                                        <a href="#" class="btn btn-outline-dark">Leer más</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-footer bg-white border-0 p-4">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="post-tags">
+                                        <a href="#" class="badge bg-light text-dark text-decoration-none me-1 p-2">#Minimalismo</a>
+                                        <a href="#" class="badge bg-light text-dark text-decoration-none me-1 p-2">#ConsumoConsciente</a>
+                                        <a href="#" class="badge bg-light text-dark text-decoration-none p-2">#DiseñoInterior</a>
+                                    </div>
+                                    <div class="post-share">
+                                        <span class="me-2">Compartir:</span>
+                                        <a href="#" class="text-dark me-2"><i class="fab fa-facebook-f"></i></a>
+                                        <a href="#" class="text-dark me-2"><i class="fab fa-twitter"></i></a>
+                                        <a href="#" class="text-dark"><i class="fab fa-pinterest-p"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Paginación -->
+                    <nav aria-label="Navegación de blog" class="my-5 bg-light">
+                        <ul class="pagination justify-content-center bg-white">
+                            <li class="page-item disabled">
+                                <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Anterior</a>
+                            </li>
+                            <li class="page-item active" aria-current="page">
+                                <a class="page-link bg-white" href="#">1</a>
+                            </li>
+                            <li class="page-item">
+                                <a class="page-link bg-white" href="#">2</a>
+                            </li>
+                            <li class="page-item">
+                                <a class="page-link bg-white" href="#">3</a>
+                            </li>
+                            <li class="page-item">
+                                <a class="page-link bg-white" href="#">Siguiente</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <!-- Barra Lateral -->
+                <div class="col-lg-4">
+                    <!-- Sobre el Blog -->
+                    <div class="card border-0 shadow-sm mb-4">
+                        <div class="card-body p-4">
+                            <h3 class="card-title h4 mb-3">Sobre nuestro blog</h3>
+                            <p class="card-text">En el blog de DEKOR compartimos tendencias, consejos e inspiración para crear espacios sostenibles y con personalidad. Descubre el poder transformador de la decoración consciente.</p>
+                        </div>
+                    </div>
+
+                    <!-- Búsqueda -->
+                    <div class="card border-0 shadow-sm mb-4">
+                        <div class="card-body p-4">
+                            <h3 class="card-title h4 mb-3">Buscar</h3>
+                            <form>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="¿Qué estás buscando?">
+                                    <button class="btn btn-dark" type="submit">
+                                        <i class="bi bi-search"></i>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <!-- Categorías -->
+                    <div class="card border-0 shadow-sm mb-4">
+                        <div class="card-body p-4">
+                            <h3 class="card-title h4 mb-3">Categorías</h3>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                                    <a href="#" class="text-decoration-none text-dark">Sostenibilidad</a>
+                                    <span class="badge bg-light text-dark rounded-pill">8</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                                    <a href="#" class="text-decoration-none text-dark">Tendencias</a>
+                                    <span class="badge bg-light text-dark rounded-pill">12</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                                    <a href="#" class="text-decoration-none text-dark">DIY</a>
+                                    <span class="badge bg-light text-dark rounded-pill">6</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                                    <a href="#" class="text-decoration-none text-dark">Consejos</a>
+                                    <span class="badge bg-light text-dark rounded-pill">9</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                                    <a href="#" class="text-decoration-none text-dark">Artesanía</a>
+                                    <span class="badge bg-light text-dark rounded-pill">5</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Posts Populares -->
+                    <div class="card border-0 shadow-sm mb-4">
+                        <div class="card-body p-4">
+                            <h3 class="card-title h4 mb-3">Posts populares</h3>
+                            <div class="popular-posts">
+                                <!-- Post Popular 1 -->
+                                <div class="d-flex mb-3">
+                                    <div class="flex-shrink-0" style="width: 80px; height: 80px;">
+                                        <img src="fotos/Frutero Perla (blanco).jpg" alt="Post popular" class="img-fluid rounded object-fit-cover" style="width: 100%; height: 100%;">
+                                    </div>
+                                    <div class="flex-grow-1 ms-3">
+                                        <h6 class="mb-1"><a href="#" class="text-decoration-none text-dark">Cómo crear un rincón de lectura acogedor</a></h6>
+                                        <small class="text-muted">28 Abril, 2025</small>
+                                    </div>
+                                </div>
+                                <!-- Post Popular 2 -->
+                                <div class="d-flex mb-3">
+                                    <div class="flex-shrink-0" style="width: 80px; height: 80px;">
+                                        <img src="fotos/Jarrón Balú 2.jpg" alt="Post popular" class="img-fluid rounded object-fit-cover" style="width: 100%; height: 100%;">
+                                    </div>
+                                    <div class="flex-grow-1 ms-3">
+                                        <h6 class="mb-1"><a href="#" class="text-decoration-none text-dark">5 plantas que purifican el aire de tu hogar</a></h6>
+                                        <small class="text-muted">15 Abril, 2025</small>
+                                    </div>
+                                </div>
+                                <!-- Post Popular 3 -->
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0" style="width: 80px; height: 80px;">
+                                        <img src="fotos/Jarrón Marea 4.jpg" alt="Post popular" class="img-fluid rounded object-fit-cover" style="width: 100%; height: 100%;">
+                                    </div>
+                                    <div class="flex-grow-1 ms-3">
+                                        <h6 class="mb-1"><a href="#" class="text-decoration-none text-dark">Guía de colores para cada habitación</a></h6>
+                                        <small class="text-muted">2 Abril, 2025</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Newsletter -->
+                    <div class="card border-0 shadow-sm mb-4">
+                        <div class="card-body p-4">
+                            <h3 class="card-title h4 mb-3">Suscríbete a nuestro newsletter</h3>
+                            <p class="card-text">Recibe las últimas tendencias y consejos de decoración directamente en tu bandeja de entrada.</p>
+                            <form>
+                                <div class="mb-3">
+                                    <input type="email" class="form-control" placeholder="Tu email" required>
+                                </div>
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="newsletter-consent" required>
+                                    <label class="form-check-label small" for="newsletter-consent">
+                                        Acepto recibir comunicaciones comerciales
+                                    </label>
+                                </div>
+                                <button type="submit" class="btn btn-dark w-100">Suscribirme</button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <!-- Etiquetas -->
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <h3 class="card-title h4 mb-3">Etiquetas</h3>
+                            <div class="tags">
+                                <a href="#" class="badge bg-light text-dark text-decoration-none me-1 mb-2 p-2">#Sostenibilidad</a>
+                                <a href="#" class="badge bg-light text-dark text-decoration-none me-1 mb-2 p-2">#Minimalismo</a>
+                                <a href="#" class="badge bg-light text-dark text-decoration-none me-1 mb-2 p-2">#Artesanía</a>
+                                <a href="#" class="badge bg-light text-dark text-decoration-none me-1 mb-2 p-2">#Reciclaje</a>
+                                <a href="#" class="badge bg-light text-dark text-decoration-none me-1 mb-2 p-2">#Decoración</a>
+                                <a href="#" class="badge bg-light text-dark text-decoration-none me-1 mb-2 p-2">#Hogar</a>
+                                <a href="#" class="badge bg-light text-dark text-decoration-none me-1 mb-2 p-2">#DIY</a>
+                                <a href="#" class="badge bg-light text-dark text-decoration-none me-1 mb-2 p-2">#Tendencias</a>
+                                <a href="#" class="badge bg-light text-dark text-decoration-none me-1 mb-2 p-2">#Naturaleza</a>
+                                <a href="#" class="badge bg-light text-dark text-decoration-none me-1 mb-2 p-2">#Bienestar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+ <!-- Footer -->
+    <footer class="bg-light mt-5">
+        <div class="container py-5">
+            <div class="row g-4">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <img src="fotos/LOGO 2.png" alt="DEKOR" height="40" class="mb-4">
+                    <p class="text-muted">Decora tu hogar con sostenibilidad. Productos artesanales y respetuosos con el
+                        medio ambiente.</p>
+                </div>
+
+                <div class="col-6 col-md-3 col-lg-2">
+                    <h5 class="fw-bold mb-3">Sobre Nosotros</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="quienessomos.html" class="text-decoration-none text-muted">Quiénes
+                                somos</a></li>
+                        <li class="mb-2"><a href="avisoslegales.html#condiciones-compra"
+                                class="text-decoration-none text-muted">Condiciones de compra</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-3 col-lg-2">
+                    <h5 class="fw-bold mb-3">Información</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="avisoslegales.html" class="text-decoration-none text-muted">Aviso
+                                legal</a></li>
+                        <li class="mb-2"><a href="avisoslegales.html#politica-privacidad" class="text-decoration-none text-muted">Privacidad</a></li>
+                        <li class="mb-2"><a href="avisoslegales.html#politica-cookies" class="text-decoration-none text-muted">Cookies</a></li>
+                        <li class="mb-2"><a href="avisoslegales.html#politica-devolucion" class="text-decoration-none text-muted">Política de
+                                devolución</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-3 col-lg-2">
+                    <h5 class="fw-bold mb-3">Enlaces</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="contacto.html" class="text-decoration-none text-muted">Contáctanos</a>
+                        </li>
+                        <li class="mb-2"><a href="preguntas_frecuentes.html" class="text-decoration-none text-muted">Preguntas
+                                frecuentes</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-3 col-lg-2">
+                    <h5 class="fw-bold mb-3">Únete</h5>
+                    <p class="text-muted mb-2">Suscríbete a nuestra newsletter</p>
+                    <div class="input-group mb-3">
+                        <input type="email" class="form-control" placeholder="Tu email">
+                        <button class="btn btn-dark" type="button">Enviar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-4 pt-4 border-top">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="text-muted mb-0">&copy; 2025 DEKOR. Todos los derechos reservados.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end mt-3 mt-md-0">
+                    <div class="d-flex justify-content-center justify-content-md-end gap-3">
+                        <a href="https://www.instagram.com/" class="text-muted"><i class="fab fa-instagram fs-5"></i></a>
+                        <a href="https://www.facebook.com/?locale=es_ES" class="text-muted"><i class="fab fa-facebook-f fs-5"></i></a>
+                        <a href="https://es.pinterest.com/" class="text-muted"><i class="fab fa-pinterest fs-5"></i></a>
+                        <a href="https://www.youtube.com/" class="text-muted"><i class="fab fa-youtube fs-5"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Login/Register Modal -->
+    <div id="auth-popup" class="newsletter-popup" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 10000; justify-content: center; align-items: center;">
+        <div class="newsletter-popup-content">
+            <button class="close-popup" onclick="cerrarPopupAuth()">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18 6L6 18M6 6L18 18" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+            
+            <div class="newsletter-container">
+                <div class="newsletter-text">
+                    <!-- Pestañas de navegación -->
+                    <div class="auth-tabs">
+                        <button id="login-tab" class="auth-tab active" onclick="mostrarTab('login')">Iniciar sesión</button>
+                        <button id="register-tab" class="auth-tab" onclick="mostrarTab('register')">Crear cuenta</button>
+                    </div>
+                    
+                    <!-- Formulario de Login -->
+                    <div id="login-form-container" class="auth-form-container active">
+                        <h2>Accede a tu cuenta</h2>
+                        
+                        <form id="login-form">
+                            <div class="mb-3">
+                                <input type="email" id="login-email" class="form-control" placeholder="Email" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="password" id="login-password" class="form-control" placeholder="Contraseña" required>
+                            </div>
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="remember-me">
+                                <label class="form-check-label" for="remember-me">
+                                    Recordar mi sesión
+                                </label>
+                            </div>
+                            <div class="mb-3 text-end">
+                                <a href="#" class="forgot-password">¿Olvidaste tu contraseña?</a>
+                            </div>
+                            <div id="login-message" class="newsletter-message"></div>
+                            <button type="submit" class="newsletter-cta">INICIAR SESIÓN</button>
+                        </form>
+                        
+                        <div class="social-login">
+                            <div class="divider">
+                                <span>O inicia sesión con</span>
+                            </div>
+                            <div class="social-buttons">
+                                <button class="social-btn facebook-btn">
+                                    <i class="fab fa-facebook-f"></i>
+                                </button>
+                                <button class="social-btn google-btn">
+                                    <i class="fab fa-google"></i>
+                                </button>
+                                <button class="social-btn instagram-btn">
+                                    <i class="fab fa-instagram"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Formulario de Registro -->
+                    <div id="register-form-container" class="auth-form-container">
+                        <h2>Crea tu cuenta</h2>
+                        
+                        <form id="register-form">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <input type="text" id="register-nombre" class="form-control" placeholder="Nombre" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <input type="text" id="register-apellidos" class="form-control" placeholder="Apellidos" required>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" id="register-email" class="form-control" placeholder="Email" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="tel" id="register-telefono" class="form-control" placeholder="Teléfono" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="password" id="register-password" class="form-control" placeholder="Contraseña" required>
+                                <div class="form-text small">
+                                    La contraseña debe tener al menos 8 caracteres, incluyendo una letra mayúscula, una minúscula y un número.
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <input type="password" id="register-confirm-password" class="form-control" placeholder="Confirmar contraseña" required>
+                            </div>
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="register-privacy" required>
+                                <label class="form-check-label" for="register-privacy">
+                                    He leído y acepto la <a href="/informacion#privacidad">Política de Privacidad</a>
+                                </label>
+                            </div>
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="register-newsletter">
+                                <label class="form-check-label" for="register-newsletter">
+                                    Deseo recibir ofertas y novedades por email
+                                </label>
+                            </div>
+                            <div id="register-message" class="newsletter-message"></div>
+                            <button type="submit" class="newsletter-cta">CREAR CUENTA</button>
+                        </form>
+                        
+                        <div class="social-login">
+                            <div class="divider">
+                                <span>O regístrate con</span>
+                            </div>
+                            <div class="social-buttons">
+                                <button class="social-btn facebook-btn">
+                                    <i class="fab fa-facebook-f"></i>
+                                </button>
+                                <button class="social-btn google-btn">
+                                    <i class="fab fa-google"></i>
+                                </button>
+                                <button class="social-btn instagram-btn">
+                                    <i class="fab fa-instagram"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <p class="newsletter-disclaimer">
+                        *Al iniciar sesión o registrarte, aceptas nuestros <a href="/terminos">Términos y Condiciones</a> y confirmas que has leído nuestra <a href="/informacion#privacidad">Política de Privacidad</a>.
+                    </p>
+                </div>
+                
+                <div class="newsletter-image">
+                    <img src="fotos/login-image.png" alt="DEKOR - Tu hogar, tu estilo">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script src="auth.js"></script>
+</body>
+
+</html>

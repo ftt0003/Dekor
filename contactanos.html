@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Francisco Teruel">
+    <meta name="description" content="Dekor: Tienda online de decoración eco-friendly. Encuentra productos únicos hechos con materiales sostenibles como arcilla, papel reciclado y elementos reutilizados. ¡Decora tu espacio con estilo y conciencia ambiental! Envíos a todo [país/región].">
+    <meta name="keywords" content="decoración eco-friendly, productos sostenibles, decoración con arcilla, papel reciclado decorativo, muebles reciclados, hogar sostenible, decoración ambiental, materiales ecológicos, artesanías recicladas, diseño consciente, decoración natural, tienda eco decoración, regalos ecológicos, productos zero waste, slow decoration">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <title>Contacta con DEKOR | Soporte y Asesoramiento en Decoración Sostenible</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white nav-not-index sticky-top">
+    <div class="container-fluid">
+      <button class="toggle toggle-secundary d-lg-none" onclick="toggleMenu()">☰</button>
+
+      <a class="navbar-brand logo" href="index.html">
+        <img src="./fotos/LOGO 2.png" alt="dekor">
+      </a>
+
+      <div class="d-flex align-items-center order-lg-3 ms-auto">
+        <form class="d-flex me-3" role="search">
+          <button class="bg-transparent search-btn search-btn-place" type="submit">
+            <i class="bi bi-search text-dark"></i>
+          </button>
+          <input class="form-control me-2 border-0 border-bottom bg-transparent text-dark search-bar search-btn-place"
+            type="search" placeholder="Buscar" aria-label="Search">
+        </form>
+
+        <div class="cont-icons gap-3">
+          <ul class="navbar-nav ms-auto">
+            <li>
+              <a class="nav-link" href="registro.html">
+                <i class="bi bi-person-fill text-dark" style="font-size: 1.5rem;"></i>
+              </a>
+            </li>
+            <li>
+              <a class="nav-link" href="cart.html">
+                <i class="bi bi-bag text-dark" style="font-size: 1.5rem;"></i>
+              </a>
+            </li>
+            <li>
+              <a class="nav-link" href="favoritos.html">
+                <i class="bi bi-heart-fill text-dark" style="font-size: 1.5rem;"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./category/salon.html">Salón</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./category/cocina.html">Cocina</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./category/habitacion.html">Habitación / Despacho</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./category/bano.html">Baño</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+    <!--Main-->
+    <main class="flex-grow-1 mb-4">
+        <div class="container py-5">
+            <h1 class="text-center mb-5 display-4 fw-bold">Atención al cliente</h1>
+            
+            <div class="row justify-content-center g-4 mb-5">
+                <!-- WhatsApp -->
+                <div class="col-12 col-md-4">
+                    <div class="contact-method text-center p-4 h-100 border">
+                        <div class="contact-icon mb-3">
+                            <i class="bi bi-whatsapp fs-1"></i>
+                        </div>
+                        <h3 class="fs-4 mb-3">WHATSAPP</h3>
+                        <p class="mb-4">De Lunes a Viernes: 09:30 - 20:30</p>
+                        <button class="btn btn-outline-dark w-100" onclick="iniciarWhatsApp()">INICIAR CONVERSACIÓN</button>
+                        <p class="small mt-3">
+                            Al utilizar WhatsApp, confirmas que has leído y entiendes nuestra 
+                            <a href="politica_privacidad.html">Política de privacidad</a>
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Chat -->
+                <div class="col-12 col-md-4">
+                    <div class="contact-method text-center p-4 h-100 border">
+                        <div class="contact-icon mb-3">
+                            <i class="bi bi-chat-dots fs-1"></i>
+                        </div>
+                        <h3 class="fs-4 mb-3">CHAT</h3>
+                        <p class="mb-4">De Lunes a Viernes: 09:30 - 20:30</p>
+                        <button class="btn btn-outline-dark w-100" onclick="iniciarChat()">INICIAR CONVERSACIÓN</button>
+                    </div>
+                </div>
+                
+                <!-- Teléfono -->
+                <div class="col-12 col-md-4">
+                    <div class="contact-method text-center p-4 h-100 border">
+                        <div class="contact-icon mb-3">
+                            <i class="bi bi-telephone fs-1"></i>
+                        </div>
+                        <h3 class="fs-4 mb-3">TELÉFONO</h3>
+                        <p class="fw-bold mb-2">900-637-363</p>
+                        <p class="mb-4">Lunes - Viernes: 9:30 - 20:30</p>
+                        <a href="tel:900637363" class="btn btn-outline-dark w-100">LLAMAR POR TELÉFONO</a>
+                    </div>
+                </div>
+            </div>
+            
+            <hr class="my-5">
+            
+            <!-- Preguntas Frecuentes -->
+            <h2 class="text-center mb-5 display-5 fw-bold">Preguntas frecuentes</h2>
+            
+            <div class="row g-4 mb-5">
+                <!-- FAQ 1 -->
+                <div class="col-12 col-md-4">
+                    <div class="faq-item border p-4 h-100">
+                        <h3 class="fs-5 mb-3">¿Cuáles son los plazos de entrega?</h3>
+                        <p>Nuestros plazos de entrega habituales son de 2-3 días laborables para península, 3-4 días para Baleares y 5-7 días para Canarias. Todos los pedidos realizados antes de las 14:00h se procesan el mismo día.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ 2 -->
+                <div class="col-12 col-md-4">
+                    <div class="faq-item border p-4 h-100">
+                        <h3 class="fs-5 mb-3">¿Cómo puedo devolver un producto?</h3>
+                        <p>Dispones de 14 días naturales desde la recepción para devolver cualquier producto. Solo necesitas contactar con nuestro servicio de atención al cliente y te guiaremos en el proceso sin complicaciones.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ 3 -->
+                <div class="col-12 col-md-4">
+                    <div class="faq-item border p-4 h-100">
+                        <h3 class="fs-5 mb-3">¿Qué métodos de pago aceptan?</h3>
+                        <p>Aceptamos pagos con tarjeta de crédito/débito (Visa, Mastercard, American Express), PayPal, transferencia bancaria y Bizum. Todos los pagos se procesan de forma segura.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center">
+                <a href="preguntas_frecuentes.html" class="btn btn-dark px-4 py-2">Ver todas las preguntas frecuentes</a>
+            </div>
+        </div>
+    </main>
+  <!-- Footer -->
+    <footer class="bg-light mt-5">
+        <div class="container py-5">
+            <div class="row g-4">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <img src="fotos/LOGO 2.png" alt="DEKOR" height="40" class="mb-4">
+                    <p class="text-muted">Decora tu hogar con sostenibilidad. Productos artesanales y respetuosos con el
+                        medio ambiente.</p>
+                </div>
+
+                <div class="col-6 col-md-3 col-lg-2">
+                    <h5 class="fw-bold mb-3">Sobre Nosotros</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="quienessomos.html" class="text-decoration-none text-muted">Quiénes
+                                somos</a></li>
+                        <li class="mb-2"><a href="avisoslegales.html#condiciones-compra"
+                                class="text-decoration-none text-muted">Condiciones de compra</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-3 col-lg-2">
+                    <h5 class="fw-bold mb-3">Información</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="avisoslegales.html" class="text-decoration-none text-muted">Aviso
+                                legal</a></li>
+                        <li class="mb-2"><a href="avisoslegales.html#politica-privacidad" class="text-decoration-none text-muted">Privacidad</a></li>
+                        <li class="mb-2"><a href="avisoslegales.html#politica-cookies" class="text-decoration-none text-muted">Cookies</a></li>
+                        <li class="mb-2"><a href="avisoslegales.html#politica-devolucion" class="text-decoration-none text-muted">Política de
+                                devolución</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-3 col-lg-2">
+                    <h5 class="fw-bold mb-3">Enlaces</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="contacto.html" class="text-decoration-none text-muted">Contáctanos</a>
+                        </li>
+                        <li class="mb-2"><a href="preguntas_frecuentes.html" class="text-decoration-none text-muted">Preguntas
+                                frecuentes</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-3 col-lg-2">
+                    <h5 class="fw-bold mb-3">Únete</h5>
+                    <p class="text-muted mb-2">Suscríbete a nuestra newsletter</p>
+                    <div class="input-group mb-3">
+                        <input type="email" class="form-control" placeholder="Tu email">
+                        <button class="btn btn-dark" type="button">Enviar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-4 pt-4 border-top">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="text-muted mb-0">&copy; 2025 DEKOR. Todos los derechos reservados.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end mt-3 mt-md-0">
+                    <div class="d-flex justify-content-center justify-content-md-end gap-3">
+                        <a href="https://www.instagram.com/" class="text-muted"><i class="fab fa-instagram fs-5"></i></a>
+                        <a href="https://www.facebook.com/?locale=es_ES" class="text-muted"><i class="fab fa-facebook-f fs-5"></i></a>
+                        <a href="https://es.pinterest.com/" class="text-muted"><i class="fab fa-pinterest fs-5"></i></a>
+                        <a href="https://www.youtube.com/" class="text-muted"><i class="fab fa-youtube fs-5"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Login/Register Modal -->
+    <div id="login-modal" class="login-modal">
+        <div class="login-modal-content">
+            <span class="close-login-modal">&times;</span>
+            <div class="login-container">
+                <!-- Clientes Registrados -->
+                <div class="login-section">
+                    <h2>CLIENTES REGISTRADOS</h2>
+                    <p>Te solicitaremos la información imprescindible para agilizar el proceso de compra.</p>
+                    <p>¿No encuentras tu pedido? Tal vez hiciste tu compra sin estar registrado. Haz clic aquí y te indicamos cómo encontrarlo.</p>
+                    
+                    <form id="login-form">
+                        <div class="form-group mb-3">
+                            <input type="email" id="login-email" class="form-control" placeholder="Email*" required>
+                        </div>
+                        <div class="form-group mb-3">
+                            <input type="password" id="login-password" class="form-control" placeholder="Contraseña*" required>
+                        </div>
+                        <div class="mb-3">
+                            <a href="#" class="forgot-password">¿Has olvidado tu contraseña?</a>
+                        </div>
+                        <div class="form-check mb-3">
+                            <input type="checkbox" class="form-check-input" id="remember-session">
+                            <label class="form-check-label" for="remember-session">No cerrar sesión</label>
+                        </div>
+                        <button type="submit" class="btn btn-outline-dark w-100">INICIAR SESIÓN</button>
+                    </form>
+                    
+                    <div class="social-login mt-4">
+                        <div class="divider">
+                            <span>O bien con</span>
+                        </div>
+                        <div class="social-buttons mt-3">
+                            <button class="social-btn facebook-btn">
+                                <i class="fab fa-facebook-f"></i>
+                            </button>
+                            <button class="social-btn google-btn">
+                                <i class="fab fa-google"></i>
+                            </button>
+                            <button class="social-btn instagram-btn">
+                                <i class="fab fa-instagram"></i>
+                            </button>
+                        </div>
+                        <p class="small mt-2">
+                            Al iniciar sesión/registrarme con mi usuario de redes sociales, acepto vincular mi cuenta de acuerdo con la 
+                            <a href="politica_privacidad.html">Política de privacidad</a>
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Nuevos Clientes -->
+                <div class="register-section">
+                    <h2>NUEVOS CLIENTES</h2>
+                    <button id="create-account-btn" class="btn btn-outline-dark w-100 mt-4">CREAR UNA CUENTA NUEVA</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script src="auth.js"></script>
+    <script>
+        // Funciones específicas para la página de contacto
+        function iniciarWhatsApp() {
+            window.open('https://wa.me/34900637363', '_blank');
+        }
+        
+        function iniciarChat() {
+            // Aquí iría la lógica para iniciar el chat en vivo
+            alert('El servicio de chat estará disponible próximamente');
+        }
+    </script>
+</body>
+
+</html>

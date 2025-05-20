@@ -1,102 +1,474 @@
 <!DOCTYPE html>
 <html lang="es">
-<head> 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dekor</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
-    <script>
-        function toggleMenu() {
-            document.querySelector('.menu-lateral').classList.toggle('active');
-        }
-    </script>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Dekor: Tienda online de decoración eco-friendly. Encuentra productos únicos hechos con materiales sostenibles como arcilla, papel reciclado y elementos reutilizados. ¡Decora tu espacio con estilo y conciencia ambiental! Envíos a todo [país/región].">
+  <meta name="keywords" content="decoración eco-friendly, productos sostenibles, decoración con arcilla, papel reciclado decorativo, muebles reciclados, hogar sostenible, decoración ambiental, materiales ecológicos, artesanías recicladas, diseño consciente, decoración natural, tienda eco decoración, regalos ecológicos, productos zero waste, slow decoration">
+  <meta name="author" content="Francisco Teruel">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <title>DEKOR | Tienda Online de Decoración Sostenible – Productos Eco-Friendly de Arcilla y Materiales Reciclados</title>
+
+  <link rel="stylesheet" href="styles.css">
+  <script src="js/script.js"></script>
+  <script src="js/newsletter.js"></script>
+  <script src="js/auth.js"></script>
 </head>
+
+
 <body>
-    <header>
-        <button class="toggle" onclick="toggleMenu()">☰</button>
-        <a href="index.html"><img src="img/logo.png" width="100px" height="50px" alt="Logo Dekor"></a>
-        <div class="user-part">
-          <a href="Carrito.html"><img src="img/carrito.svg" alt="carrito-compra" style="width: 50px; height: 50px;"></a>
-          <a href="Profile.html"><img src="img/man-303792.svg" alt="perfil" style="width: 50px; height: 50px;"></a>
+
+  <!-- Navbar -->
+  <nav class="navbar-expand-lg navbar-light bg-light vh-100">
+    <div class="navbar">
+      <button class="toggle" onclick="toggleMenu()">☰</button>
+
+      <a class="navbar-brand logo big-logo" href="#"><img src="fotos/DEKORLOG.png" alt="dekor"></a>
+
+      <form class="d-flex" role="search">
+        <button class="bg-transparent search-btn" type="submit"><i class="bi bi-search text-white"></i></button>
+        <input class="form-control me-2 border-0 border-bottom  bg-transparent text-white search-bar" type="search" placeholder="Buscar" aria-label="Search">
+      </form>
+      <div class="cont-icons m-3">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" onclick="mostrarPopupAuth()"><i class="bi bi-person-fill text-white"
+                style="font-size: 2rem;"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="cart.html">
+              <i class="bi bi-bag text-white" style="font-size: 2rem;"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="favoritos.html">
+              <i class="bi bi-heart-fill text-white" style="font-size: 2rem;"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Hero Section -->
+      <section class="hero text-center py-5">
+        <div class="container">
+          <h1 class="subtitle">Decora tu hogar, con sostenibilidad</h1>
         </div>
-    </header>
-    
-    <nav class="menu-lateral">
-        <a href="AboutUs.html">Sobre Nosotros</a>
-        <a href="Contact.html">Contáctanos</a>
-        <div class="social-icons">
-            <img src="resources/social-icons/instagram_1400829.png" alt="Instagram">
-            <img src="resources/social-icons/twitter_5968830.png" alt="X">
-            <img src="resources/social-icons/tiktok_2504942.png" alt="TikTok">
-            <img src="resources/social-icons/social_12942327.png" alt="Facebook">
-            <img src="resources/social-icons/youtube_1384060.png" alt="YouTube">
+      </section>
+    </div>
+  </nav>
+
+  
+  <!-- Mejores Ventas Corregido -->
+  <section class="mejores-ventas py-5">
+    <div class="container">
+      <div class="row align-items-center g-4">
+        <div class="col-lg-3 text-center text-lg-start mb-4 mb-lg-0">
+          <h2 class="display-5 fw-bold mb-3">Mejores <span class="d-block d-lg-inline">ventas</span></h2>
+          <a href="mejores-ventas.html" class="btn btn-dark  btn-lg rounded-pill px-4">Ver productos</a>
         </div>
-    </nav>
-    
-    <main>
-         <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="img/decoracion_gen.png" class="d-block w-100" alt="Habitación">
+
+        <div class="col-lg-9">
+          <div class="row g-4">
+            <div class="col-md-6">
+              <a href="producto/marea.html"class="text-decoration-none">
+                <div class="card h-100 border-0 shadow-sm">
+                <div class="ratio ratio-1x1">
+                  <img src="fotos/Jarrón Marea.jpg" alt="Jarrón Marea" class="card-img-top object-fit-cover">
                 </div>
-                <div class="carousel-item">
-                    <img src="img/cocina_gen.png" class="d-block w-100" alt="Jarrón de Flores">
+                <div class="card-body text-center">
+                  <h3 class="h4 fw-bold">Marea</h3>
+                  <p class="text-muted mb-0 ">Jarrón Ondulado</p>
                 </div>
-                <div class="carousel-item">
-                    <img src="img/salon.jpg" class="d-block w-100" alt="Salón">
-                </div>
-                <div class="carousel-item">
-                    <img src="img/element_carrusel.png" class="d-block w-100" alt="banner">
-                </div>
+              </div>
+              </a>
+              
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                <span class="carousel-control-next-icon"></span>
-            </button>
+
+            <div class="col-md-6">
+              <a href="producto/oron.html"class="text-decoration-none">
+                <div class="card h-100 border-0 shadow-sm">
+                <div class="ratio ratio-1x1">
+                  <img src="fotos/Posa-lámpara Orón.jpg" class="card-img-top object-fit-cover">
+                </div>
+                <div class="card-body text-center">
+                  <h3 class="h4 fw-bold">Orón</h3>
+                  <p class="text-muted mb-0">Posa-lámparas Circular</p>
+                </div>
+              </div>
+              </a>
+            </div>
+          </div>
         </div>
-        <div class="categories">
-            <div class="card">
-                <a href="categories/Dormitorios.html">
-                    <img src="img/habitacion.jpg" alt="Dormitorios">
-                    <div class="card-body">
-                        <h5>Dormitorios</h5>
-                    </div>
-                </a>
+      </div>
+    </div>
+  </section>
+  <!--SECCION CATEGORIAS-->
+<section id="categories" class="py-5 py-lg-7 bg-light">
+    <div class="container">
+      <h2 class="display-5 fw-bold text-center mb-5">Categorías</h2>
+      
+      <div class="row g-4">
+        <div class="col-md-6">
+          <a href="category/bano.html" class="text-decoration-none">
+            <div class="card border-0 shadow-sm h-100">
+              <div class="ratio ratio-1x1 imagefocus">
+                <img src="fotos/Frutero Perla 3 (negro).jpg" class="card-img-top object-fit-cover">
+                <div class="card-img-overlay d-flex align-items-end">
+                  <h3 class="card-title text-white fs-1 fw-bold mb-3">Baño</h3>
+                </div>
+              </div>
             </div>
-            <div class="card">
-                <a href="categories/Despachos.html">
-                    <img src="img/despacho.jpg" alt="Despachos">
-                    <div class="card-body">
-                        <h5>Despachos</h5>
-                    </div>
-                </a>
+          </a>
+        </div>
+        
+        <div class="col-md-6">
+          <a href="category/cocina.html" class="text-decoration-none">
+            <div class="card border-0 shadow-sm h-100">
+              <div class="ratio ratio-1x1 imagefocus">
+                <img src="fotos/Cocina.jpg" class="card-img-top object-fit-cover">
+                <div class="card-img-overlay d-flex align-items-end">
+                  <h3 class="card-title text-white fs-1 fw-bold mb-3 ">Cocina</h3>
+                </div>
+              </div>
             </div>
-            <div class="card">
-                <a href="categories/Cocina.html">
-                    <img src="img/cocina.jpg" alt="Cocinas">
-                    <div class="card-body">
-                        <h5>Cocinas</h5>
-                    </div>
-                </a>
+          </a>
+        </div>
+        
+        <div class="col-md-6">
+          <a href="category/salon.html" class="text-decoration-none">
+            <div class="card border-0 shadow-sm h-100">
+              <div class="ratio ratio-1x1 imagefocus">
+                <img src="fotos/Salón.jpg" class="card-img-top object-fit-cover">
+                <div class="card-img-overlay d-flex align-items-end">
+                  <h3 class="card-title text-white fs-1 fw-bolder mb-3">Salón</h3>
+                </div>
+              </div>
             </div>
-            <div class="card">
-                <a href="categories/Salon.html">
-                    <img src="img/salon.jpg" alt="Salones">
-                    <div class="card-body">
-                        <h5>Salones</h5>
+          </a>
+        </div>
+        
+        <div class="col-md-6">
+          <a href="category/habitacion.html" class="text-decoration-none">
+            <div class="card border-0 shadow-sm h-100">
+              <div class="ratio ratio-1x1 imagefocus">
+                <img src="fotos/Habitación y Despacho.jpg" class="card-img-top object-fit-cover">
+                <div class="card-img-overlay d-flex align-items-end">
+                  <h3 class="card-title text-white fs-1 fw-bold mb-3">Habitación / Despacho</h3>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Novedades Corregido -->
+  <section class="novedades py-5">
+    <div class="container">
+      <div class="row g-4 align-items-center">
+        <div class="col-lg-4 order-lg-1 text-center text-lg-start">
+          <h2 class="display-5 fw-bold mb-4">Novedades</h2>
+          <a href="novedades.html" class="btn border-dark btn-lg rounded-pill px-4">Nuestro Blog</a>
+        </div>
+        
+        <div class="col-lg-8 order-lg-0">
+          <div class="card border-0 shadow-sm">
+            <a href="producto/nudillos.html" class="text-decoration-none">
+               <div class="ratio ratio-16x9">
+              <img src="fotos/Porta velas Nudillos 2.jpg" class="card-img-top object-fit-cover">
+            </div>
+            <div class="card-body text-center">
+              <h3 class="h2 fw-bold text-dark">Nudillos</h3>
+              <p class="lead text-muted">Portavelas Escultórico</p>
+            </div>
+            </a>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ <!-- Footer -->
+    <footer class="bg-light mt-5">
+        <div class="container py-5">
+            <div class="row g-4">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <img src="fotos/LOGO 2.png" alt="DEKOR" height="40" class="mb-4">
+                    <p class="text-muted">Decora tu hogar con sostenibilidad. Productos artesanales y respetuosos con el
+                        medio ambiente.</p>
+                </div>
+
+                <div class="col-6 col-md-3 col-lg-2">
+                    <h5 class="fw-bold mb-3">Sobre Nosotros</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="quienessomos.html" class="text-decoration-none text-muted">Quiénes
+                                somos</a></li>
+                        <li class="mb-2"><a href="avisoslegales.html#condiciones-compra"
+                                class="text-decoration-none text-muted">Condiciones de compra</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-3 col-lg-2">
+                    <h5 class="fw-bold mb-3">Información</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="avisoslegales.html" class="text-decoration-none text-muted">Aviso
+                                legal</a></li>
+                        <li class="mb-2"><a href="avisoslegales.html#politica-privacidad" class="text-decoration-none text-muted">Privacidad</a></li>
+                        <li class="mb-2"><a href="avisoslegales.html#politica-cookies" class="text-decoration-none text-muted">Cookies</a></li>
+                        <li class="mb-2"><a href="avisoslegales.html#politica-devolucion" class="text-decoration-none text-muted">Política de
+                                devolución</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-3 col-lg-2">
+                    <h5 class="fw-bold mb-3">Enlaces</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="contacto.html" class="text-decoration-none text-muted">Contáctanos</a>
+                        </li>
+                        <li class="mb-2"><a href="preguntas_frecuentes.html" class="text-decoration-none text-muted">Preguntas
+                                frecuentes</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-3 col-lg-2">
+                    <h5 class="fw-bold mb-3">Únete</h5>
+                    <p class="text-muted mb-2">Suscríbete a nuestra newsletter</p>
+                    <div class="input-group mb-3">
+                        <input type="email" class="form-control" placeholder="Tu email">
+                        <button class="btn btn-dark" type="button">Enviar</button>
                     </div>
-                </a>
+                </div>
+            </div>
+
+            <div class="row mt-4 pt-4 border-top">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="text-muted mb-0">&copy; 2025 DEKOR. Todos los derechos reservados.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end mt-3 mt-md-0">
+                    <div class="d-flex justify-content-center justify-content-md-end gap-3">
+                        <a href="https://www.instagram.com/" class="text-muted"><i class="fab fa-instagram fs-5"></i></a>
+                        <a href="https://www.facebook.com/?locale=es_ES" class="text-muted"><i class="fab fa-facebook-f fs-5"></i></a>
+                        <a href="https://es.pinterest.com/" class="text-muted"><i class="fab fa-pinterest fs-5"></i></a>
+                        <a href="https://www.youtube.com/" class="text-muted"><i class="fab fa-youtube fs-5"></i></a>
+                    </div>
+                </div>
             </div>
         </div>
-    </main>
-    
-    <footer>
-        <p>&copy; 2025 Dekor</p>
     </footer>
+
+  <div id="cookie-bar" class="cookie-bar show" style="display: block;">
+    <div class="cookie-content">
+      <div class="cookie-text">
+        <pre class="cookie-text">
+          Utilizamos cookies propias y de terceros para conocer cómo utilizas nuestra tienda online Dekor y así
+          poder mejorarla, personalizar el contenido a tus intereses y mostrarte anuncios,promociones y
+          publicaciones en redes sociales. Puedes aceptar todas las cookies, rechazarlas o configurar tus
+          preferencias pulsando los botones correspondientes. Ten en cuenta que rechazar algunas cookies
+          podría afectar tu experiencia de navegación. Para más información, consulta nuestra <a href="politica_cookies.html">Política de cookies</a>
+        </pre>
+      </div>
+      <div class="cookie-buttons">
+        <button id="cookie-accept-all" class="cookie-button accept-all"
+          style="transition: 0.5s 0.3s; opacity: 1; transform: translateY(0px);">Aceptar</button>
+        <button id="cookie-accept-necessary" class="cookie-button accept-necessary"
+          style="transition: 0.5s 0.4s; opacity: 1; transform: translateY(0px);">Solo necesarias</button>
+        <button id="cookie-configure" class="cookie-button configure"
+          style="transition: 0.5s 0.5s; opacity: 1; transform: translateY(0px);">Configurar</button>
+      </div>
+    </div>
+  </div>
+
+<!-- Popup de Newsletter -->
+<div id="newsletter-popup" class="newsletter-popup" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 10000; justify-content: center; align-items: center;">
+  <div class="newsletter-popup-content">
+    <button class="close-popup" onclick="cerrarPopupNewsletter()">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M18 6L6 18M6 6L18 18" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </button>
+    
+    <div class="newsletter-container">
+      <div class="newsletter-text">
+        <h2>Regístrate gratis y recibe actualizaciones exclusivas y ofertas VIP</h2>
+        
+        <form id="newsletter-form">
+          <div class="mb-3">
+            <input type="email" id="newsletter-email" class="form-control" placeholder="Tu email" required>
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="newsletter-cookies" required>
+            <label class="form-check-label" for="newsletter-cookies">
+              Acepto recibir comunicaciones comerciales
+            </label>
+          </div>
+          <div id="newsletter-message" class="newsletter-message"></div>
+          <button type="submit" class="newsletter-cta">¡ÚNETE AHORA!</button>
+        </form>
+        
+        <p class="newsletter-disclaimer">
+          *Al unirte expresas tu consentimiento para recibir comunicaciones comerciales de DEKOR. Puedes cancelar tu suscripción en cualquier momento. Consulta nuestra <a href="/informacion#privacidad">Política de Privacidad</a> para más información.
+        </p>
+      </div>
+      
+      <div class="newsletter-image">
+        <img src="fotos/newsletter.png" alt="Decoración minimalista DEKOR">
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Popup de Login/Registro -->
+<div id="auth-popup" class="newsletter-popup" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 10000; justify-content: center; align-items: center;">
+  <div class="newsletter-popup-content">
+    <button class="close-popup" onclick="cerrarPopupAuth()">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M18 6L6 18M6 6L18 18" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </button>
+    
+    <div class="newsletter-container">
+      <div class="newsletter-text">
+        <!-- Pestañas de navegación -->
+        <div class="auth-tabs">
+          <button id="login-tab" class="auth-tab active" onclick="mostrarTab('login')">Iniciar sesión</button>
+          <button id="register-tab" class="auth-tab" onclick=""><a class="text-decoration-none text-dark" href="registro.html">Crear cuenta</a></button>
+        </div>
+        
+        <!-- Formulario de Login -->
+        <div id="login-form-container" class="auth-form-container active">
+          <h2>Accede a tu cuenta</h2>
+          
+          <form id="login-form">
+            <div class="mb-3">
+              <input type="email" id="login-email" class="form-control" placeholder="Email" required>
+            </div>
+            <div class="mb-3">
+              <input type="password" id="login-password" class="form-control" placeholder="Contraseña" required>
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="remember-me">
+              <label class="form-check-label" for="remember-me">
+                Recordar mi sesión
+              </label>
+            </div>
+            <div class="mb-3 text-end">
+              <a href="#" class="forgot-password">¿Olvidaste tu contraseña?</a>
+            </div>
+            <div id="login-message" class="newsletter-message"></div>
+            <button type="submit" class="newsletter-cta">INICIAR SESIÓN</button>
+          </form>
+          
+          <div class="social-login">
+            <div class="divider">
+              <span>O inicia sesión con</span>
+            </div>
+            <div class="social-buttons">
+              <button class="social-btn facebook-btn">
+                <i class="fab fa-facebook-f"></i>
+              </button>
+              <button class="social-btn google-btn">
+                <i class="fab fa-google"></i>
+              </button>
+              <button class="social-btn instagram-btn">
+                <i class="fab fa-instagram"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Formulario de Registro -->
+        <div id="register-form-container" class="auth-form-container">
+          <h2>Crea tu cuenta</h2>
+          
+          <form id="register-form">
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <input type="text" id="register-nombre" class="form-control" placeholder="Nombre" required>
+              </div>
+              <div class="col-md-6 mb-3">
+                <input type="text" id="register-apellidos" class="form-control" placeholder="Apellidos" required>
+              </div>
+            </div>
+            <div class="mb-3">
+              <input type="email" id="register-email" class="form-control" placeholder="Email" required>
+            </div>
+            <div class="mb-3">
+              <input type="tel" id="register-telefono" class="form-control" placeholder="Teléfono" required>
+            </div>
+            <div class="mb-3">
+              <input type="password" id="register-password" class="form-control" placeholder="Contraseña" required>
+              <div class="form-text small">
+                La contraseña debe tener al menos 8 caracteres, incluyendo una letra mayúscula, una minúscula y un número.
+              </div>
+            </div>
+            <div class="mb-3">
+              <input type="password" id="register-confirm-password" class="form-control" placeholder="Confirmar contraseña" required>
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="register-privacy" required>
+              <label class="form-check-label" for="register-privacy">
+                He leído y acepto la <a href="/informacion#privacidad">Política de Privacidad</a>
+              </label>
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="register-newsletter">
+              <label class="form-check-label" for="register-newsletter">
+                Deseo recibir ofertas y novedades por email
+              </label>
+            </div>
+            <div id="register-message" class="newsletter-message"></div>
+            <button type="submit" class="newsletter-cta">CREAR CUENTA</button>
+          </form>
+          
+          <div class="social-login">
+            <div class="divider">
+              <span>O regístrate con</span>
+            </div>
+            <div class="social-buttons">
+              <button class="social-btn facebook-btn">
+                <i class="fab fa-facebook-f"></i>
+              </button>
+              <button class="social-btn google-btn">
+                <i class="fab fa-google"></i>
+              </button>
+              <button class="social-btn instagram-btn">
+                <i class="fab fa-instagram"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <br>
+        <p class="newsletter-disclaimer">
+          *Al iniciar sesión o registrarte, aceptas nuestros <a href="/terminos">Términos y Condiciones</a> y confirmas que has leído nuestra <a href="/informacion#privacidad">Política de Privacidad</a>.
+        </p>
+      </div>
+      
+      <div class="newsletter-image">
+        <img src="fotos/Banner2.webp" alt="DEKOR - Tu hogar, tu estilo">
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

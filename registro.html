@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Francisco Teruel">
+    <meta name="description" content="Dekor: Tienda online de decoración eco-friendly. Encuentra productos únicos hechos con materiales sostenibles como arcilla, papel reciclado y elementos reutilizados. ¡Decora tu espacio con estilo y conciencia ambiental! Envíos a todo [país/región].">
+    <meta name="keywords" content="decoración eco-friendly, productos sostenibles, decoración con arcilla, papel reciclado decorativo, muebles reciclados, hogar sostenible, decoración ambiental, materiales ecológicos, artesanías recicladas, diseño consciente, decoración natural, tienda eco decoración, regalos ecológicos, productos zero waste, slow decoration">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <title>Regístrate en DEKOR | Accede a Ofertas Exclusivas en Decoración Eco-Friendly</title>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white nav-not-index sticky-top">
+    <div class="container-fluid">
+      <button class="toggle toggle-secundary d-lg-none" onclick="toggleMenu()">☰</button>
+
+      <a class="navbar-brand logo" href="index.html">
+        <img src="./fotos/LOGO 2.png" alt="dekor">
+      </a>
+
+      <div class="d-flex align-items-center order-lg-3 ms-auto">
+        <form class="d-flex me-3" role="search">
+          <button class="bg-transparent search-btn search-btn-place" type="submit">
+            <i class="bi bi-search text-dark"></i>
+          </button>
+          <input class="form-control me-2 border-0 border-bottom bg-transparent text-dark search-bar search-btn-place"
+            type="search" placeholder="Buscar" aria-label="Search">
+        </form>
+
+        <div class="cont-icons gap-3">
+          <ul class="navbar-nav ms-auto">
+            <li>
+              <a class="nav-link" href="registro.html">
+                <i class="bi bi-person-fill text-dark" style="font-size: 1.5rem;"></i>
+              </a>
+            </li>
+            <li>
+              <a class="nav-link" href="cart.html">
+                <i class="bi bi-bag text-dark" style="font-size: 1.5rem;"></i>
+              </a>
+            </li>
+            <li>
+              <a class="nav-link" href="favoritos.html">
+                <i class="bi bi-heart-fill text-dark" style="font-size: 1.5rem;"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./category/salon.html">Salón</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./category/cocina.html">Cocina</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./category/habitacion.html">Habitación / Despacho</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./category/bano.html">Baño</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+    <!--Main-->
+    <main class="flex-grow-1 mb-4">
+        <div class="container">
+            <div class="row justify-content-between gx-5">
+                <!-- Columna del formulario -->
+                <div class="col-12 col-md-6 mb-4 mb-md-0">
+                    <h3 class="mb-4">DATOS PERSONALES</h3>
+                    <form>
+                        <div class="mb-3">
+                            <input type="text"
+                                class="form-control border-0 border-bottom rounded-0 border-secondary px-0 bg-transparent"
+                                id="nombre" placeholder="Nombre" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="text"
+                                class="form-control border-0 border-bottom rounded-0 border-secondary px-0 bg-transparent"
+                                id="apellidos" placeholder="Apellidos" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email"
+                                class="form-control border-0 border-bottom rounded-0 border-secondary px-0 bg-transparent"
+                                id="email" placeholder="name@example.com" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="password"
+                                class="form-control border-0 border-bottom rounded-0 border-secondary px-0 bg-transparent"
+                                id="contraseña" placeholder="Contraseña" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="tel"
+                                class="form-control border-0 border-bottom rounded-0 border-secondary px-0 bg-transparent"
+                                id="telefono" placeholder="Teléfono" required>
+                        </div>
+                        <p class="text-muted small mb-4">Te enviaremos un SMS para verificar tu teléfono</p>
+
+                        <div class="form-check mb-3">
+                            <input class="form-check-input small" type="checkbox" value="" id="politica-privacidad">
+                            <label class="form-check-label small" for="politica-privacidad">
+                                He podido leer y entiendo la información sobre el uso de
+                                mis datos personales explicada en la Política de privacidad.
+                            </label>
+                        </div>
+                        <div class="form-check mb-4">
+                            <input class="form-check-input" type="checkbox" value="" id="suscribirse-newsletter"
+                                checked>
+                            <label class="form-check-label small" for="suscribirse-newsletter">
+                                Quiero recibir novedades y comunicaciones comerciales
+                                personalizadas de DEKOR a través del email y otros medios.
+                            </label>
+                        </div>
+                        <button type="submit" class="btn btn-outline-dark w-100">CREAR CUENTA</button>
+                    </form>
+                </div>
+
+                <!-- Columna de la imagen -->
+                <div class="col-12 col-md-6 d-flex align-items-center">
+                    <div class="ratio ratio-16x9">
+                        <img src="fotos/Porta utensilios Pilu.jpg" alt="utensilios Pilu"
+                            class="img-fluid rounded-3 object-fit-cover">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+ 
+ <!-- Footer -->
+    <footer class="bg-light mt-5">
+        <div class="container py-5">
+            <div class="row g-4">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <img src="fotos/LOGO 2.png" alt="DEKOR" height="40" class="mb-4">
+                    <p class="text-muted">Decora tu hogar con sostenibilidad. Productos artesanales y respetuosos con el
+                        medio ambiente.</p>
+                </div>
+
+                <div class="col-6 col-md-3 col-lg-2">
+                    <h5 class="fw-bold mb-3">Sobre Nosotros</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="quienessomos.html" class="text-decoration-none text-muted">Quiénes
+                                somos</a></li>
+                        <li class="mb-2"><a href="avisoslegales.html#condiciones-compra"
+                                class="text-decoration-none text-muted">Condiciones de compra</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-3 col-lg-2">
+                    <h5 class="fw-bold mb-3">Información</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="avisoslegales.html" class="text-decoration-none text-muted">Aviso
+                                legal</a></li>
+                        <li class="mb-2"><a href="avisoslegales.html#politica-privacidad" class="text-decoration-none text-muted">Privacidad</a></li>
+                        <li class="mb-2"><a href="avisoslegales.html#politica-cookies" class="text-decoration-none text-muted">Cookies</a></li>
+                        <li class="mb-2"><a href="avisoslegales.html#politica-devolucion" class="text-decoration-none text-muted">Política de
+                                devolución</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-3 col-lg-2">
+                    <h5 class="fw-bold mb-3">Enlaces</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="contacto.html" class="text-decoration-none text-muted">Contáctanos</a>
+                        </li>
+                        <li class="mb-2"><a href="preguntas_frecuentes.html" class="text-decoration-none text-muted">Preguntas
+                                frecuentes</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-3 col-lg-2">
+                    <h5 class="fw-bold mb-3">Únete</h5>
+                    <p class="text-muted mb-2">Suscríbete a nuestra newsletter</p>
+                    <div class="input-group mb-3">
+                        <input type="email" class="form-control" placeholder="Tu email">
+                        <button class="btn btn-dark" type="button">Enviar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-4 pt-4 border-top">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="text-muted mb-0">&copy; 2025 DEKOR. Todos los derechos reservados.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end mt-3 mt-md-0">
+                    <div class="d-flex justify-content-center justify-content-md-end gap-3">
+                        <a href="https://www.instagram.com/" class="text-muted"><i class="fab fa-instagram fs-5"></i></a>
+                        <a href="https://www.facebook.com/?locale=es_ES" class="text-muted"><i class="fab fa-facebook-f fs-5"></i></a>
+                        <a href="https://es.pinterest.com/" class="text-muted"><i class="fab fa-pinterest fs-5"></i></a>
+                        <a href="https://www.youtube.com/" class="text-muted"><i class="fab fa-youtube fs-5"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

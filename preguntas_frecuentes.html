@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Francisco Teruel">
+    <meta name="description" content="Dekor: Tienda online de decoración eco-friendly. Encuentra productos únicos hechos con materiales sostenibles como arcilla, papel reciclado y elementos reutilizados. ¡Decora tu espacio con estilo y conciencia ambiental! Envíos a todo [país/región].">
+    <meta name="keywords" content="decoración eco-friendly, productos sostenibles, decoración con arcilla, papel reciclado decorativo, muebles reciclados, hogar sostenible, decoración ambiental, materiales ecológicos, artesanías recicladas, diseño consciente, decoración natural, tienda eco decoración, regalos ecológicos, productos zero waste, slow decoration">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <title>Preguntas Frecuentes - DEKOR</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white nav-not-index sticky-top">
+    <div class="container-fluid">
+      <button class="toggle toggle-secundary d-lg-none" onclick="toggleMenu()">☰</button>
+
+      <a class="navbar-brand logo" href="index.html">
+        <img src="./fotos/LOGO 2.png" alt="dekor">
+      </a>
+
+      <div class="d-flex align-items-center order-lg-3 ms-auto">
+        <form class="d-flex me-3" role="search">
+          <button class="bg-transparent search-btn search-btn-place" type="submit">
+            <i class="bi bi-search text-dark"></i>
+          </button>
+          <input class="form-control me-2 border-0 border-bottom bg-transparent text-dark search-bar search-btn-place"
+            type="search" placeholder="Buscar" aria-label="Search">
+        </form>
+
+        <div class="cont-icons gap-3">
+          <ul class="navbar-nav ms-auto">
+            <li>
+              <a class="nav-link" href="registro.html">
+                <i class="bi bi-person-fill text-dark" style="font-size: 1.5rem;"></i>
+              </a>
+            </li>
+            <li>
+              <a class="nav-link" href="cart.html">
+                <i class="bi bi-bag text-dark" style="font-size: 1.5rem;"></i>
+              </a>
+            </li>
+            <li>
+              <a class="nav-link" href="favoritos.html">
+                <i class="bi bi-heart-fill text-dark" style="font-size: 1.5rem;"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./category/salon.html">Salón</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./category/cocina.html">Cocina</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./category/habitacion.html">Habitación / Despacho</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./category/bano.html">Baño</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+    <!--Main-->
+    <main class="flex-grow-1 mb-4">
+        <div class="container py-5">
+            <h1 class="text-center mb-5 display-5 fw-bold">Preguntas Frecuentes</h1>
+            
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-10">
+                    <!-- Buscador de preguntas -->
+                    <div class="mb-5">
+                        <div class="input-group">
+                            <span class="input-group-text bg-white border-end-0"><i class="bi bi-search"></i></span>
+                            <input type="text" class="form-control border-start-0" id="searchFaq" placeholder="Buscar preguntas...">
+                        </div>
+                    </div>
+                    
+                    <!-- Categorías de preguntas -->
+                    <ul class="nav nav-pills mb-4 justify-content-center" id="faqTabs" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="general-tab" data-bs-toggle="pill" data-bs-target="#general" type="button" role="tab" aria-controls="general" aria-selected="true">General</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="productos-tab" data-bs-toggle="pill" data-bs-target="#productos" type="button" role="tab" aria-controls="productos" aria-selected="false">Productos</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pedidos-tab" data-bs-toggle="pill" data-bs-target="#pedidos" type="button" role="tab" aria-controls="pedidos" aria-selected="false">Pedidos</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="envios-tab" data-bs-toggle="pill" data-bs-target="#envios" type="button" role="tab" aria-controls="envios" aria-selected="false">Envíos</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="devoluciones-tab" data-bs-toggle="pill" data-bs-target="#devoluciones" type="button" role="tab" aria-controls="devoluciones" aria-selected="false">Devoluciones</button>
+                        </li>
+                    </ul>
+                    
+                    <!-- Contenido de las preguntas -->
+                    <div class="tab-content" id="faqTabContent">
+                        <!-- General -->
+                        <div class="tab-pane fade show active" id="general" role="tabpanel" aria-labelledby="general-tab">
+                            <div class="accordion" id="accordionGeneral">
+                                <div class="accordion-item border-0 mb-3">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#general1" aria-expanded="false" aria-controls="general1">
+                                            ¿Qué es DEKOR?
+                                        </button>
+                                    </h2>
+                                    <div id="general1" class="accordion-collapse collapse" data-bs-parent="#accordionGeneral">
+                                        <div class="accordion-body">
+                                            DEKOR es una marca de decoración sostenible que ofrece productos artesanales elaborados con materiales respetuosos con el medio ambiente. Nuestra misión es proporcionar elementos decorativos únicos y de calidad que respeten el planeta.
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="accordion-item border-0 mb-3">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#general2" aria-expanded="false" aria-controls="general2">
+                                            ¿Cómo puedo contactar con el servicio de atención al cliente?
+                                        </button>
+                                    </h2>
+                                    <div id="general2" class="accordion-collapse collapse" data-bs-parent="#accordionGeneral">
+                                        <div class="accordion-body">
+                                            Puedes contactar con nuestro servicio de atención al cliente a través de varios canales:
+                                            <ul>
+                                                <li>Teléfono: (+34) 625-392-638 (Lunes a Viernes de 9:00 a 18:00)</li>
+                                                <li>Email: dekorhogar@gmail.com</li>
+                                                <li>Formulario de contacto en nuestra web: <a href="contacto.html">Contacto</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="accordion-item border-0 mb-3">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#general3" aria-expanded="false" aria-controls="general3">
+                                            ¿Cómo puedo crear una cuenta?
+                                        </button>
+                                    </h2>
+                                    <div id="general3" class="accordion-collapse collapse" data-bs-parent="#accordionGeneral">
+                                        <div class="accordion-body">
+                                            Crear una cuenta en DEKOR es muy sencillo. Solo tienes que hacer clic en el icono de usuario en la parte superior de la página y seleccionar "Crear cuenta". Completa el formulario con tus datos personales y recibirás un correo electrónico de confirmación.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Productos -->
+                        <div class="tab-pane fade" id="productos" role="tabpanel" aria-labelledby="productos-tab">
+                            <div class="accordion" id="accordionProductos">
+                                <div class="accordion-item border-0 mb-3">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#productos1" aria-expanded="false" aria-controls="productos1">
+                                            ¿De qué materiales están hechos vuestros productos?
+                                        </button>
+                                    </h2>
+                                    <div id="productos1" class="accordion-collapse collapse" data-bs-parent="#accordionProductos">
+                                        <div class="accordion-body">
+                                            Nuestros productos están elaborados principalmente con arcilla de papel reciclado, un material sostenible y respetuoso con el medio ambiente. También utilizamos otros materiales naturales como madera certificada FSC, algodón orgánico y tintes naturales.
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="accordion-item border-0 mb-3">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#productos2" aria-expanded="false" aria-controls="productos2">
+                                            ¿Cómo debo cuidar mis productos DEKOR?
+                                        </button>
+                                    </h2>
+                                    <div id="productos2" class="accordion-collapse collapse" data-bs-parent="#accordionProductos">
+                                        <div class="accordion-body">
+                                            Para mantener tus productos DEKOR en perfecto estado, te recomendamos:
+                                            <ul>
+                                                <li>Limpiarlos con un paño suave y seco</li>
+                                                <li>Evitar la exposición directa al sol durante periodos prolongados</li>
+                                                <li>No sumergirlos en agua</li>
+                                                <li>Mantenerlos alejados de fuentes de calor intenso</li>
+                                            </ul>
+                                            Cada producto incluye instrucciones específicas de cuidado.
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="accordion-item border-0 mb-3">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#productos3" aria-expanded="false" aria-controls="productos3">
+                                            ¿Son productos artesanales?
+                                        </button>
+                                    </h2>
+                                    <div id="productos3" class="accordion-collapse collapse" data-bs-parent="#accordionProductos">
+                                        <div class="accordion-body">
+                                            Sí, todos nuestros productos son elaborados artesanalmente. Cada pieza es única y puede presentar pequeñas variaciones en color, textura o acabado, lo que aporta personalidad y carácter a cada producto.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Pedidos -->
+                        <div class="tab-pane fade" id="pedidos" role="tabpanel" aria-labelledby="pedidos-tab">
+                            <div class="accordion" id="accordionPedidos">
+                                <div class="accordion-item border-0 mb-3">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#pedidos1" aria-expanded="false" aria-controls="pedidos1">
+                                            ¿Cómo puedo realizar un pedido?
+                                        </button>
+                                    </h2>
+                                    <div id="pedidos1" class="accordion-collapse collapse" data-bs-parent="#accordionPedidos">
+                                        <div class="accordion-body">
+                                            Realizar un pedido en nuestra web es muy sencillo:
+                                            <ol>
+                                                <li>Selecciona los productos que deseas comprar</li>
+                                                <li>Añádelos al carrito</li>
+                                                <li>Haz clic en "Finalizar compra"</li>
+                                                <li>Introduce tus datos de envío y facturación</li>
+                                                <li>Selecciona el método de pago</li>
+                                                <li>Confirma tu pedido</li>
+                                            </ol>
+                                            Recibirás un email de confirmación con los detalles de tu compra.
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="accordion-item border-0 mb-3">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#pedidos2" aria-expanded="false" aria-controls="pedidos2">
+                                            ¿Qué métodos de pago aceptáis?
+                                        </button>
+                                    </h2>
+                                    <div id="pedidos2" class="accordion-collapse collapse" data-bs-parent="#accordionPedidos">
+                                        <div class="accordion-body">
+                                            Aceptamos los siguientes métodos de pago:
+                                            <ul>
+                                                <li>Tarjeta de crédito/débito (Visa, Mastercard, American Express)</li>
+                                                <li>PayPal</li>
+                                                <li>Transferencia bancaria</li>
+                                                <li>Bizum</li>
+                                            </ul>
+                                            Todos los pagos se procesan de forma segura a través de plataformas encriptadas.
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="accordion-item border-0 mb-3">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#pedidos3" aria-expanded="false" aria-controls="pedidos3">
+                                            ¿Puedo modificar o cancelar mi pedido?
+                                        </button>
+                                    </h2>
+                                    <div id="pedidos3" class="accordion-collapse collapse" data-bs-parent="#accordionPedidos">
+                                        <div class="accordion-body">
+                                            Puedes modificar o cancelar tu pedido siempre que no haya sido procesado. Para ello, contacta con nuestro servicio de atención al cliente lo antes posible a través de email o teléfono. Una vez que el pedido ha sido enviado, no será posible realizar modificaciones, pero podrás devolverlo según nuestra política de devoluciones.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Envíos -->
+                        <div class="tab-pane fade" id="envios" role="tabpanel" aria-labelledby="envios-tab">
+                            <div class="accordion" id="accordionEnvios">
+                                <div class="accordion-item border-0 mb-3">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#envios1" aria-expanded="false" aria-controls="envios1">
+                                            ¿Cuánto tiempo tarda en llegar mi pedido?
+                                        </button>
+                                    </h2>
+                                    <div id="envios1" class="accordion-collapse collapse" data-bs-parent="#accordionEnvios">
+                                        <div class="accordion-body">
+                                            El tiempo de entrega depende de tu ubicación:
+                                            <ul>
+                                                <li>Península: 2-3 días laborables</li>
+                                                <li>Baleares: 3-4 días laborables</li>
+                                                <li>Canarias, Ceuta y Melilla: 5-7 días laborables</li>
+                                                <li>Internacional: 7-14 días laborables</li>
+                                            </ul>
+                                            Estos plazos son estimados y pueden variar en función de la disponibilidad del producto y posibles incidencias en el transporte.
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="accordion-item border-0 mb-3">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#envios2" aria-expanded="false" aria-controls="envios2">
+                                            ¿Cuál es el coste de envío?
+                                        </button>
+                                    </h2>
+                                    <div id="envios2" class="accordion-collapse collapse" data-bs-parent="#accordionEnvios">
+                                        <div class="accordion-body">
+                                            Los gastos de envío se calculan en función del destino y el peso del pedido:
+                                            <ul>
+                                                <li>Península: 4,95€ (GRATIS para pedidos superiores a 50€)</li>
+                                                <li>Baleares: 7,95€ (GRATIS para pedidos superiores a 70€)</li>
+                                                <li>Canarias, Ceuta y Melilla: 12,95€ (GRATIS para pedidos superiores a 100€)</li>
+                                                <li>Internacional: desde 14,95€ (varía según el país)</li>
+                                            </ul>
+                                            El coste exacto se mostrará en el proceso de compra antes de finalizar el pedido.
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="accordion-item border-0 mb-3">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#envios3" aria-expanded="false" aria-controls="envios3">
+                                            ¿Cómo puedo hacer seguimiento de mi pedido?
+                                        </button>
+                                    </h2>
+                                    <div id="envios3" class="accordion-collapse collapse" data-bs-parent="#accordionEnvios">
+                                        <div class="accordion-body">
+                                            Una vez que tu pedido ha sido enviado, recibirás un email con un número de seguimiento y un enlace para rastrear tu paquete. También puedes consultar el estado de tu pedido accediendo a tu cuenta en nuestra web, en la sección "Mis pedidos".
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Devoluciones -->
+                        <div class="tab-pane fade" id="devoluciones" role="tabpanel" aria-labelledby="devoluciones-tab">
+                            <div class="accordion" id="accordionDevoluciones">
+                                <div class="accordion-item border-0 mb-3">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#devoluciones1" aria-expanded="false" aria-controls="devoluciones1">
+                                            ¿Cuál es la política de devoluciones?
+                                        </button>
+                                    </h2>
+                                    <div id="devoluciones1" class="accordion-collapse collapse" data-bs-parent="#accordionDevoluciones">
+                                        <div class="accordion-body">
+                                            Disponemos de un plazo de 14 días naturales desde la recepción del pedido para realizar devoluciones. Los productos deben estar en perfecto estado, sin usar y con su embalaje original. Para iniciar una devolución, contacta con nuestro servicio de atención al cliente.
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="accordion-item border-0 mb-3">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#devoluciones2" aria-expanded="false" aria-controls="devoluciones2">
+                                            ¿Quién paga los gastos de devolución?
+                                        </button>
+                                    </h2>
+                                    <div id="devoluciones2" class="accordion-collapse collapse" data-bs-parent="#accordionDevoluciones">
+                                        <div class="accordion-body">
+                                            Los gastos de devolución corren a cargo del cliente, excepto en los siguientes casos:
+                                            <ul>
+                                                <li>Producto defectuoso o dañado</li>
+                                                <li>Error en el envío (producto incorrecto)</li>
+                                                <li>Producto que no corresponde con la descripción</li>
+                                            </ul>
+                                            En estos casos, DEKOR asumirá los gastos de devolución.
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="accordion-item border-0 mb-3">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#devoluciones3" aria-expanded="false" aria-controls="devoluciones3">
+                                            ¿Cómo se realiza el reembolso?
+                                        </button>
+                                    </h2>
+                                    <div id="devoluciones3" class="accordion-collapse collapse" data-bs-parent="#accordionDevoluciones">
+                                        <div class="accordion-body">
+                                            Una vez recibida y verificada la devolución, el reembolso se realizará utilizando el mismo método de pago que utilizaste para realizar la compra. El plazo para recibir el reembolso es de 7 a 14 días, dependiendo de tu entidad bancaria.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Contacto adicional -->
+                    <div class="text-center mt-5 p-4 bg-light rounded-3">
+                        <h3>¿No has encontrado respuesta a tu pregunta?</h3>
+                        <p class="mb-4">Contacta con nuestro equipo de atención al cliente y te responderemos lo antes posible.</p>
+                        <a href="contacto.html" class="btn btn-dark px-4 py-2">Contactar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+ <!-- Footer -->
+    <footer class="bg-light mt-5">
+        <div class="container py-5">
+            <div class="row g-4">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <img src="fotos/LOGO 2.png" alt="DEKOR" height="40" class="mb-4">
+                    <p class="text-muted">Decora tu hogar con sostenibilidad. Productos artesanales y respetuosos con el
+                        medio ambiente.</p>
+                </div>
+
+                <div class="col-6 col-md-3 col-lg-2">
+                    <h5 class="fw-bold mb-3">Sobre Nosotros</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="quienessomos.html" class="text-decoration-none text-muted">Quiénes
+                                somos</a></li>
+                        <li class="mb-2"><a href="avisoslegales.html#condiciones-compra"
+                                class="text-decoration-none text-muted">Condiciones de compra</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-3 col-lg-2">
+                    <h5 class="fw-bold mb-3">Información</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="avisoslegales.html" class="text-decoration-none text-muted">Aviso
+                                legal</a></li>
+                        <li class="mb-2"><a href="avisoslegales.html#politica-privacidad" class="text-decoration-none text-muted">Privacidad</a></li>
+                        <li class="mb-2"><a href="avisoslegales.html#politica-cookies" class="text-decoration-none text-muted">Cookies</a></li>
+                        <li class="mb-2"><a href="avisoslegales.html#politica-devolucion" class="text-decoration-none text-muted">Política de
+                                devolución</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-3 col-lg-2">
+                    <h5 class="fw-bold mb-3">Enlaces</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="contacto.html" class="text-decoration-none text-muted">Contáctanos</a>
+                        </li>
+                        <li class="mb-2"><a href="preguntas_frecuentes.html" class="text-decoration-none text-muted">Preguntas
+                                frecuentes</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-3 col-lg-2">
+                    <h5 class="fw-bold mb-3">Únete</h5>
+                    <p class="text-muted mb-2">Suscríbete a nuestra newsletter</p>
+                    <div class="input-group mb-3">
+                        <input type="email" class="form-control" placeholder="Tu email">
+                        <button class="btn btn-dark" type="button">Enviar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-4 pt-4 border-top">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="text-muted mb-0">&copy; 2025 DEKOR. Todos los derechos reservados.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end mt-3 mt-md-0">
+                    <div class="d-flex justify-content-center justify-content-md-end gap-3">
+                        <a href="https://www.instagram.com/" class="text-muted"><i class="fab fa-instagram fs-5"></i></a>
+                        <a href="https://www.facebook.com/?locale=es_ES" class="text-muted"><i class="fab fa-facebook-f fs-5"></i></a>
+                        <a href="https://es.pinterest.com/" class="text-muted"><i class="fab fa-pinterest fs-5"></i></a>
+                        <a href="https://www.youtube.com/" class="text-muted"><i class="fab fa-youtube fs-5"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        // Script específico para la página de preguntas frecuentes
+        document.addEventListener('DOMContentLoaded', function() {
+            const searchInput = document.getElementById('searchFaq');
+            
+            if (searchInput) {
+                searchInput.addEventListener('input', function() {
+                    const searchTerm = this.value.toLowerCase();
+                    const accordionItems = document.querySelectorAll('.accordion-item');
+                    
+                    accordionItems.forEach(item => {
+                        const question = item.querySelector('.accordion-button').textContent.toLowerCase();
+                        const answer = item.querySelector('.accordion-body').textContent.toLowerCase();
+                        
+                        if (question.includes(searchTerm) || answer.includes(searchTerm)) {
+                            item.style.display = 'block';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Francisco Teruel">
+  <meta name="description" content="Dekor: Tienda online de decoración eco-friendly. Encuentra productos únicos hechos con materiales sostenibles como arcilla, papel reciclado y elementos reutilizados. ¡Decora tu espacio con estilo y conciencia ambiental! Envíos a todo [país/región].">
+  <meta name="keywords" content="decoración eco-friendly, productos sostenibles, decoración con arcilla, papel reciclado decorativo, muebles reciclados, hogar sostenible, decoración ambiental, materiales ecológicos, artesanías recicladas, diseño consciente, decoración natural, tienda eco decoración, regalos ecológicos, productos zero waste, slow decoration">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <title>Salón Eco-Friendly | Muebles y Accesorios de Diseño Sostenible | DEKOR</title>
+  
+  <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white nav-not-index sticky-top">
+    <div class="container-fluid">
+      <button class="toggle toggle-secundary d-lg-none" onclick="toggleMenu()">☰</button>
+
+      <a class="navbar-brand logo" href="../index.html">
+        <img src="../fotos/LOGO 2.png" alt="dekor">
+      </a>
+
+      <div class="d-flex align-items-center order-lg-3 ms-auto">
+        <form class="d-flex me-3" role="search">
+          <button class="bg-transparent search-btn search-btn-place" type="submit">
+            <i class="bi bi-search text-dark"></i>
+          </button>
+          <input class="form-control me-2 border-0 border-bottom bg-transparent text-dark search-bar search-btn-place"
+            type="search" placeholder="Buscar" aria-label="Search">
+        </form>
+
+        <div class="cont-icons gap-3">
+          <ul class="navbar-nav ms-auto">
+            <li>
+              <a class="nav-link" href="../registro.html">
+                <i class="bi bi-person-fill text-dark" style="font-size: 1.5rem;"></i>
+              </a>
+            </li>
+            <li>
+              <a class="nav-link" href="../cart.html">
+                <i class="bi bi-bag text-dark" style="font-size: 1.5rem;"></i>
+              </a>
+            </li>
+            <li>
+              <a class="nav-link" href="../favoritos.html">
+                <i class="bi bi-heart-fill text-dark" style="font-size: 1.5rem;"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="salon.html">Salón</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="cocina.html">Cocina</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="habitacion.html">Habitación / Despacho</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="bano.html">Baño</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- Header Banner -->
+  <div class="position-relative">
+    <div style="height: 300px; overflow: hidden;">
+      <img src="../fotos/Salón.jpg" alt="Salón" class="w-100 h-100 object-fit-cover">
+      <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark bg-opacity-50 d-flex align-items-center justify-content-center">
+        <h1 class="text-white display-4 fw-bold">Salón</h1>
+      </div>
+    </div>
+  </div>
+  
+  <main class="flex-grow-1 py-5">
+    <div class="container">
+      <div class="row g-4 mb-5">
+        <div class="col-lg-3">
+          <div class="card border-0 shadow-sm p-4 sticky-top" style="top: 100px;">
+            <h3 class="h5 fw-bold mb-4">Filtros</h3>
+            
+            <div class="mb-4">
+              <h4 class="h6 fw-bold mb-3">Subcategorías</h4>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="checkbox" id="jarrones" checked>
+                <label class="form-check-label" for="jarrones">Jarrones</label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="checkbox" id="posalamparas" checked>
+                <label class="form-check-label" for="posalamparas">Posa-lámparas</label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="checkbox" id="portavelas">
+                <label class="form-check-label" for="portavelas">Porta velas</label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="checkbox" id="cojines">
+                <label class="form-check-label" for="cojines">Cojines</label>
+              </div>
+            </div>
+            
+            <div class="mb-4">
+              <h4 class="h6 fw-bold mb-3">Precio</h4>
+              <div class="d-flex align-items-center gap-2 mb-2">
+                <input type="number" class="form-control form-control-sm" placeholder="Min">
+                <span>-</span>
+                <input type="number" class="form-control form-control-sm" placeholder="Max">
+              </div>
+              <button class="btn btn-sm btn-outline-dark w-100">Aplicar</button>
+            </div>
+            
+            <div class="mb-4">
+              <h4 class="h6 fw-bold mb-3">Color</h4>
+              <div class="d-flex flex-wrap gap-2">
+                <button class="btn btn-sm p-2 border rounded-circle" style="background-color: white; width: 30px; height: 30px;"></button>
+                <button class="btn btn-sm p-2 border rounded-circle" style="background-color: #D2B48C; width: 30px; height: 30px;"></button>
+                <button class="btn btn-sm p-2 border rounded-circle" style="background-color: #CD5C5C; width: 30px; height: 30px;"></button>
+                <button class="btn btn-sm p-2 border rounded-circle" style="background-color: black; width: 30px; height: 30px;"></button>
+                <button class="btn btn-sm p-2 border rounded-circle" style="background-color: #808080; width: 30px; height: 30px;"></button>
+              </div>
+            </div>
+            
+            <button class="btn btn-dark">Aplicar filtros</button>
+          </div>
+        </div>
+        
+        <div class="col-lg-9">
+          <div class="d-flex justify-content-between align-items-center mb-4">
+            <p class="mb-0">Mostrando 6 productos</p>
+            <div class="d-flex align-items-center">
+              <label for="sort" class="me-2">Ordenar por:</label>
+              <select id="sort" class="form-select form-select-sm" style="width: auto;">
+                <option>Relevancia</option>
+                <option>Precio: de menor a mayor</option>
+                <option>Precio: de mayor a menor</option>
+                <option>Novedades</option>
+              </select>
+            </div>
+          </div>
+          
+          <div class="row g-4">
+            <!-- Producto 1 -->
+            <div class="col-md-6 col-lg-4">
+              <div class="card h-100 border-0 shadow-sm">
+                <a href="../producto/marea.html" class="text-decoration-none text-dark">
+                  <div class="ratio ratio-1x1">
+                    <img src="../fotos/Jarrón Marea.jpg" class="card-img-top object-fit-cover" alt="Jarrón Marea">
+                  </div>
+                  <div class="card-body text-center">
+                    <h3 class="h5 card-title">Marea</h3>
+                    <p class="card-text text-muted">Jarrón Ondulado</p>
+                    <p class="fw-bold">19,99 €</p>
+                  </div>
+                </a>
+                <div class="card-footer bg-white border-0 p-3">
+                  <div class="d-flex gap-2">
+                    <button class="btn btn-outline-dark flex-grow-1 add-to-cart-btn" data-id="1">Añadir al carrito</button>
+                    <button class="btn btn-outline-dark">
+                      <i class="bi bi-heart"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Producto 2 -->
+            <div class="col-md-6 col-lg-4">
+              <div class="card h-100 border-0 shadow-sm">
+                <a href="../producto/oron.html" class="text-decoration-none text-dark">
+                  <div class="ratio ratio-1x1">
+                    <img src="../fotos/Posa-lámpara Orón.jpg" class="card-img-top object-fit-cover" alt="Posa-lámpara Orón">
+                  </div>
+                  <div class="card-body text-center">
+                    <h3 class="h5 card-title">Orón</h3>
+                    <p class="card-text text-muted">Posa-lámparas Circular</p>
+                    <p class="fw-bold">24,99 €</p>
+                  </div>
+                </a>
+                <div class="card-footer bg-white border-0 p-3">
+                  <div class="d-flex gap-2">
+                    <button class="btn btn-outline-dark flex-grow-1 add-to-cart-btn" data-id="2">Añadir al carrito</button>
+                    <button class="btn btn-outline-dark">
+                      <i class="bi bi-heart"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Más productos... -->
+            <div class="col-md-6 col-lg-4">
+              <div class="card h-100 border-0 shadow-sm">
+                <a href="../producto/nudillos.html" class="text-decoration-none text-dark">
+                  <div class="ratio ratio-1x1">
+                    <img src="../fotos/Porta velas Nudillos 2.jpg" class="card-img-top object-fit-cover" alt="Porta velas Nudillos">
+                  </div>
+                  <div class="card-body text-center">
+                    <h3 class="h5 card-title">Nudillos</h3>
+                    <p class="card-text text-muted">Porta Velas</p>
+                    <p class="fw-bold">15,99 €</p>
+                  </div>
+                </a>
+                <div class="card-footer bg-white border-0 p-3">
+                  <div class="d-flex gap-2">
+                    <button class="btn btn-outline-dark flex-grow-1 add-to-cart-btn" data-id="5">Añadir al carrito</button>
+                    <button class="btn btn-outline-dark">
+                      <i class="bi bi-heart"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Paginación -->
+          <nav class="mt-5 bg-white">
+            <ul class="pagination justify-content-center bg-white">
+              <li class="page-item disabled bg-light">
+                <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Anterior</a>
+              </li>
+              <li class="page-item active"><a class="page-link bg-light" href="#">1</a></li>
+              <li class="page-item"><a class="page-link bg-white" href="#">2</a></li>
+              <li class="page-item"><a class="page-link bg-white" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#">Siguiente</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </main>
+   <!-- Footer -->
+  <footer class="bg-light mt-5">
+    <div class="container py-5">
+      <div class="row g-4">
+        <div class="col-lg-4 mb-4 mb-lg-0">
+          <img src="../fotos/LOGO 2.png" alt="DEKOR" height="40" class="mb-4">
+          <p class="text-muted">Decora tu hogar con sostenibilidad. Productos artesanales y respetuosos con el
+            medio ambiente.</p>
+        </div>
+
+        <div class="col-6 col-md-3 col-lg-2">
+          <h5 class="fw-bold mb-3">Sobre Nosotros</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="../quienessomos.html" class="text-decoration-none text-muted">Quiénes
+                somos</a></li>
+            <li class="mb-2"><a href="../avisoslegales.html#condiciones-compra"
+                class="text-decoration-none text-muted">Condiciones de compra</a></li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-md-3 col-lg-2">
+          <h5 class="fw-bold mb-3">Información</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="../avisoslegales.html" class="text-decoration-none text-muted">Aviso
+                legal</a></li>
+            <li class="mb-2"><a href="../avisoslegales.html#politica-privacidad"
+                class="text-decoration-none text-muted">Privacidad</a></li>
+            <li class="mb-2"><a href="../avisoslegales.html#politica-cookies"
+                class="text-decoration-none text-muted">Cookies</a></li>
+            <li class="mb-2"><a href="../avisoslegales.html#politica-devolucion"
+                class="text-decoration-none text-muted">Política de
+                devolución</a></li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-md-3 col-lg-2">
+          <h5 class="fw-bold mb-3">Enlaces</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="../contacto.html" class="text-decoration-none text-muted">Contáctanos</a>
+            </li>
+            <li class="mb-2"><a href="../preguntas_frecuentes.html" class="text-decoration-none text-muted">Preguntas
+                frecuentes</a></li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-md-3 col-lg-2">
+          <h5 class="fw-bold mb-3">Únete</h5>
+          <p class="text-muted mb-2">Suscríbete a nuestra newsletter</p>
+          <div class="input-group mb-3">
+            <input type="email" class="form-control" placeholder="Tu email">
+            <button class="btn btn-dark" type="button">Enviar</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-4 pt-4 border-top">
+        <div class="col-md-6 text-center text-md-start">
+          <p class="text-muted mb-0">&copy; 2025 DEKOR. Todos los derechos reservados.</p>
+        </div>
+        <div class="col-md-6 text-center text-md-end mt-3 mt-md-0">
+          <div class="d-flex justify-content-center justify-content-md-end gap-3">
+            <a href="https://www.instagram.com/" class="text-muted"><i class="fab fa-instagram fs-5"></i></a>
+            <a href="https://www.facebook.com/?locale=es_ES" class="text-muted"><i
+                class="fab fa-facebook-f fs-5"></i></a>
+            <a href="https://es.pinterest.com/" class="text-muted"><i class="fab fa-pinterest fs-5"></i></a>
+            <a href="https://www.youtube.com/" class="text-muted"><i class="fab fa-youtube fs-5"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../js/script.js"></script>
+  <script src="../js/search.js"></script>
+  <script src="../js/cart.js"></script>
+  <script src="../pop-up.js"></script>
+</body>
+</html>
